@@ -1,116 +1,131 @@
-# 🤖 Scopus Chatbot
+# Chatbot Scientifique ArXiv
 
-Assistant intelligent pour explorer, rechercher et analyser la littérature scientifique issue de Scopus, avec interface web, recherche sémantique et visualisations.
+## Description
 
----
-
-## 📦 Fonctionnalités
-
-- **Recherche sémantique** d’articles (français/anglais)
-- **Résumé automatique** et affichage des métadonnées
-- **Statistiques** sur la base (articles, auteurs, années, journaux…)
-- **Visualisations interactives** (évolution, top journaux, domaines…)
-- **Extraction et traitement** automatisés des données Scopus
-- **Interface web** conviviale (Streamlit)
+Ce projet est un chatbot intelligent qui permet d’interroger en langage naturel une base d’articles scientifiques issus d’ArXiv.  
+Il utilise des techniques de NLP, des embeddings vectoriels (`sentence-transformers`) et une recherche sémantique pour fournir des réponses pertinentes.  
+L’interface utilisateur est réalisée avec Streamlit.
 
 ---
 
-## 🗂️ Structure du projet
+## Fonctionnalités
+
+- Extraction automatique des articles scientifiques depuis ArXiv via l’API.
+- Stockage des données dans une base MySQL.
+- Transformation des résumés en vecteurs numériques (embeddings).
+- Recherche sémantique basée sur la similarité cosinus.
+- Interface utilisateur avec filtres (année, auteur).
+- Visualisation simple du nombre d’articles par année.
+
+---
+
+## Installation
+
+1. Cloner ce dépôt :
+
+```bash
+git clone https://github.com/ton-utilisateur/scopus_chatbot.git
+cd scopus_chatbot
+```
+
+2. Installer les dépendances Python :
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Configurer la base de données MySQL :
+
+- Créez une base de données nommée `arxiv_db` (ou modifiez le nom dans `config.py`).
+- Mettez à jour les identifiants de connexion dans `config.py` si besoin.
+
+4. (Optionnel) Configurer les variables d’environnement :
+
+- Créez un fichier `.env` à la racine du projet pour stocker vos clés API si nécessaire.
+
+---
+
+## Utilisation
+
+1. **Extraction des articles ArXiv** :
+
+```bash
+python arxiv_fetch.py
+```
+
+2. **Insertion dans la base MySQL** :
+
+```bash
+python insert_mysql.py
+```
+
+3. **Calcul des embeddings** :
+
+```bash
+python embedding.py
+```
+
+4. **Lancer la recherche sémantique (optionnel en CLI)** :
+
+```bash
+python semantic_search.py
+```
+
+5. **Lancer l’interface web Streamlit** :
+
+```bash
+streamlit run main.py
+```
+
+6. Ouvrez votre navigateur à l’adresse indiquée (par défaut http://localhost:8501).
+
+---
+
+## Structure du projet
 
 ```
 scopus_chatbot/
 │
-├── app.py                # Interface web Streamlit
-├── chatbot.py            # Logique du chatbot (NLP, intents, réponses)
-├── semantic_search.py    # Recherche sémantique (embeddings, FAISS)
-├── data_processing.py    # Nettoyage et insertion dans SQLite
-├── run_project.py        # Pipeline automatisé (extraction → webapp)
-├── config.py             # Paramètres globaux
-├── .env                  # Clé API Scopus (à configurer)
-├── scopus_raw_data.json  # Données brutes extraites (généré)
-├── scopus_data.db        # Base SQLite (généré)
-├── faiss_index.index     # Index sémantique FAISS (généré)
+├── arxiv_fetch.py          # Extraction des articles depuis ArXiv
+├── insert_mysql.py         # Insertion dans la base MySQL
+├── embedding.py            # Calcul des embeddings avec sentence-transformers
+├── semantic_search.py      # Recherche sémantique dans la base
+├── main.py                 # Interface utilisateur Streamlit
+├── requirements.txt        # Dépendances Python
+├── README.md               # Ce fichier
 └── ...
 ```
 
 ---
 
-## ⚡ Installation & Lancement
+## Exemples d’utilisation
 
-1. **Cloner le dépôt**
-   ```bash
-   git clone <url_du_repo>
-   cd scopus_chatbot
-   ```
-
-2. **Configurer la clé API Scopus**
-   - Ouvre `.env` et renseigne ta clé :
-     ```
-     SCOPUS_API_KEY=VOTRE_CLE_API_ICI
-     ```
-
-3. **Lancer le pipeline complet**
-   ```bash
-   python run_project.py
-   ```
-   Ce script :
-   - Installe les dépendances si besoin
-   - Extrait les données Scopus (API)
-   - Traite et insère dans la base SQLite
-   - Crée l’index sémantique
-   - Lance l’interface web
+- **Recherche d’articles par mots-clés** :  
+  Posez une question comme « Quels sont les articles récents sur le deep learning ? »
+- **Filtrage par année ou auteur** :  
+  Utilisez les filtres de l’interface pour affiner vos résultats.
+- **Visualisation** :  
+  Consultez les graphiques pour voir la répartition des articles par année.
 
 ---
 
-## 🖥️ Utilisation
+## Limitations
 
-- Accède à l’interface web (généralement [http://localhost:8501](http://localhost:8501))
-- Pose tes questions (exemples :  
-  - `Trouve des articles sur l'intelligence artificielle`
-  - `Statistiques de la base`
-  - `Articles récents sur machine learning en 2023`
-  - `Recherche par auteur Smith`
-- Explore les onglets **Visualisations** et **Statistiques**
+- Le projet utilise l’API ArXiv, qui ne fournit pas toujours toutes les métadonnées (ex : affiliations).
+- Le stockage par défaut est MySQL, mais peut être adapté à SQLite.
+- Le nombre d’articles extraits dépend des limites de l’API ArXiv.
 
 ---
 
-## 🛠️ Dépendances principales
+## Auteurs
 
-- `pandas`, `numpy`
-- `sentence-transformers`
-- `faiss-cpu`
-- `streamlit`, `plotly`
-- `python-dotenv`
-- `requests`
-- `sqlite3`
-
-Le script `run_project.py` gère leur installation.
+- [Votre nom]
+- [Autres contributeurs]
 
 ---
 
-## 📚 Personnalisation
+## Licence
 
-- **Extraction** : adapte les requêtes dans `run_project.py` ou fournis ton propre JSON.
-- **Recherche sémantique** : change le modèle dans `config.py`.
-- **Visualisations** : modifie/ajoute des graphiques dans `app.py`.
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus d’informations.
 
 ---
-
-## 📝 Remarques
-
-- Nécessite une clé API Scopus valide ([Elsevier Developer Portal](https://dev.elsevier.com/)).
-- Les données sont stockées localement.
-- Pour réindexer ou retraiter, supprime les fichiers générés puis relance le script.
-
----
-
-## 🤝 Contribuer
-
-Contributions bienvenues !  
-Ouvre une issue ou une pull request.
-
----
-
-## 📄 Licence
-
-Projet académique – usage pédagogique uniquement.
