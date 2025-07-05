@@ -13,7 +13,7 @@ L’interface utilisateur est réalisée avec Streamlit.
 - Extraction automatique des articles scientifiques depuis ArXiv via l’API.
 - Stockage des données dans une base MySQL.
 - Transformation des résumés en vecteurs numériques (embeddings).
-- Recherche sémantique basée sur la similarité cosinus.
+- Recherche sémantique basée sur la similarité cosinus..
 - Interface utilisateur avec filtres (année, auteur).
 - Visualisation simple du nombre d’articles par année.
 
