@@ -28,3 +28,39 @@ Tu dois voir : 3 articles extraits et sauvegardés.
 5. Vérifie les statistiques de la base
 python main_extractor.py stats
 ```
+ 
+
+---
+
+## Exemples d’utilisation
+
+- **Recherche d’articles par mots-clés** :  
+  Posez une question comme « Quels sont les articles récents sur le deep learning ? »
+- **Filtrage par année ou auteur** :  
+  Utilisez les filtres de l’interface pour affiner vos résultats.
+- **Visualisation** :  
+  Consultez les graphiques pour voir la répartition des articles par année.
+
+---
+
+## Limitations
+
+- Le projet utilise l’API ArXiv, qui ne fournit pas toujours toutes les métadonnées (ex : affiliations).
+- Le stockage par défaut est MySQL, mais peut être adapté à SQLite.
+- Le nombre d’articles extraits dépend des limites de l’API ArXiv.
+
+---
+
+## Auteurs
+
+- Yassine chouayt
+- [Autres contributeurs]
+
+---
+
+## Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus d’informations.
+
+---
+ 
