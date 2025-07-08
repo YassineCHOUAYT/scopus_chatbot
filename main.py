@@ -1,14 +1,19 @@
 import streamlit as st
 from semantic_search import semantic_search  # ta fonction de recherche
-import mysql.connector
-import plotly.express as px
 import pandas as pd
+import plotly.express as px
+
+# Connexion sécurisée via config.py
+from config import get_connection
+
+# Initialisation de la base de données
+from database.init_db import create_tables
+create_tables()
 
 def fetch_articles_filtered(min_year=None, author=None):
-    conn = mysql.connector.connect(
-        host="localhost", user="root", password="", database="arxiv_db", charset='utf8mb4')
+    conn = get_connection()  
     cursor = conn.cursor(dictionary=True)
-    
+
     query = "SELECT id, title, abstract, published, authors FROM articles WHERE 1=1"
     params = []
     if min_year:
@@ -17,7 +22,7 @@ def fetch_articles_filtered(min_year=None, author=None):
     if author:
         query += " AND authors LIKE %s"
         params.append(f"%{author}%")
-        
+
     cursor.execute(query, params)
     rows = cursor.fetchall()
     cursor.close()
@@ -32,15 +37,15 @@ def display_results(results):
         st.markdown("---")
 
 def main():
-    st.title("🤖 Chatbot Scientifique ArXiv")
-    
+    st.title("🤖 Chatbot Scientifique Scopus")
+
     user_query = st.text_input("Pose ta question scientifique ici :")
-    
+
     if st.button("Rechercher") and user_query.strip():
         st.info("Recherche en cours...")
-        
+
         results = semantic_search(user_query, top_k=10)
-        
+
         if results:
             for i, article in enumerate(results, start=1):
                 st.markdown(f"### {i}. {article['title']} (score: {article['score']:.3f})")

@@ -50,7 +50,7 @@ pip install -r requirements.txt
 1. **Extraction des articles ArXiv** :
 
 ```bash
-python arxiv_fetch.py
+python scopus_fetch.py
 ```
 
 2. **Insertion dans la base MySQL** :
