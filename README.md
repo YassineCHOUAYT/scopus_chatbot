@@ -119,7 +119,7 @@ scopus_chatbot/
 
 ## Auteurs
 
-- [Votre nom]
+- Yassine chouayt
 - [Autres contributeurs]
 
 ---
