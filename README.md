@@ -1,100 +1,34 @@
-# Chatbot Scientifique ArXiv
+# Test de la gestion de la base de données avec Database_manager.py
 
-## Description
+Ce module permet de créer la base de données, les tables nécessaires, et d’obtenir des statistiques sur les articles et auteurs.
 
-Ce projet est un chatbot intelligent qui permet d’interroger en langage naturel une base d’articles scientifiques issus d’ArXiv.  
-Il utilise des techniques de NLP, des embeddings vectoriels (`sentence-transformers`) et une recherche sémantique pour fournir des réponses pertinentes.  
-L’interface utilisateur est réalisée avec Streamlit.
+## Prérequis
 
----
+- Python 3.8+
+- MySQL/MariaDB installé et en fonctionnement
+- Les identifiants de connexion sont à configurer dans `.env` ou `config.py` (voir variables `DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME`).
 
-## Fonctionnalités
-
-- Extraction automatique des articles scientifiques depuis ArXiv via l’API.
-- Stockage des données dans une base MySQL.
-- Transformation des résumés en vecteurs numériques (embeddings).
-- Recherche sémantique basée sur la similarité cosinus..
-- Interface utilisateur avec filtres (année, auteur).
-- Visualisation simple du nombre d’articles par année.
-
----
-
-## Installation
-
-1. Cloner ce dépôt :
+## Installation des dépendances
 
 ```bash
-git clone https://github.com/ton-utilisateur/scopus_chatbot.git
-cd scopus_chatbot
-```
-
-2. Installer les dépendances Python :
-
-```bash
+1. Vérifie l’environnement
 pip install -r requirements.txt
+
+2. Initialise la base de données
+python main_extractor.py initdb
+
+3. Teste l’extraction par mots-clés
+python main_extractor.py extract_keywords --keywords "machine learning" --categories cs.LG cs.AI --max-results 5
+
+4. Teste l’extraction par catégorie
+python main_extractor.py extract_category --category cs.CV --max-results 3
+
+Tu dois voir : 3 articles extraits et sauvegardés.
+
+5. Vérifie les statistiques de la base
+python main_extractor.py stats
 ```
-
-3. Configurer la base de données MySQL :
-
-- Créez une base de données nommée `arxiv_db` (ou modifiez le nom dans `config.py`).
-- Mettez à jour les identifiants de connexion dans `config.py` si besoin.
-
-4. (Optionnel) Configurer les variables d’environnement :
-
-- Créez un fichier `.env` à la racine du projet pour stocker vos clés API si nécessaire.
-
----
-
-## Utilisation
-
-1. **Extraction des articles ArXiv** :
-
-```bash
-python scopus_fetch.py
-```
-
-2. **Insertion dans la base MySQL** :
-
-```bash
-python insert_mysql.py
-```
-
-3. **Calcul des embeddings** :
-
-```bash
-python embedding.py
-```
-
-4. **Lancer la recherche sémantique (optionnel en CLI)** :
-
-```bash
-python semantic_search.py
-```
-
-5. **Lancer l’interface web Streamlit** :
-
-```bash
-streamlit run main.py
-```
-
-6. Ouvrez votre navigateur à l’adresse indiquée (par défaut http://localhost:8501).
-
----
-
-## Structure du projet
-
-```
-scopus_chatbot/
-│
-├── arxiv_fetch.py          # Extraction des articles depuis ArXiv
-├── insert_mysql.py         # Insertion dans la base MySQL
-├── embedding.py            # Calcul des embeddings avec sentence-transformers
-├── semantic_search.py      # Recherche sémantique dans la base
-├── main.py                 # Interface utilisateur Streamlit
-├── requirements.txt        # Dépendances Python
-├── README.md               # Ce fichier
-└── ...
-```
+ 
 
 ---
 
@@ -129,3 +63,4 @@ scopus_chatbot/
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus d’informations.
 
 ---
+ 
