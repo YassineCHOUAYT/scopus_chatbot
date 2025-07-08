@@ -1,0 +1,16 @@
+arxiv_id,title,abstract,published_date,updated_date,primary_category,categories,authors,doi,journal_reference,pdf_link
+2506.21552v1,Whole-Body Conditioned Egocentric Video Prediction,"We train models to Predict Ego-centric Video from human Actions (PEVA), given
+the past video and an action represented by the relative 3D body pose. By
+conditioning on kinematic pose trajectories, structured by the joint hierarchy
+of the body, our model learns to simulate how physical human actions shape the
+environment from a first-person point of view. We train an auto-regressive
+conditional diffusion transformer on Nymeria, a large-scale dataset of
+real-world egocentric video and body pose ca...",2025-06-26,2025-06-26,cs.CV,"cs.CV,cs.AI,cs.LG,cs.MM,cs.RO",Yutong Bai; Danny Tran; Amir Bar; Yann LeCun; Trevor Darrell; Jitendra Malik,,,http://arxiv.org/pdf/2506.21552v1
+2506.09985v1,"V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction
+  and Planning","A major challenge for modern AI is to learn to understand the world and learn
+to act largely by observation. This paper explores a self-supervised approach
+that combines internet-scale video data with a small amount of interaction data
+(robot trajectories), to develop models capable of understanding, predicting,
+and planning in the physical world. We first pre-train an action-free
+joint-embedding-predictive architecture, V-JEPA 2, on a video and image dataset
+comprising over 1 million hours of i...",2025-06-11,2025-06-11,cs.AI,"cs.AI,cs.CV,cs.LG,cs.RO",Mido Assran; Adrien Bardes; David Fan; Quentin Garrido; Russell Howes;  Mojtaba;  Komeili; Matthew Muckley; Ammar Rizvi; Claire Roberts; Koustuv Sinha; Artem Zholus; Sergio Arnaud; Abha Gejji; Ada Martin; Francois Robert Hogan; Daniel Dugas; Piotr Bojanowski; Vasil Khalidov; Patrick Labatut; Francisco Massa; Marc Szafraniec; Kapil Krishnakumar; Yong Li; Xiaodong Ma; Sarath Chandar; Franziska Meier; Yann LeCun; Michael Rabbat; Nicolas Ballas,,,http://arxiv.org/pdf/2506.09985v1

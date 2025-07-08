@@ -1,0 +1,40 @@
+2025-07-08 22:47:34,205 - config - INFO - Base de données arxiv_db créée ou existe déjà
+2025-07-08 22:47:34,223 - config - INFO - Connexion à MySQL établie avec succès
+2025-07-08 22:47:34,377 - config - INFO - Toutes les tables ont été créées avec succès
+2025-07-08 22:47:34,386 - config - INFO - Connexion fermée
+2025-07-08 22:48:55,116 - config - INFO - Extraction par mots-clés: ['machine learning']
+2025-07-08 22:48:55,118 - config - INFO - Début de l'extraction pour la requête: (ti:"machine learning" OR abs:"machine learning") AND (cat:cs.LG OR cat:cs.AI)
+2025-07-08 22:48:56,074 - config - INFO - Nombre total d'articles disponibles: 5
+2025-07-08 22:48:56,909 - config - INFO - Connexion à MySQL établie avec succès
+2025-07-08 22:48:57,059 - config - INFO - Connexion fermée
+2025-07-08 22:48:57,061 - config - INFO - Extraction terminée. 5 articles extraits.
+2025-07-08 22:48:57,080 - config - INFO - Données sauvegardées dans data/timachine_learning_OR_absmachine_learning_AND_catcsLG_OR_catcsAI_20250708_224857.json et data/timachine_learning_OR_absmachine_learning_AND_catcsLG_OR_catcsAI_20250708_224857.csv
+2025-07-08 22:48:57,081 - config - INFO - Nettoyage de 5 articles
+2025-07-08 22:48:57,087 - config - INFO - Suppression de 0 doublons
+2025-07-08 22:48:57,113 - config - INFO - Nettoyage terminé. 5 articles valides
+2025-07-08 22:48:57,115 - config - INFO - Résultats sauvegardés dans data/extraction_results_20250708_224857.json
+2025-07-08 22:50:21,556 - config - INFO - Extraction par catégorie: cs.CV
+2025-07-08 22:50:21,556 - config - INFO - Début de l'extraction pour la requête: cat:cs.CV
+2025-07-08 22:50:22,393 - config - INFO - Nombre total d'articles disponibles: 3
+2025-07-08 22:50:23,010 - config - INFO - Connexion à MySQL établie avec succès
+2025-07-08 22:50:23,089 - config - INFO - Connexion fermée
+2025-07-08 22:50:23,091 - config - INFO - Extraction terminée. 3 articles extraits.
+2025-07-08 22:50:23,103 - config - INFO - Données sauvegardées dans data/catcsCV_20250708_225023.json et data/catcsCV_20250708_225023.csv
+2025-07-08 22:50:23,107 - config - INFO - Nettoyage de 3 articles
+2025-07-08 22:50:23,111 - config - INFO - Suppression de 0 doublons
+2025-07-08 22:50:23,115 - config - INFO - Nettoyage terminé. 3 articles valides
+2025-07-08 22:50:23,116 - config - INFO - Résultats sauvegardés dans data/extraction_results_20250708_225023.json
+2025-07-08 22:51:08,550 - config - INFO - Connexion à MySQL établie avec succès
+2025-07-08 22:51:08,555 - config - INFO - Statistiques de la base : {'total_articles': 8, 'total_authors': 41, 'articles_by_category': [('cs.CV', 4), ('cs.LG', 1), ('stat.ME', 1), ('math.NA', 1), ('math.DS', 1)], 'articles_by_year': [(2025, 8)]}
+2025-07-08 22:51:08,561 - config - INFO - Connexion fermée
+2025-07-08 22:55:34,326 - config - INFO - Extraction par auteur: Yann LeCun
+2025-07-08 22:55:34,327 - config - INFO - Début de l'extraction pour la requête: au:"Yann LeCun"
+2025-07-08 22:55:35,563 - config - INFO - Nombre total d'articles disponibles: 2
+2025-07-08 22:55:36,208 - config - INFO - Connexion à MySQL établie avec succès
+2025-07-08 22:55:36,338 - config - INFO - Connexion fermée
+2025-07-08 22:55:36,339 - config - INFO - Extraction terminée. 2 articles extraits.
+2025-07-08 22:55:36,372 - config - INFO - Données sauvegardées dans data/auYann_LeCun_20250708_225536.json et data/auYann_LeCun_20250708_225536.csv
+2025-07-08 22:55:36,414 - config - INFO - Nettoyage de 2 articles
+2025-07-08 22:55:36,429 - config - INFO - Suppression de 0 doublons
+2025-07-08 22:55:36,430 - config - INFO - Nettoyage terminé. 2 articles valides
+2025-07-08 22:55:36,432 - config - INFO - Résultats sauvegardés dans data/extraction_results_20250708_225536.json
