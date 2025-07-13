@@ -28,7 +28,30 @@ Tu dois voir : 3 articles extraits et sauvegardés.
 5. Vérifie les statistiques de la base
 python main_extractor.py stats
 ```
- 
+
+ ## Indexation sémantique des résumés
+
+Afin d’améliorer la pertinence des recherches dans la base d’articles, une étape d’indexation sémantique est réalisée sur les résumés des articles extraits.
+
+Cette étape utilise le modèle **Sentence Transformers** (`all-MiniLM-L6-v2` par défaut), basé sur des architectures de type BERT, pour transformer les textes des résumés en vecteurs numériques (embeddings) qui capturent leur signification.
+
+Ces vecteurs sont ensuite indexés dans une structure **FAISS** (Facebook AI Similarity Search), permettant une recherche rapide et efficace par similarité sémantique. Cela permet de retrouver les articles dont les résumés sont les plus proches d’une requête textuelle, même si le vocabulaire diffère.
+
+### Fichiers principaux concernés
+
+- `semantic_indexer.py` : Classe gérant la création de l’index vectoriel FAISS à partir des résumés et la recherche sémantique.  
+- `main_create_index.py` : Script pour générer l’index FAISS à partir du fichier JSON des articles extraits (ex. `data/extraction_results_YYYYMMDD_HHMMSS.json`).  
+- `main_search.py` : Script pour effectuer une recherche sémantique en interrogeant l’index FAISS avec une requête textuelle.
+
+### Instructions d’utilisation
+
+1. **Création de l’index FAISS**
+
+   Après avoir extrait et sauvegardé les articles au format JSON (par exemple via `main_extractor.py`), lance la création de l’index avec :
+
+   ```bash
+   python main_create_index.py --json-path data/extraction_results_YYYYMMDD_HHMMSS.json
+
 
 ---
 

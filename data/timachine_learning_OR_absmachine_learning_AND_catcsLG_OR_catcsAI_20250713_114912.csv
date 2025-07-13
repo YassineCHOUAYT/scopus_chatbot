@@ -1,0 +1,40 @@
+arxiv_id,title,abstract,published_date,updated_date,primary_category,categories,authors,doi,journal_reference,pdf_link
+2507.07965v1,Prospective Learning in Retrospect,"In most real-world applications of artificial intelligence, the distributions
+of the data and the goals of the learners tend to change over time. The
+Probably Approximately Correct (PAC) learning framework, which underpins most
+machine learning algorithms, fails to account for dynamic data distributions
+and evolving objectives, often resulting in suboptimal performance. Prospective
+learning is a recently introduced mathematical framework that overcomes some of
+these limitations. We build on this...",2025-07-10,2025-07-10,cs.LG,"cs.LG,stat.ML",Yuxin Bai; Cecelia Shuai; Ashwin De Silva; Siyu Yu; Pratik Chaudhari; Joshua T. Vogelstein,,,http://arxiv.org/pdf/2507.07965v1
+2507.07882v1,"Can AI-predicted complexes teach machine learning to compute drug
+  binding affinity?","We evaluate the feasibility of using co-folding models for synthetic data
+augmentation in training machine learning-based scoring functions (MLSFs) for
+binding affinity prediction. Our results show that performance gains depend
+critically on the structural quality of augmented data. In light of this, we
+established simple heuristics for identifying high-quality co-folding
+predictions without reference structures, enabling them to substitute for
+experimental structures in MLSF training. Our study...",2025-07-10,2025-07-10,cs.LG,cs.LG,Wei-Tse Hsu; Savva Grevtsev; Thomas Douglas; Aniket Magarkar; Philip C. Biggin,,,http://arxiv.org/pdf/2507.07882v1
+2507.07857v1,"Searching for actual causes: Approximate algorithms with adjustable
+  precision","Causality has gained popularity in recent years. It has helped improve the
+performance, reliability, and interpretability of machine learning models.
+However, recent literature on explainable artificial intelligence (XAI) has
+faced criticism. The classical XAI and causality literature focuses on
+understanding which factors contribute to which consequences. While such
+knowledge is valuable for researchers and engineers, it is not what non-expert
+users expect as explanations. Instead, these users ...",2025-07-10,2025-07-10,cs.AI,cs.AI,Samuel Reyd; Ada Diaconescu; Jean-Louis Dessalles,,,http://arxiv.org/pdf/2507.07857v1
+2507.07668v1,"Learning Pole Structures of Hadronic States using Predictive Uncertainty
+  Estimation","Matching theoretical predictions to experimental data remains a central
+challenge in hadron spectroscopy. In particular, the identification of new
+hadronic states is difficult, as exotic signals near threshold can arise from a
+variety of physical mechanisms. A key diagnostic in this context is the pole
+structure of the scattering amplitude, but different configurations can produce
+similar signatures. The mapping between pole configurations and line shapes is
+especially ambiguous near the mass th...",2025-07-10,2025-07-10,hep-ph,"hep-ph,cs.AI,cs.LG,hep-ex",Felix Frohnert; Denny Lane B. Sombrillo; Evert van Nieuwenburg; Patrick Emonts,,,http://arxiv.org/pdf/2507.07668v1
+2507.07641v1,"Machine Learning-Assisted Surrogate Modeling with Multi-Objective
+  Optimization and Decision-Making of a Steam Methane Reforming Reactor","This study presents an integrated modeling and optimization framework for a
+steam methane reforming (SMR) reactor, combining a mathematical model,
+artificial neural network (ANN)-based hybrid modeling, advanced multi-objective
+optimization (MOO) and multi-criteria decision-making (MCDM) techniques. A
+one-dimensional fixed-bed reactor model accounting for internal mass transfer
+resistance was employed to simulate reactor performance. To reduce the high
+computational cost of the mathematical model...",2025-07-10,2025-07-10,physics.chem-ph,"physics.chem-ph,cs.LG",Seyed Reza Nabavi; Zonglin Guo; Zhiyuan Wang,,,http://arxiv.org/pdf/2507.07641v1

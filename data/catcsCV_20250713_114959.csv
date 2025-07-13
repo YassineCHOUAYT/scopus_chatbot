@@ -1,0 +1,24 @@
+arxiv_id,title,abstract,published_date,updated_date,primary_category,categories,authors,doi,journal_reference,pdf_link
+2507.08000v1,"Impact of Pretraining Word Co-occurrence on Compositional Generalization
+  in Multimodal Models","CLIP and large multimodal models (LMMs) have better accuracy on examples
+involving concepts that are highly represented in the training data. However,
+the role of concept combinations in the training data on compositional
+generalization is largely unclear -- for instance, how does accuracy vary when
+a common object appears in an uncommon pairing with another object? In this
+paper, we investigate how word co-occurrence statistics in the pretraining
+dataset (a proxy for co-occurrence of visual con...",2025-07-10,2025-07-10,cs.CV,"cs.CV,cs.LG",Helen Qu; Sang Michael Xie,,,http://arxiv.org/pdf/2507.08000v1
+2507.07999v1,"Traceable Evidence Enhanced Visual Grounded Reasoning: Evaluation and
+  Methodology","Models like OpenAI-o3 pioneer visual grounded reasoning by dynamically
+referencing visual regions, just like human ""thinking with images"". However, no
+benchmark exists to evaluate these capabilities holistically. To bridge this
+gap, we propose TreeBench (Traceable Evidence Evaluation Benchmark), a
+diagnostic benchmark built on three principles: (1) focused visual perception
+of subtle targets in complex scenes, (2) traceable evidence via bounding box
+evaluation, and (3) second-order reasoning to ...",2025-07-10,2025-07-10,cs.CV,"cs.CV,cs.AI,cs.CL",Haochen Wang; Xiangtai Li; Zilong Huang; Anran Wang; Jiacong Wang; Tao Zhang; Jiani Zheng; Sule Bai; Zijian Kang; Jiashi Feng; Zhuochen Wang; Zhaoxiang Zhang,,,http://arxiv.org/pdf/2507.07999v1
+2507.07998v1,PyVision: Agentic Vision with Dynamic Tooling,"LLMs are increasingly deployed as agents, systems capable of planning,
+reasoning, and dynamically calling external tools. However, in visual
+reasoning, prior approaches largely remain limited by predefined workflows and
+static toolsets. In this report, we present PyVision, an interactive,
+multi-turn framework that enables MLLMs to autonomously generate, execute, and
+refine Python-based tools tailored to the task at hand, unlocking flexible and
+interpretable problem-solving. We develop a taxonomy...",2025-07-10,2025-07-10,cs.CL,"cs.CL,cs.AI,cs.CV",Shitian Zhao; Haoquan Zhang; Shaoheng Lin; Ming Li; Qilong Wu; Kaipeng Zhang; Chen Wei,,,http://arxiv.org/pdf/2507.07998v1

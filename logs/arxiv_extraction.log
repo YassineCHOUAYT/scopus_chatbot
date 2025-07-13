@@ -38,3 +38,194 @@
 2025-07-08 22:55:36,429 - config - INFO - Suppression de 0 doublons
 2025-07-08 22:55:36,430 - config - INFO - Nettoyage terminé. 2 articles valides
 2025-07-08 22:55:36,432 - config - INFO - Résultats sauvegardés dans data/extraction_results_20250708_225536.json
+2025-07-13 09:39:32,822 - config - INFO - Début de l'extraction pour la requête: (ti:"machine learning" OR abs:"machine learning") AND (cat:cs.LG OR cat:cs.AI)
+2025-07-13 09:39:33,433 - config - INFO - Nombre total d'articles disponibles: 10
+2025-07-13 09:43:33,307 - config - INFO - Début de l'extraction pour la requête: (ti:"machine learning" OR abs:"machine learning") AND (cat:cs.LG OR cat:cs.AI)
+2025-07-13 09:43:33,622 - config - INFO - Nombre total d'articles disponibles: 10
+2025-07-13 09:47:05,902 - config - INFO - Extraction par mots-clés: ['machine learning']
+2025-07-13 09:47:05,910 - config - INFO - Début de l'extraction pour la requête: (ti:"machine learning" OR abs:"machine learning")
+2025-07-13 09:47:06,461 - config - INFO - Nombre total d'articles disponibles: 100
+2025-07-13 09:47:07,202 - config - INFO - Connexion à MySQL établie avec succès
+2025-07-13 09:47:07,210 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,210 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,210 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,210 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,218 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,218 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,218 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,218 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,234 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,237 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,237 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,237 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,245 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,245 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,245 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,253 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,253 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,261 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,261 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,261 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,261 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,269 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,277 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,277 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,277 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,277 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,288 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,288 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,288 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,288 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,296 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,296 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,304 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,304 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,312 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,312 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,312 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,320 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,320 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,320 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,328 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,328 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,328 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,336 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,336 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,336 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,344 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,344 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,344 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,352 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,360 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,360 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,360 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,360 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,369 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,377 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,385 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,393 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,393 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,393 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,393 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,403 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,403 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,403 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,411 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,411 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,411 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,420 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,420 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,420 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,428 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,428 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,428 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,428 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,437 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,437 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,437 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,445 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,445 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,453 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,453 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,453 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,461 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,461 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,461 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,470 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,470 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,470 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,478 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,478 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,478 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,487 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,487 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,487 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,495 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,495 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,495 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,495 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,504 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,504 - config - ERROR - Erreur lors de l'insertion de l'article: 1146 (42S02): Table 'arxiv_db.articles' doesn't exist
+2025-07-13 09:47:07,512 - config - INFO - Connexion fermée
+2025-07-13 09:47:07,520 - config - INFO - Extraction terminée. 100 articles extraits.
+2025-07-13 09:47:07,586 - config - INFO - Données sauvegardées dans data/timachine_learning_OR_absmachine_learning_20250713_094707.json et data/timachine_learning_OR_absmachine_learning_20250713_094707.csv
+2025-07-13 09:47:07,594 - config - INFO - Nettoyage de 100 articles
+2025-07-13 09:47:07,698 - config - INFO - Suppression de 0 doublons
+2025-07-13 09:47:07,698 - config - INFO - Nettoyage terminé. 100 articles valides
+2025-07-13 09:47:07,722 - config - INFO - Résultats sauvegardés dans data/extraction_results_20250713_094707.json
+2025-07-13 09:48:07,484 - config - INFO - Début de l'extraction pour la requête: (ti:"machine learning" OR abs:"machine learning") AND (cat:cs.LG OR cat:cs.AI)
+2025-07-13 09:48:08,095 - config - INFO - Nombre total d'articles disponibles: 10
+2025-07-13 11:48:41,001 - config - INFO - Base de données arxiv_db créée ou existe déjà
+2025-07-13 11:48:41,005 - config - INFO - Connexion à MySQL établie avec succès
+2025-07-13 11:48:41,406 - config - INFO - Toutes les tables ont été créées avec succès
+2025-07-13 11:48:41,407 - config - INFO - Connexion fermée
+2025-07-13 11:49:10,302 - config - INFO - Extraction par mots-clés: ['machine learning']
+2025-07-13 11:49:10,302 - config - INFO - Début de l'extraction pour la requête: (ti:"machine learning" OR abs:"machine learning") AND (cat:cs.LG OR cat:cs.AI)
+2025-07-13 11:49:11,517 - config - INFO - Nombre total d'articles disponibles: 5
+2025-07-13 11:49:12,125 - config - INFO - Connexion à MySQL établie avec succès
+2025-07-13 11:49:12,432 - config - INFO - Connexion fermée
+2025-07-13 11:49:12,438 - config - INFO - Extraction terminée. 5 articles extraits.
+2025-07-13 11:49:12,536 - config - INFO - Données sauvegardées dans data/timachine_learning_OR_absmachine_learning_AND_catcsLG_OR_catcsAI_20250713_114912.json et data/timachine_learning_OR_absmachine_learning_AND_catcsLG_OR_catcsAI_20250713_114912.csv
+2025-07-13 11:49:12,538 - config - INFO - Nettoyage de 5 articles
+2025-07-13 11:49:12,558 - config - INFO - Suppression de 0 doublons
+2025-07-13 11:49:12,559 - config - INFO - Nettoyage terminé. 5 articles valides
+2025-07-13 11:49:12,572 - config - INFO - Résultats sauvegardés dans data/extraction_results_20250713_114912.json
+2025-07-13 11:49:57,746 - config - INFO - Extraction par catégorie: cs.CV
+2025-07-13 11:49:57,747 - config - INFO - Début de l'extraction pour la requête: cat:cs.CV
+2025-07-13 11:49:58,213 - config - INFO - Nombre total d'articles disponibles: 3
+2025-07-13 11:49:58,713 - config - INFO - Connexion à MySQL établie avec succès
+2025-07-13 11:49:59,020 - config - INFO - Connexion fermée
+2025-07-13 11:49:59,022 - config - INFO - Extraction terminée. 3 articles extraits.
+2025-07-13 11:49:59,032 - config - INFO - Données sauvegardées dans data/catcsCV_20250713_114959.json et data/catcsCV_20250713_114959.csv
+2025-07-13 11:49:59,033 - config - INFO - Nettoyage de 3 articles
+2025-07-13 11:49:59,038 - config - INFO - Suppression de 0 doublons
+2025-07-13 11:49:59,039 - config - INFO - Nettoyage terminé. 3 articles valides
+2025-07-13 11:49:59,047 - config - INFO - Résultats sauvegardés dans data/extraction_results_20250713_114959.json
+2025-07-13 11:50:15,663 - config - INFO - Connexion à MySQL établie avec succès
+2025-07-13 11:50:15,672 - config - INFO - Statistiques de la base : {'total_articles': 8, 'total_authors': 42, 'articles_by_category': [('cs.CV', 2), ('cs.LG', 2), ('cs.CL', 1), ('cs.AI', 1), ('physics.chem-ph', 1), ('hep-ph', 1)], 'articles_by_year': [(2025, 8)]}
+2025-07-13 11:50:15,673 - config - INFO - Connexion fermée
+2025-07-13 13:44:15,034 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-13 13:44:15,208 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-13 13:44:15,228 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-13 13:45:02,513 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-13 13:45:02,539 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-13 13:45:02,555 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-13 13:48:15,388 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-13 13:48:15,428 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-13 13:48:15,436 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-13 13:48:15,444 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 13:48:15,444 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 13:50:06,158 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-13 13:50:06,200 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-13 13:50:06,212 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-13 13:50:06,229 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 13:50:06,229 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 13:51:27,496 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-13 13:51:27,541 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-13 13:51:27,541 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-13 13:51:27,558 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 13:51:27,566 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 13:53:56,133 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-13 13:53:56,166 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-13 13:53:56,182 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-13 13:53:56,198 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 13:53:56,198 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 13:58:30,774 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-13 13:58:30,951 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-13 13:58:30,976 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-13 13:58:30,984 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 13:58:30,992 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 14:01:25,286 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-13 14:01:25,343 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-13 14:01:25,351 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-13 14:04:24,358 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-13 14:04:24,388 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-13 14:04:24,403 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-13 14:04:24,419 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 14:04:24,419 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 14:06:14,302 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-07-13 14:06:14,345 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-07-13 14:06:14,345 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-13 14:06:14,371 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-07-13 14:06:14,371 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-07-13 14:06:30,939 - config - ERROR - Erreur lors de la récupération des articles récents : 'NoneType' object has no attribute 'execute'
