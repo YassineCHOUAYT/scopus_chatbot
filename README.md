@@ -1,89 +1,127 @@
-# Test de la gestion de la base de données avec Database_manager.py
 
-Ce module permet de créer la base de données, les tables nécessaires, et d’obtenir des statistiques sur les articles et auteurs.
+# 🧠 Assistant de Recherche Scopus - Projet Python
 
-## Prérequis
+Ce projet est un assistant intelligent pour explorer les articles scientifiques d'ArXiv, indexés dans une base de données MySQL. Il permet d'effectuer des recherches par mots-clés ou sémantique via une interface utilisateur Streamlit.
+
+---
+
+## 📁 Architecture du projet
+
+```
+.
+├── .env                         # Variables d’environnement (DB, API key)
+├── .gitignore
+├── app.py                      # Interface utilisateur Streamlit
+├── arxiv_extractor.py          # Extraction des articles via l'API ArXiv
+├── arxiv_index.faiss           # Index vectoriel FAISS
+├── arxiv_metadata.json         # Données brutes extraites
+├── chatbot.py                  # Moteur de traitement de requêtes (logiciel)
+├── config.py                   # Configuration (connexion DB, chemins)
+├── data_cleaner.py             # Nettoyage des données
+├── database_manager.py         # Création de la base et statistiques
+├── main_create_index.py        # Génération de l’index sémantique FAISS
+├── main_extractor.py           # Script CLI pour extraction / stats
+├── main_search.py              # Recherche dans l’index FAISS
+├── README.md
+├── requirements.txt            # Dépendances Python
+└── semantic_indexer.py         # Création et recherche dans l’index sémantique
+```
+
+---
+
+## ✅ Prérequis
 
 - Python 3.8+
-- MySQL/MariaDB installé et en fonctionnement
-- Les identifiants de connexion sont à configurer dans `.env` ou `config.py` (voir variables `DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME`).
+- MySQL/MariaDB
+- Configurer `.env` ou `config.py` avec : `DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME`
 
-## Installation des dépendances
+---
+
+## ⚙️ Installation et premiers tests
 
 ```bash
-1. Vérifie l’environnement
+# 1. Installer les dépendances
 pip install -r requirements.txt
 
-2. Initialise la base de données
+# 2. Créer la base de données et les tables
 python main_extractor.py initdb
 
-3. Teste l’extraction par mots-clés
+# 3. Extraire des articles par mots-clés
 python main_extractor.py extract_keywords --keywords "machine learning" --categories cs.LG cs.AI --max-results 5
 
-4. Teste l’extraction par catégorie
+# 4. Extraire des articles par catégorie
 python main_extractor.py extract_category --category cs.CV --max-results 3
 
-Tu dois voir : 3 articles extraits et sauvegardés.
-
-5. Vérifie les statistiques de la base
+# 5. Vérifier les statistiques de la base
 python main_extractor.py stats
 ```
 
- ## Indexation sémantique des résumés
+---
 
-Afin d’améliorer la pertinence des recherches dans la base d’articles, une étape d’indexation sémantique est réalisée sur les résumés des articles extraits.
+## 🔍 Indexation sémantique des résumés
 
-Cette étape utilise le modèle **Sentence Transformers** (`all-MiniLM-L6-v2` par défaut), basé sur des architectures de type BERT, pour transformer les textes des résumés en vecteurs numériques (embeddings) qui capturent leur signification.
+Pour améliorer la recherche, les résumés sont transformés en **vecteurs sémantiques** à l’aide du modèle `all-MiniLM-L6-v2` (Sentence Transformers).
 
-Ces vecteurs sont ensuite indexés dans une structure **FAISS** (Facebook AI Similarity Search), permettant une recherche rapide et efficace par similarité sémantique. Cela permet de retrouver les articles dont les résumés sont les plus proches d’une requête textuelle, même si le vocabulaire diffère.
+Les vecteurs sont indexés avec **FAISS** pour des recherches ultra-rapides par similarité.
 
-### Fichiers principaux concernés
+### Fichiers liés
 
-- `semantic_indexer.py` : Classe gérant la création de l’index vectoriel FAISS à partir des résumés et la recherche sémantique.  
-- `main_create_index.py` : Script pour générer l’index FAISS à partir du fichier JSON des articles extraits (ex. `data/extraction_results_YYYYMMDD_HHMMSS.json`).  
-- `main_search.py` : Script pour effectuer une recherche sémantique en interrogeant l’index FAISS avec une requête textuelle.
+- `semantic_indexer.py` : indexation et recherche vectorielle
+- `main_create_index.py` : création de l’index FAISS à partir d’un `.json`
+- `main_search.py` : recherche d’articles similaires à une question
 
-### Instructions d’utilisation
+### Exemple
 
-1. **Création de l’index FAISS**
-
-   Après avoir extrait et sauvegardé les articles au format JSON (par exemple via `main_extractor.py`), lance la création de l’index avec :
-
-   ```bash
-   python main_create_index.py --json-path data/extraction_results_YYYYMMDD_HHMMSS.json
-
+```bash
+python main_create_index.py --json-path data/extraction_results_20250714_102000.json
+```
 
 ---
 
-## Exemples d’utilisation
+## 🧪 Interface Utilisateur Streamlit
 
-- **Recherche d’articles par mots-clés** :  
-  Posez une question comme « Quels sont les articles récents sur le deep learning ? »
-- **Filtrage par année ou auteur** :  
-  Utilisez les filtres de l’interface pour affiner vos résultats.
-- **Visualisation** :  
-  Consultez les graphiques pour voir la répartition des articles par année.
+Lance l’interface simple de chat avec :
+
+```bash
+python -m streamlit run app.py
+```
+
+- L’historique des requêtes est à gauche.
+- L’utilisateur pose ses questions au centre.
+- La réponse (liste d’articles) s’affiche automatiquement.
+
+### Fichiers impliqués
+
+- `app.py` : Interface principale (design, gestion d’historique, chat)
+- `chatbot.py` : Traitement de la requête, analyse des mots, retour articles
 
 ---
 
-## Limitations
+## 💡 Exemples d'utilisation
 
-- Le projet utilise l’API ArXiv, qui ne fournit pas toujours toutes les métadonnées (ex : affiliations).
-- Le stockage par défaut est MySQL, mais peut être adapté à SQLite.
-- Le nombre d’articles extraits dépend des limites de l’API ArXiv.
+- **"Quels sont les travaux de Yann LeCun ?"**
+- **"Articles récents sur l’intelligence artificielle"**
+- **"Donne les stats des auteurs et articles extraits"**
 
 ---
 
-## Auteurs
+## ⚠️ Limitations
 
-- Yassine chouayt
+- API ArXiv ne donne pas toujours les affiliations ou les résumés complets.
+- Max 10000 résultats selon l’API.
+- La qualité dépend des catégories choisies (`cs.AI`, `cs.LG`, etc).
+
+---
+
+## 👨‍💻 Auteurs
+
+- Yassine Chouayt
 - [Autres contributeurs]
 
 ---
 
-## Licence
+## 📄 Licence
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus d’informations.
+Ce projet est sous licence **MIT**. Voir le fichier `LICENSE`.
 
 ---
- 
