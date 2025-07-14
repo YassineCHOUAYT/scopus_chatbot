@@ -69,7 +69,6 @@ class ScopusChatbot:
         query_lower = query.lower()
         detected_keywords = []
         
-        # Vérifier chaque catégorie de mots-clés
         for category, keywords in self.keywords.items():
             for lang in ["fr", "en"]:
                 for keyword in keywords[lang]:
@@ -79,13 +78,12 @@ class ScopusChatbot:
                 if detected_keywords:
                     break
         
-        return list(set(detected_keywords))  # Éliminer les doublons
+        return list(set(detected_keywords))
 
     def enhance_query_with_keywords(self, query):
         """Améliore la requête avec des mots-clés pertinents"""
         base_keywords = self.extract_keywords_from_query(query)
         
-        # Ajouter des mots-clés génériques si pas assez spécifiques
         if len(base_keywords) < 10:
             generic_keywords = [
                 "research", "study", "analysis", "investigation", "publication",
@@ -93,7 +91,7 @@ class ScopusChatbot:
             ]
             base_keywords.extend(generic_keywords[:10-len(base_keywords)])
         
-        return base_keywords[:10]  # Limiter à 10 mots-clés
+        return base_keywords[:10]
 
     def process_query(self, query):
         """Traite la requête avec amélioration par mots-clés"""
@@ -102,24 +100,20 @@ class ScopusChatbot:
         
         print(f"🔍 Mots-clés détectés: {', '.join(keywords)}")
         
-        # Recherche d'articles récents
         recent_patterns = ["articles récents", "recent articles", "publications récentes", "latest publications"]
         if any(pattern in query for pattern in recent_patterns):
             return self.get_recent_articles(), keywords
 
-        # Recherche par auteur
         author_patterns = ["travaux de", "works by", "publications de", "articles de", "research by"]
         for pattern in author_patterns:
             if pattern in query:
                 name = query.split(pattern)[-1].strip()
                 return self.get_articles_by_author(name), keywords
 
-        # Statistiques
         stats_patterns = ["statistiques", "statistics", "nombre d'articles", "number of articles", "total articles"]
         if any(pattern in query for pattern in stats_patterns):
             return self.get_stats(), keywords
 
-        # Recherche sémantique améliorée avec mots-clés
         enhanced_query = query + " " + " ".join(keywords)
         return self.semantic_search(enhanced_query), keywords
 
@@ -138,7 +132,6 @@ class ScopusChatbot:
             authors = art.get("authors", [])
             for author in authors:
                 author_name = author.get("name", "").lower()
-                # Recherche flexible (nom partiel)
                 if name in author_name or any(part in author_name for part in name.split()):
                     result.append(art)
                     break
@@ -157,7 +150,6 @@ class ScopusChatbot:
                     if pub_date >= cutoff:
                         recent_articles.append(article)
                 except ValueError:
-                    # Ignorer les dates mal formatées
                     continue
         
         return recent_articles
@@ -169,16 +161,13 @@ class ScopusChatbot:
         years = {}
         
         for art in self.metadata:
-            # Compter les auteurs
             for a in art.get("authors", []):
                 if isinstance(a, dict) and "name" in a:
                     author_names.add(a["name"])
             
-            # Compter par catégorie
             category = art.get("category", "Unknown")
             categories[category] = categories.get(category, 0) + 1
             
-            # Compter par année
             if "published_date" in art:
                 try:
                     year = datetime.strptime(art["published_date"], "%Y-%m-%d").year
@@ -207,55 +196,67 @@ class ScopusChatbot:
             title = art.get("title", "").lower()
             abstract = art.get("abstract", "").lower()
             
-            # Compter les mots dans les titres et résumés
             words = re.findall(r'\b\w+\b', title + " " + abstract)
             for word in words:
-                if len(word) > 4:  # Ignorer les mots trop courts
+                if len(word) > 4:
                     word_freq[word] = word_freq.get(word, 0) + 1
         
-        # Retourner les 20 mots les plus fréquents
         return sorted(word_freq.items(), key=lambda x: x[1], reverse=True)[:20]
+
+    def get_articles_about_keyword(self, keyword):
+        """Retourne les articles contenant un mot-clé dans le titre ou résumé"""
+        keyword = keyword.lower()
+        results = []
+        for art in self.metadata:
+            title = art.get("title", "").lower()
+            abstract = art.get("abstract", "").lower()
+            if keyword in title or keyword in abstract:
+                results.append(art)
+        return results
 
 def main():
     try:
-        # Initialisation du chatbot avec gestion des erreurs
         chatbot = ScopusChatbot()
 
-        # 1. 🔍 Test de la recherche sémantique améliorée
         print("🔍 Résultat recherche sémantique améliorée :")
         result, keywords = chatbot.process_query("intelligence artificielle et médecine")
         print(f"Mots-clés utilisés: {keywords}")
         for article in result[:3]:
             print(f"- {article.get('title', 'Titre non disponible')}")
 
-        # 2. 📅 Test des articles récents
         print("\n📅 Articles publiés récemment :")
         recent_articles, keywords = chatbot.process_query("articles récents")
         print(f"Mots-clés utilisés: {keywords}")
         for article in recent_articles[:3]:
             print(f"- {article.get('title', 'Titre non disponible')} ({article.get('published_date', '?')})")
 
-        # 3. 👨‍🔬 Test de recherche par auteur
         print("\n👨‍🔬 Travaux de 'Helen Qu' :")
         works, keywords = chatbot.process_query("travaux de Helen Qu")
         print(f"Mots-clés utilisés: {keywords}")
         for article in works[:3]:
             print(f"- {article.get('title', 'Titre non disponible')}")
 
-        # 4. 📊 Statistiques détaillées
         print("\n📊 Statistiques :")
         stats, keywords = chatbot.process_query("statistiques")
         print(f"Mots-clés utilisés: {keywords}")
         print(f"- Nombre total d'articles : {stats['total_articles']}")
         print(f"- Nombre d'auteurs uniques : {stats['authors_count']}")
 
-        # 5. 🔥 Sujets tendance
         print("\n🔥 Sujets tendance :")
         trending = chatbot.get_trending_topics()
         for word, freq in trending[:10]:
             print(f"- {word}: {freq} occurrences")
 
-        # 6. 🧠 Tests multiples avec différents types de requêtes
+        # Nouveauté : articles sur "machine learning"
+        print("\n📚 Articles sur 'machine learning' :")
+        ml_articles = chatbot.get_articles_about_keyword("machine learning")
+        seen_titles = set()
+        for article in ml_articles[:10]:
+            title = article.get('title', 'Titre inconnu')
+            if title not in seen_titles:
+                print(f"- {title} ({article.get('published_date', '?')})")
+                seen_titles.add(title)
+
         print("\n🧠 Tests de requêtes variées :")
         test_queries = [
             "deep learning et biologie",
@@ -287,6 +288,5 @@ def main():
     except Exception as e:
         print(f"❌ Une erreur inattendue est survenue : {e}")
 
-# ✅ Exécution
 if __name__ == "__main__":
     main()
