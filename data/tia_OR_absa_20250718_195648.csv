@@ -1,0 +1,752 @@
+arxiv_id,title,abstract,published_date,updated_date,primary_category,categories,authors,doi,journal_reference,pdf_link
+2507.13352v1,"Effective field theory for superfluid vortex lattice from coset
+  construction","Guided by symmetry principles, we construct an effective field theory that
+captures the long-wavelength dynamics of two-dimensional vortex crystals
+observed in rotating Bose-Einstein condensates trapped in a harmonic potential.
+By embedding the system into Newton--Cartan spacetime and analyzing its
+isometries, we identify the appropriate spacetime symmetry group for trapped
+condensates at finite angular momentum. After introducing a coarse-grained
+description of the vortex lattice we consider a ...",2025-07-17,2025-07-17,cond-mat.quant-gas,"cond-mat.quant-gas,cond-mat.str-el,cond-mat.supr-con,hep-th",Aleksander Głódkowski; Sergej Moroz; Francisco Peña-Benítez; Piotr Surówka,,,http://arxiv.org/pdf/2507.13352v1
+2507.13353v1,"VideoITG: Multimodal Video Understanding with Instructed Temporal
+  Grounding","Recent studies have revealed that selecting informative and relevant video
+frames can significantly improve the performance of Video Large Language Models
+(Video-LLMs). Current methods, such as reducing inter-frame redundancy,
+employing separate models for image-text relevance assessment, or utilizing
+temporal video grounding for event localization, substantially adopt
+unsupervised learning paradigms, whereas they struggle to address the complex
+scenarios in long video understanding. We propose ...",2025-07-17,2025-07-17,cs.CV,"cs.CV,cs.AI",Shihao Wang; Guo Chen; De-an Huang; Zhiqi Li; Minghan Li; Guilin Li; Jose M. Alvarez; Lei Zhang; Zhiding Yu,,,http://arxiv.org/pdf/2507.13353v1
+2507.13351v1,"Challenges for describing unitary evolution in nontrivial geometries:
+  pictures and representations","Description of evolution between spatial slices in a general spacetime
+suffers from a significant difficulty: the states on the slices, in a given
+basis, are not related by a unitary transformation. This problem, which occurs
+in spacetime dimensions above two, is directly related to the infinite number
+of inequivalent representations of the canonical commutators, and in particular
+will arise for interacting theories in time-dependent spacetimes. We connect
+different facets of this issue, and dis...",2025-07-17,2025-07-17,hep-th,hep-th,Steven B. Giddings; Julie Perkins,,,http://arxiv.org/pdf/2507.13351v1
+2507.13350v1,Hierarchical Rectified Flow Matching with Mini-Batch Couplings,"Flow matching has emerged as a compelling generative modeling approach that
+is widely used across domains. To generate data via a flow matching model, an
+ordinary differential equation (ODE) is numerically solved via forward
+integration of the modeled velocity field. To better capture the multi-modality
+that is inherent in typical velocity fields, hierarchical flow matching was
+recently introduced. It uses a hierarchy of ODEs that are numerically
+integrated when generating data. This hierarchy o...",2025-07-17,2025-07-17,cs.CV,"cs.CV,cs.LG",Yichi Zhang; Yici Yan; Alex Schwing; Zhizhen Zhao,,,http://arxiv.org/pdf/2507.13350v1
+2507.13348v1,"VisionThink: Smart and Efficient Vision Language Model via Reinforcement
+  Learning","Recent advancements in vision-language models (VLMs) have improved
+performance by increasing the number of visual tokens, which are often
+significantly longer than text tokens. However, we observe that most real-world
+scenarios do not require such an extensive number of visual tokens. While the
+performance drops significantly in a small subset of OCR-related tasks, models
+still perform accurately in most other general VQA tasks with only 1/4
+resolution. Therefore, we propose to dynamically proce...",2025-07-17,2025-07-17,cs.CV,"cs.CV,cs.AI,cs.CL,cs.LG",Senqiao Yang; Junyi Li; Xin Lai; Bei Yu; Hengshuang Zhao; Jiaya Jia,,,http://arxiv.org/pdf/2507.13348v1
+2507.13349v1,"The Star Formation History and Evolution of the Ultra-Diffuse M81
+  Satellite, F8D1","We present deep HST imaging of one of the nearest ultra-diffuse galaxies
+(UDGs) outside of the Local Group: F8D1, a satellite of M81 known to be tidally
+disrupting. UDGs are an enigmatic and diverse population, with evolutionary
+pathways ranging from tidal processing to bursty feedback and high initial
+angular momentum. To determine F8D1's evolutionary drivers, we resolve stars in
+F8D1's central $\sim$1 kpc and in a parallel field $\sim$6 kpc along its major
+axis to deep photometric limits, reac...",2025-07-17,2025-07-17,astro-ph.GA,astro-ph.GA,Adam Smercina; Eric F. Bell; Benjamin F. Williams; Benjamin N. Velguth; Sarah Pearson; Jeremy Bailin; Tsang Keung Chan; Julianne J. Dalcanton; Roelof S. de Jong; Richard D'Souza; Andrew Dolphin; Puragra Guhathakurta; Kristen B. W. McQuinn; Antonela Monachesi; Colin T. Slater; Elisa Toloba; Daniel R. Weisz; Andrew Wetzel,,,http://arxiv.org/pdf/2507.13349v1
+2507.13347v1,$π^3$: Scalable Permutation-Equivariant Visual Geometry Learning,"We introduce $\pi^3$, a feed-forward neural network that offers a novel
+approach to visual geometry reconstruction, breaking the reliance on a
+conventional fixed reference view. Previous methods often anchor their
+reconstructions to a designated viewpoint, an inductive bias that can lead to
+instability and failures if the reference is suboptimal. In contrast, $\pi^3$
+employs a fully permutation-equivariant architecture to predict
+affine-invariant camera poses and scale-invariant local point maps...",2025-07-17,2025-07-17,cs.CV,cs.CV,Yifan Wang; Jianjun Zhou; Haoyi Zhu; Wenzheng Chang; Yang Zhou; Zizun Li; Junyi Chen; Jiangmiao Pang; Chunhua Shen; Tong He,,,http://arxiv.org/pdf/2507.13347v1
+2507.13345v1,Imbalance in Balance: Online Concept Balancing in Generation Models,"In visual generation tasks, the responses and combinations of complex
+concepts often lack stability and are error-prone, which remains an
+under-explored area. In this paper, we attempt to explore the causal factors
+for poor concept responses through elaborately designed experiments. We also
+design a concept-wise equalization loss function (IMBA loss) to address this
+issue. Our proposed method is online, eliminating the need for offline dataset
+processing, and requires minimal code changes. In ou...",2025-07-17,2025-07-17,cs.CV,"cs.CV,cs.AI",Yukai Shi; Jiarong Ou; Rui Chen; Haotian Yang; Jiahao Wang; Xin Tao; Pengfei Wan; Di Zhang; Kun Gai,,,http://arxiv.org/pdf/2507.13345v1
+2507.13346v1,AutoPartGen: Autogressive 3D Part Generation and Discovery,"We introduce AutoPartGen, a model that generates objects composed of 3D parts
+in an autoregressive manner. This model can take as input an image of an
+object, 2D masks of the object's parts, or an existing 3D object, and generate
+a corresponding compositional 3D reconstruction. Our approach builds upon
+3DShape2VecSet, a recent latent 3D representation with powerful geometric
+expressiveness. We observe that this latent space exhibits strong compositional
+properties, making it particularly well-su...",2025-07-17,2025-07-17,cs.CV,cs.CV,Minghao Chen; Jianyuan Wang; Roman Shapovalov; Tom Monnier; Hyunyoung Jung; Dilin Wang; Rakesh Ranjan; Iro Laina; Andrea Vedaldi,,,http://arxiv.org/pdf/2507.13346v1
+2507.13344v1,"Diffuman4D: 4D Consistent Human View Synthesis from Sparse-View Videos
+  with Spatio-Temporal Diffusion Models","This paper addresses the challenge of high-fidelity view synthesis of humans
+with sparse-view videos as input. Previous methods solve the issue of
+insufficient observation by leveraging 4D diffusion models to generate videos
+at novel viewpoints. However, the generated videos from these models often lack
+spatio-temporal consistency, thus degrading view synthesis quality. In this
+paper, we propose a novel sliding iterative denoising process to enhance the
+spatio-temporal consistency of the 4D diff...",2025-07-17,2025-07-17,cs.CV,cs.CV,Yudong Jin; Sida Peng; Xuan Wang; Tao Xie; Zhen Xu; Yifan Yang; Yujun Shen; Hujun Bao; Xiaowei Zhou,,,http://arxiv.org/pdf/2507.13344v1
+2507.13343v1,Taming Diffusion Transformer for Real-Time Mobile Video Generation,"Diffusion Transformers (DiT) have shown strong performance in video
+generation tasks, but their high computational cost makes them impractical for
+resource-constrained devices like smartphones, and real-time generation is even
+more challenging. In this work, we propose a series of novel optimizations to
+significantly accelerate video generation and enable real-time performance on
+mobile platforms. First, we employ a highly compressed variational autoencoder
+(VAE) to reduce the dimensionality of ...",2025-07-17,2025-07-17,cs.CV,"cs.CV,eess.IV",Yushu Wu; Yanyu Li; Anil Kag; Ivan Skorokhodov; Willi Menapace; Ke Ma; Arpit Sahni; Ju Hu; Aliaksandr Siarohin; Dhritiman Sagar; Yanzhi Wang; Sergey Tulyakov,,,http://arxiv.org/pdf/2507.13343v1
+2507.13342v1,"Expansion creates spin-glass order in finite-connectivity models: a
+  rigorous and intuitive approach from the theory of LDPC codes","Complex free-energy landscapes with many local minima separated by large
+barriers are believed to underlie glassy behavior across diverse physical
+systems. This is the heuristic picture associated with replica symmetry
+breaking (RSB) in spin glasses, but RSB has only been rigorously verified for
+certain mean-field models with all-to-all connectivity. In this work, we give a
+rigorous proof of finite temperature spin glass order for a family of models
+with local interactions on finite-connectivity...",2025-07-17,2025-07-17,cond-mat.stat-mech,"cond-mat.stat-mech,cond-mat.dis-nn,math-ph,math.MP",Benedikt Placke; Grace M. Sommers; Nikolas P. Breuckmann; Tibor Rakovszky; Vedika Khemani,,,http://arxiv.org/pdf/2507.13342v1
+2507.13341v1,"$\texttt{raccoon}$: A Python package for removing wiggle artifacts in
+  the JWST NIRSpec integral field spectroscopy","$\texttt{raccoon}$ is a Python package for removing resampling noise -
+commonly referred to as ""wiggles'' - from spaxel-level spectra in datacubes
+obtained from the JWST Near Infrared Spectrograph's (NIRSpec) integral field
+spectroscopy (IFS) mode. These wiggles arise as artifacts during resampling of
+the 2D raw data into 3D datacubes, due to the point spread function (PSF) being
+undersampled. The standard JWST data reduction pipeline does not correct for
+this noise. The wiggle artifacts can sig...",2025-07-17,2025-07-17,astro-ph.IM,astro-ph.IM,Anowar J. Shajib,,,http://arxiv.org/pdf/2507.13341v1
+2507.13340v1,Latent Policy Steering with Embodiment-Agnostic Pretrained World Models,"Learning visuomotor policies via imitation has proven effective across a wide
+range of robotic domains. However, the performance of these policies is heavily
+dependent on the number of training demonstrations, which requires expensive
+data collection in the real world. In this work, we aim to reduce data
+collection efforts when learning visuomotor robot policies by leveraging
+existing or cost-effective data from a wide range of embodiments, such as
+public robot datasets and the datasets of human...",2025-07-17,2025-07-17,cs.RO,"cs.RO,cs.AI,cs.LG",Yiqi Wang; Mrinal Verghese; Jeff Schneider,,,http://arxiv.org/pdf/2507.13340v1
+2507.13339v1,"SpectraLift: Physics-Guided Spectral-Inversion Network for
+  Self-Supervised Hyperspectral Image Super-Resolution","High-spatial-resolution hyperspectral images (HSI) are essential for
+applications such as remote sensing and medical imaging, yet HSI sensors
+inherently trade spatial detail for spectral richness. Fusing
+high-spatial-resolution multispectral images (HR-MSI) with
+low-spatial-resolution hyperspectral images (LR-HSI) is a promising route to
+recover fine spatial structures without sacrificing spectral fidelity. Most
+state-of-the-art methods for HSI-MSI fusion demand point spread function (PSF)
+calib...",2025-07-17,2025-07-17,eess.IV,"eess.IV,cs.CV",Ritik Shah; Marco F. Duarte,,,http://arxiv.org/pdf/2507.13339v1
+2507.13338v1,Training Transformers with Enforced Lipschitz Constants,"Neural networks are often highly sensitive to input and weight perturbations.
+This sensitivity has been linked to pathologies such as vulnerability to
+adversarial examples, divergent training, and overfitting. To combat these
+problems, past research has looked at building neural networks entirely from
+Lipschitz components. However, these techniques have not matured to the point
+where researchers have trained a modern architecture such as a transformer with
+a Lipschitz certificate enforced beyond...",2025-07-17,2025-07-17,cs.LG,cs.LG,Laker Newhouse; R. Preston Hess; Franz Cesista; Andrii Zahorodnii; Jeremy Bernstein; Phillip Isola,,,http://arxiv.org/pdf/2507.13338v1
+2507.13337v1,"FormulaOne: Measuring the Depth of Algorithmic Reasoning Beyond
+  Competitive Programming","Frontier AI models demonstrate formidable breadth of knowledge. But how close
+are they to true human -- or superhuman -- expertise? Genuine experts can
+tackle the hardest problems and push the boundaries of scientific
+understanding. To illuminate the limits of frontier model capabilities, we turn
+away from contrived competitive programming puzzles, and instead focus on
+real-life research problems.
+  We construct FormulaOne, a benchmark that lies at the intersection of graph
+theory, logic, and al...",2025-07-17,2025-07-17,cs.AI,"cs.AI,cs.CC,math.LO",Gal Beniamini; Yuval Dor; Alon Vinnikov; Shir Granot Peled; Or Weinstein; Or Sharir; Noam Wies; Tomer Nussbaum; Ido Ben Shaul; Tomer Zekharya; Yoav Levine; Shai Shalev-Shwartz; Amnon Shashua,,,http://arxiv.org/pdf/2507.13337v1
+2507.13336v1,"SGCL: Unifying Self-Supervised and Supervised Learning for Graph
+  Recommendation","Recommender systems (RecSys) are essential for online platforms, providing
+personalized suggestions to users within a vast sea of information.
+Self-supervised graph learning seeks to harness high-order collaborative
+filtering signals through unsupervised augmentation on the user-item bipartite
+graph, primarily leveraging a multi-task learning framework that includes both
+supervised recommendation loss and self-supervised contrastive loss. However,
+this separate design introduces additional graph...",2025-07-17,2025-07-17,cs.IR,cs.IR,Weizhi Zhang; Liangwei Yang; Zihe Song; Henrry Peng Zou; Ke Xu; Yuanjie Zhu; Philip S. Yu,,,http://arxiv.org/pdf/2507.13336v1
+2507.13335v1,"Comparing Apples to Oranges: A Dataset & Analysis of LLM Humour
+  Understanding from Traditional Puns to Topical Jokes","Humour, as a complex language form, is derived from myriad aspects of life,
+whilst existing work on computational humour has focussed almost exclusively on
+short pun-based jokes. In this work, we investigate whether the ability of
+Large Language Models (LLMs) to explain humour depends on the particular humour
+form. We compare models on simple puns and more complex topical humour that
+requires knowledge of real-world entities and events. In doing so, we curate a
+dataset of 600 jokes split across ...",2025-07-17,2025-07-17,cs.CL,cs.CL,Tyler Loakman; William Thorne; Chenghua Lin,,,http://arxiv.org/pdf/2507.13335v1
+2507.13334v1,A Survey of Context Engineering for Large Language Models,"The performance of Large Language Models (LLMs) is fundamentally determined
+by the contextual information provided during inference. This survey introduces
+Context Engineering, a formal discipline that transcends simple prompt design
+to encompass the systematic optimization of information payloads for LLMs. We
+present a comprehensive taxonomy decomposing Context Engineering into its
+foundational components and the sophisticated implementations that integrate
+them into intelligent systems. We fir...",2025-07-17,2025-07-17,cs.CL,cs.CL,Lingrui Mei; Jiayu Yao; Yuyao Ge; Yiwei Wang; Baolong Bi; Yujun Cai; Jiazhi Liu; Mingyu Li; Zhong-Zhi Li; Duzhen Zhang; Chenlin Zhou; Jiayi Mao; Tianze Xia; Jiafeng Guo; Shenghua Liu,,,http://arxiv.org/pdf/2507.13334v1
+2507.13333v1,N Bugs on a Circle,"We describe and analyze a generalization of the classic ``Four Bugs on a
+Square'' cyclic pursuit problem. Instead of allowing the bugs to spiral towards
+one another, we constrain $N$ bugs to the perimeter of the unit circle.
+Depending on their configuration, each bug moves either clockwise or
+counterclockwise with a constant angular speed, or remains stationary. Unlike
+the original problem where bugs always coalesce, this generalization produces
+three possible steady states: all bugs coalescing ...",2025-07-17,2025-07-17,math.DS,"math.DS,cs.NA,math.NA",Josh Briley; Bryan Quaife,,,http://arxiv.org/pdf/2507.13333v1
+2507.13332v1,"The Imitation Game: Turing Machine Imitator is Length Generalizable
+  Reasoner","Length generalization, the ability to solve problems of longer sequences than
+those observed during training, poses a core challenge of Transformer-based
+large language models (LLM). Although existing studies have predominantly
+focused on data-driven approaches for arithmetic operations and symbolic
+manipulation tasks, these approaches tend to be task-specific with limited
+overall performance. To pursue a more general solution, this paper focuses on a
+broader case of reasoning problems that are ...",2025-07-17,2025-07-17,cs.CL,cs.CL,Zhouqi Hua; Wenwei Zhang; Chengqi Lyu; Yuzhe Gu; Songyang Gao; Kuikun Liu; Kai Chen,,,http://arxiv.org/pdf/2507.13332v1
+2507.13331v1,"Where is the Supervirial Gas? III. Insights from X-ray Shadow
+  Observations and a revised Model for the Soft Diffuse X-ray Background","Shadow observations provide a powerful tool to separate foreground components
+of the soft diffuse X-ray background (SDXB) from the background components.
+Such observations have now established that the ``local'' foreground is made of
+the solar wind charge exchange and the local bubble, and the background
+emission is from the extended circumgalactic medium (CGM) of the Milky Way and
+from the unresolved extragalactic sources. New data and careful analyses of the
+SDXB led to two new discoveries in ...",2025-07-17,2025-07-17,astro-ph.GA,"astro-ph.GA,astro-ph.HE",Anjali Gupta; Smita Mathur; Joshua Kingsbury; Esma Korkmaz; Sanskriti Das; Yair Krongold; Manami Roy; Armando Lara-DI,,,http://arxiv.org/pdf/2507.13331v1
+2507.13330v1,"A hierarchy of blood vessel models, Part II: 3D-3D to 3D-1D and 1D","We propose and analyze a hierarchy of three models of blood perfusion through
+a tissue surrounding a thin arteriole or venule. Our goal is to rigorously link
+3D-3D Darcy--Stokes, 3D-1D Darcy--Poiseuille, and 1D Green's function methods
+commonly used to model this process. Here in Part II, we consider the most
+detailed level, a 3D-3D Darcy-Stokes system coupled across the permeable vessel
+surface by mass conservation and pressure/stress balance conditions. We derive
+a convergence result between t...",2025-07-17,2025-07-17,math.AP,"math.AP,physics.bio-ph,physics.flu-dyn,q-bio.TO",Laurel Ohm; Sarah Strikwerda,,,http://arxiv.org/pdf/2507.13330v1
+2507.13329v1,"Edge-coloring $K_{n, n}$ with no 2-colored $C_{2k}$","The generalized Ramsey number $r(G, H, q)$ is the minimum number of colors
+needed to color the edges of $G$ such that every isomorphic copy of $H$ has at
+least $q$ colors. In this note, we improve the upper and lower bounds on
+$r(K_{n, n}, C_{2k}, 3)$. Our upper bound answers a question of Lane and
+Morrison. For $k=3$ we obtain the asymptotically sharp estimate $r(K_{n, n},
+C_6, 3) = \frac{7}{20} n + o(n)$.",2025-07-17,2025-07-17,math.CO,math.CO,Deepak Bal; Patrick Bennett,,,http://arxiv.org/pdf/2507.13329v1
+2507.13328v1,"Vision-and-Language Training Helps Deploy Taxonomic Knowledge but Does
+  Not Fundamentally Alter It","Does vision-and-language (VL) training change the linguistic representations
+of language models in meaningful ways? Most results in the literature have
+shown inconsistent or marginal differences, both behaviorally and
+representationally. In this work, we start from the hypothesis that the domain
+in which VL training could have a significant effect is lexical-conceptual
+knowledge, in particular its taxonomic organization. Through comparing minimal
+pairs of text-only LMs and their VL-trained count...",2025-07-17,2025-07-17,cs.CL,"cs.CL,cs.AI",Yulu Qin; Dheeraj Varghese; Adam Dahlgren Lindström; Lucia Donatelli; Kanishka Misra; Najoung Kim,,,http://arxiv.org/pdf/2507.13328v1
+2507.13327v1,Graphical Designs find Combinatorial Structures,"Graphical designs are subsets of vertices of a graph that perfectly average a
+selected set of eigenvectors of the Graph Laplacian. We show that in
+highly-structured graphs, graphical designs can coincide with highly structured
+and well-known combinatorial objects: orthogonal arrays in hypercube graphs,
+combinatorial block designs and extremizers of the Erdos-Ko-Rado theorem in
+Johnson graphs, and t-wise uniform sets of permutations and symmetric subgroups
+in normal Cayley graphs on the symmetric...",2025-07-17,2025-07-17,math.CO,"math.CO,math.SP",Zawad Chowdhury; Stefan Steinerberger; Rekha R. Thomas,,,http://arxiv.org/pdf/2507.13327v1
+2507.13326v1,"A Real-Time System for Egocentric Hand-Object Interaction Detection in
+  Industrial Domains","Hand-object interaction detection remains an open challenge in real-time
+applications, where intuitive user experiences depend on fast and accurate
+detection of interactions with surrounding objects. We propose an efficient
+approach for detecting hand-objects interactions from streaming egocentric
+vision that operates in real time. Our approach consists of an action
+recognition module and an object detection module for identifying active
+objects upon confirmed interaction. Our Mamba model with E...",2025-07-17,2025-07-17,cs.CV,cs.CV,Antonio Finocchiaro; Alessandro Sebastiano Catinello; Michele Mazzamuto; Rosario Leonardi; Antonino Furnari; Giovanni Maria Farinella,,,http://arxiv.org/pdf/2507.13326v1
+2507.13325v1,Social and Political Framing in Search Engine Results,"Search engines play a crucial role in shaping public discourse by influencing
+how information is accessed and framed. While prior research has extensively
+examined various dimensions of search bias -- such as content prioritization,
+indexical bias, political polarization, and sources of bias -- an important
+question remains underexplored: how do search engines and
+ideologically-motivated user queries contribute to bias in search results. This
+study analyzes the outputs of major search engines us...",2025-07-17,2025-07-17,cs.CL,cs.CL,Amrit Poudel; Tim Weninger,,ICWSM 2026,http://arxiv.org/pdf/2507.13325v1
+2507.13324v1,"A Framework for Waterfall Pricing Using Simulation-Based Uncertainty
+  Modeling","We present a novel framework for pricing waterfall structures by simulating
+the uncertainty of the cashflow generated by the underlying assets in terms of
+value, time, and confidence levels. Our approach incorporates various
+probability distributions calibrated on the market price of the tranches at
+inception. The framework is fully implemented in PyTorch, leveraging its
+computational efficiency and automatic differentiation capabilities through
+Adjoint Algorithmic Differentiation (AAD). This en...",2025-07-17,2025-07-17,q-fin.PR,"q-fin.PR,91G40 (Primary) 91G40, 91G60, 91G70 (Secondary)",Nicola Jean; Giacomo Le Pera; Lorenzo Giada; Claudio Nordio,,,http://arxiv.org/pdf/2507.13324v1
+2507.13323v1,"GeoReg: Weight-Constrained Few-Shot Regression for Socio-Economic
+  Estimation using LLM","Socio-economic indicators like regional GDP, population, and education
+levels, are crucial to shaping policy decisions and fostering sustainable
+development. This research introduces GeoReg a regression model that integrates
+diverse data sources, including satellite imagery and web-based geospatial
+information, to estimate these indicators even for data-scarce regions such as
+developing countries. Our approach leverages the prior knowledge of large
+language model (LLM) to address the scarcity of...",2025-07-17,2025-07-17,cs.LG,cs.LG,Kyeongjin Ahn; Sungwon Han; Seungeon Lee; Donghyun Ahn; Hyoshin Kim; Jungwon Kim; Jihee Kim; Sangyoon Park; Meeyoung Cha,,,http://arxiv.org/pdf/2507.13323v1
+2507.13322v1,"Artificial Intelligence for Quantum Matter: Finding a Needle in a
+  Haystack","Neural networks (NNs) have great potential in solving the ground state of
+various many-body problems. However, several key challenges remain to be
+overcome before NNs can tackle problems and system sizes inaccessible with more
+established tools. Here, we present a general and efficient method for learning
+the NN representation of an arbitrary many-body complex wave function. Having
+reached overlaps as large as $99.9\%$ for as many as $25$ particles, we employ
+our neural wave function for pre-tra...",2025-07-17,2025-07-17,cond-mat.str-el,"cond-mat.str-el,quant-ph",Khachatur Nazaryan; Filippo Gaggioli; Yi Teng; Liang Fu,,,http://arxiv.org/pdf/2507.13322v1
+2507.13321v1,"Automorphic equivalence within gapped phases of infinitely extended
+  fermion systems","We prove automorphic equivalence within gapped phases of infinitely extended
+lattice fermion systems (as well as spin systems) with super-polynomially
+decaying interactions. As a simple application, we prove a version of
+Goldstone's theorem for such systems: if an infinite volume interaction is
+invariant under a continuous symmetry, then any gapped ground state is also
+invariant under that symmetry.",2025-07-17,2025-07-17,math-ph,"math-ph,math.MP,quant-ph,81V70, 81V74",Lennart Becker; Stefan Teufel; Marius Wesle,,,http://arxiv.org/pdf/2507.13321v1
+2507.13320v1,"Long-time storage of a decoherence-free subspace logical qubit in a
+  dual-type quantum memory","A quantum memory is an essential element for quantum computation, quantum
+network and quantum metrology. Previously, a single-qubit quantum memory with a
+coherence time of about an hour has been realized in a dual-species setup where
+a coolant ion provides sympathetic cooling for a memory ion of different
+species. However, the frequent random position hopping between the ions in the
+room-temperature trap limits the technique there only applicable to
+single-qubit storage. Here we report a multi-i...",2025-07-17,2025-07-17,quant-ph,quant-ph,Y. L. Xu; L. Zhang; C. Zhang; Y. K. Wu; Y. Y. Chen; C. X. Huang; Z. B. Cui; R. Yao; W. Q. Lian; J. Y. Ma; W. X. Guo; B. X. Qi; P. Y. Hou; Y. F. Pu; Z. C. Zhou; L. He; L. M. Duan,,,http://arxiv.org/pdf/2507.13320v1
+2507.13319v1,"Melting down a tetraquark: $D^{\ast}D^{(\ast)}$ interactions and
+  $T_{cc}(3875)^+$ in a hot environment","We discuss the modification of the properties of the tetraquark-like
+$T_{cc}(3875)^+$ and its heavy quark spin partner, $T_{cc}(4016)^{*+}$ immersed
+in a hot bath of pions. We consider these exotic states as purely isoscalar
+$DD^\ast$ and $D^\ast D^\ast$ $S$-wave bound states, respectively. Finite
+temperature effects are incorporated through the $D$ and $D^\ast$
+state-of-the-art thermal spectral functions calculated in [G. Montana et al.,
+Phys. Rev. D, 102 (2020) 096020], using the imaginary-tim...",2025-07-17,2025-07-17,hep-ph,hep-ph,Victor Montesinos; Gloria Montana; Miguel Albaladejo; Juan Nieves; Laura Tolos,,,http://arxiv.org/pdf/2507.13319v1
+2507.13318v1,"HapticCap: A Multimodal Dataset and Task for Understanding User
+  Experience of Vibration Haptic Signals","Haptic signals, from smartphone vibrations to virtual reality touch feedback,
+can effectively convey information and enhance realism, but designing signals
+that resonate meaningfully with users is challenging. To facilitate this, we
+introduce a multimodal dataset and task, of matching user descriptions to
+vibration haptic signals, and highlight two primary challenges: (1) lack of
+large haptic vibration datasets annotated with textual descriptions as
+collecting haptic descriptions is time-consumi...",2025-07-17,2025-07-17,cs.CL,cs.CL,Guimin Hu; Daniel Hershcovich; Hasti Seifi,,,http://arxiv.org/pdf/2507.13318v1
+2507.13317v1,"Testing halo models for constraining astrophysical feedback with
+  multi-probe modeling: I. 3D Power spectra and mass fractions","Upcoming Stage-IV surveys will deliver measurements of distribution of matter
+with unprecedented precision, demanding highly accurate theoretical models for
+cosmological parameter inference. A major source of modeling uncertainty lies
+in astrophysical processes associated with galaxy formation and evolution,
+which remain poorly understood. Probes such as the thermal and kinematic
+Sunyaev-Zel'dovich effects, X-rays, and dispersion measure from fast radio
+bursts offer a promising avenue for mappin...",2025-07-17,2025-07-17,astro-ph.CO,astro-ph.CO,Pranjal R. S.; Shivam Pandey; Dhayaa Anbajagane; Elisabeth Krause; Klaus Dolag,,,http://arxiv.org/pdf/2507.13317v1
+2507.13316v1,"A hierarchy of blood vessel models, Part I: 3D-1D to 1D","We propose and analyze a family of models describing blood perfusion through
+a tissue surrounding a thin blood vessel. Our goal is to rigorously establish
+convergence results among 3D-3D Darcy--Stokes, 3D-1D Darcy--Poiseuille, and 1D
+Green's function methods commonly used to model this process. In Part I, we
+propose a 3D-1D Darcy--Poiseuille system where the coupling across the
+permeable vessel surface involves an angle-averaged Neumann boundary condition
+coupled with a geometrically constrained...",2025-07-17,2025-07-17,math.AP,"math.AP,physics.bio-ph,physics.flu-dyn,q-bio.TO",Laurel Ohm; Sarah Strikwerda,,,http://arxiv.org/pdf/2507.13316v1
+2507.13315v1,"Crystal Collimation Cleaning Measurements with 6.5 TeV protons in the
+  LHC","Safe disposal of beam halo is a fundamental requirement of modern
+superconductive hadron colliders to reduce thermal load on magnets and
+background to experimental detectors. In the CERN Large Hadron Collider (LHC) a
+multistage system fully compliant with the needs of the baseline operation was
+build. At a later stage, two short bent crystals were interleaved to the
+devices for betatron collimation to investigate efficiency enhancement of the
+halo disposal when inserting them as primary stages o...",2025-07-17,2025-07-17,physics.acc-ph,"physics.acc-ph,hep-ex",Roberto Rossi; Gianluca Cavoto; Daniele Mirarchi; Stefano Redaelli; Walter Scandale,,,http://arxiv.org/pdf/2507.13315v1
+2507.13313v1,"A Crowdsensing Intrusion Detection Dataset For Decentralized Federated
+  Learning Models","This paper introduces a dataset and experimental study for decentralized
+federated learning (DFL) applied to IoT crowdsensing malware detection. The
+dataset comprises behavioral records from benign and eight malware families. A
+total of 21,582,484 original records were collected from system calls, file
+system activities, resource usage, kernel events, input/output events, and
+network records. These records were aggregated into 30-second windows,
+resulting in 342,106 features used for model train...",2025-07-17,2025-07-17,cs.CR,cs.CR,Chao Feng; Alberto Huertas Celdran; Jing Han; Heqing Ren; Xi Cheng; Zien Zeng; Lucas Krauter; Gerome Bovet; Burkhard Stiller,,,http://arxiv.org/pdf/2507.13313v1
+2507.13314v1,Revisiting Reliability in the Reasoning-based Pose Estimation Benchmark,"The reasoning-based pose estimation (RPE) benchmark has emerged as a widely
+adopted evaluation standard for pose-aware multimodal large language models
+(MLLMs). Despite its significance, we identified critical reproducibility and
+benchmark-quality issues that hinder fair and consistent quantitative
+evaluations. Most notably, the benchmark utilizes different image indices from
+those of the original 3DPW dataset, forcing researchers into tedious and
+error-prone manual matching processes to obtain ...",2025-07-17,2025-07-17,cs.CV,"cs.CV,cs.AI",Junsu Kim; Naeun Kim; Jaeho Lee; Incheol Park; Dongyoon Han; Seungryul Baek,,,http://arxiv.org/pdf/2507.13314v1
+2507.13312v1,"Bidirectional Age of Incorrect Information: A Performance Metric for
+  Status Updates in Virtual Dynamic Environments","Virtual dynamic environments (VDEs) such as the Metaverse and digital twins
+(DTs) require proper representation of the interacting entities to map their
+characteristics within the simulated or augmented space. Keeping these
+representations accurate and up-to-date is crucial for seamless interaction and
+system reliability. In this paper, we propose bidirectional age of incorrect
+information (BAoII) to address this aspect. BAoII quantifies the time-dependent
+penalty paid by an entity in a VDE due ...",2025-07-17,2025-07-17,cs.NI,"cs.NI,cs.IT,cs.MM,math.IT",Chiara Schiavo; Manuele Favero; Alessandro Buratto; Leonardo Badia,,,http://arxiv.org/pdf/2507.13312v1
+2507.13311v1,"FashionPose: Text to Pose to Relight Image Generation for Personalized
+  Fashion Visualization","Realistic and controllable garment visualization is critical for fashion
+e-commerce, where users expect personalized previews under diverse poses and
+lighting conditions. Existing methods often rely on predefined poses, limiting
+semantic flexibility and illumination adaptability. To address this, we
+introduce FashionPose, the first unified text-to-pose-to-relighting generation
+framework. Given a natural language description, our method first predicts a 2D
+human pose, then employs a diffusion mod...",2025-07-17,2025-07-17,cs.CV,cs.CV,Chuancheng Shi; Yixiang Chen; Burong Lei; Jichao Chen,,,http://arxiv.org/pdf/2507.13311v1
+2507.13310v1,"Modelling the spillover from online engagement to offline protest:
+  stochastic dynamics and mean-field approximations on networks","Social media is transforming various aspects of offline life, from everyday
+decisions such as dining choices to the progression of conflicts. In this
+study, we propose a coupled modelling framework with an online social network
+layer to analyse how engagement on a specific topic spills over into offline
+protest activities. We develop a stochastic model and derive several mean-field
+models of varying complexity. These models allow us to estimate the
+reproductive number and anticipate when surges ...",2025-07-17,2025-07-17,physics.soc-ph,"physics.soc-ph,cs.SI,math.DS,nlin.AO,q-bio.PE",Moyi Tian; P. Jeffrey Brantingham; Nancy Rodríguez,,,http://arxiv.org/pdf/2507.13310v1
+2507.13309v1,"FocusView: Understanding and Customizing Informational Video Watching
+  Experiences for Viewers with ADHD","While videos have become increasingly prevalent in delivering information
+across different educational and professional contexts, individuals with ADHD
+often face attention challenges when watching informational videos due to the
+dynamic, multimodal, yet potentially distracting video elements. To understand
+and address this critical challenge, we designed \textit{FocusView}, a video
+customization interface that allows viewers with ADHD to customize
+informational videos from different aspects. We...",2025-07-17,2025-07-17,cs.HC,cs.HC,Hanxiu 'Hazel' Zhu; Ruijia Chen; Yuhang Zhao,,,http://arxiv.org/pdf/2507.13309v1
+2507.13308v1,Simple ways of preparing qudit Dicke states,"Dicke states are permutation-invariant superpositions of qubit computational
+basis states, which play a prominent role in quantum information science. We
+consider here two higher-dimensional generalizations of these states: $SU(2)$
+spin-$s$ Dicke states and $SU(d)$ Dicke states. We present various ways of
+preparing both types of qudit Dicke states on a qudit quantum computer, using
+two main approaches: a deterministic approach, based on exact canonical matrix
+product state representations; and a...",2025-07-17,2025-07-17,quant-ph,quant-ph,Noah B. Kerzner; Federico Galeazzi; Rafael I. Nepomechie,,,http://arxiv.org/pdf/2507.13308v1
+2507.13307v1,"Analytical Optimization for Antenna Placement in Pinching-Antenna
+  Systems","As the main issue in pinching-antenna system design, antenna location
+optimization is key to realizing channel reconfigurability and system
+flexibility. Most existing works in this area adopt sophisticated optimization
+and learning tools to identify the optimal antenna locations in a numerical
+manner, where insightful understandings of the pinching antenna placement are
+still missing. Motivated by this research gap, this paper aims to carry out
+analytical optimization for pinching antenna placem...",2025-07-17,2025-07-17,cs.IT,"cs.IT,math.IT",Zhiguo Ding; H. Vincent Poor,,,http://arxiv.org/pdf/2507.13307v1
+2507.13305v1,Boosting Team Modeling through Tempo-Relational Representation Learning,"Team modeling remains a fundamental challenge at the intersection of
+Artificial Intelligence and the Social Sciences. Social Science research
+emphasizes the need to jointly model dynamics and relations, while practical
+applications demand unified models capable of inferring multiple team
+constructs simultaneously, providing interpretable insights and actionable
+recommendations to enhance team performance. However, existing works do not
+meet these practical demands. To bridge this gap, we present...",2025-07-17,2025-07-17,cs.LG,cs.LG,Vincenzo Marco De Luca; Giovanna Varni; Andrea Passerini,,,http://arxiv.org/pdf/2507.13305v1
+2507.13306v1,The Algebraic Structure Underlying Pole-Skipping Points,"The holographic Green's function becomes ambiguous, taking the indeterminate
+form `$0/0$', at an infinite set of special frequencies and momenta known as
+``pole-skipping points''. In this work, we propose that these pole-skipping
+points can be used to reconstruct both the interior and exterior geometry of a
+static, planar-symmetric black hole in the bulk. The entire reconstruction
+procedure is fully analytical and only involves solving a system of linear
+equations. We demonstrate its effectivene...",2025-07-17,2025-07-17,hep-th,hep-th,Zhenkang Lu; Cheng Ran; Shao-feng Wu,,,http://arxiv.org/pdf/2507.13306v1
+2507.13304v1,Linear stability of an oceanic front at finite Rossby number,"Submesoscale currents in the ocean's mixed layer (ML), consisting of fronts,
+eddies, and filaments, are characterized by order one Rossby (Ro) and
+Richardson (Ri) numbers. These currents play a crucial role in mediating
+vertical exchange between the surface and ocean interior and in facilitating
+cross-scale energy transfers. Despite a growing understanding of their
+generation mechanisms and energy pathways, two fundamental questions remain
+unresolved - how does a finite Ro modify the dynamics of...",2025-07-17,2025-07-17,physics.ao-ph,physics.ao-ph,Subhajit Kar; Roy Barkan; John R. Taylor,,,http://arxiv.org/pdf/2507.13304v1
+2507.13303v1,"Effect of complex orography on numerical simulations of a downburst
+  event in Spain","Supercells, characterized by their deep, persistent mesocyclones, are among
+the most severe convective weather systems, often associated with large hail,
+damaging winds, and significant societal impacts. Accurately simulating these
+events is essential for improving forecasting capabilities. This study
+evaluates the performance of two different nested strategies of the
+HARMONIE-AROME model in simulating a severe supercell outbreak over eastern
+Iberia on July 31, 2015, where at least six confirmed...",2025-07-17,2025-07-17,physics.ao-ph,"physics.ao-ph,physics.geo-ph",Javier Diaz Fernandez; Carlos Calvo-Sancho; Mauricio López-Reyes; Mariano Sastre; Sergio Fernández-González; M. L. Martín; P. Bolgiani,10.1016/j.atmosres.2024.107821,,http://arxiv.org/pdf/2507.13303v1
+2507.13302v1,"The Generative Energy Arena (GEA): Incorporating Energy Awareness in
+  Large Language Model (LLM) Human Evaluations","The evaluation of large language models is a complex task, in which several
+approaches have been proposed. The most common is the use of automated
+benchmarks in which LLMs have to answer multiple-choice questions of different
+topics. However, this method has certain limitations, being the most
+concerning, the poor correlation with the humans. An alternative approach, is
+to have humans evaluate the LLMs. This poses scalability issues as there is a
+large and growing number of models to evaluate ma...",2025-07-17,2025-07-17,cs.AI,"cs.AI,cs.CL",Carlos Arriaga; Gonzalo Martínez; Eneko Sendin; Javier Conde; Pedro Reviriego,,,http://arxiv.org/pdf/2507.13302v1
+2507.13301v1,"mNARX+: A surrogate model for complex dynamical systems using
+  manifold-NARX and automatic feature selection","We propose an automatic approach for manifold nonlinear autoregressive with
+exogenous inputs (mNARX) modeling that leverages the feature-based structure of
+functional-NARX (F-NARX) modeling. This novel approach, termed mNARX+,
+preserves the key strength of the mNARX framework, which is its expressivity
+allowing it to model complex dynamical systems, while simultaneously addressing
+a key limitation: the heavy reliance on domain expertise to identify relevant
+auxiliary quantities and their causal ...",2025-07-17,2025-07-17,stat.CO,"stat.CO,stat.AP,stat.ML",S. Schär; S. Marelli; B. Sudret,,,http://arxiv.org/pdf/2507.13301v1
+2507.13300v1,"AbGen: Evaluating Large Language Models in Ablation Study Design and
+  Evaluation for Scientific Research","We introduce AbGen, the first benchmark designed to evaluate the capabilities
+of LLMs in designing ablation studies for scientific research. AbGen consists
+of 1,500 expert-annotated examples derived from 807 NLP papers. In this
+benchmark, LLMs are tasked with generating detailed ablation study designs for
+a specified module or process based on the given research context. Our
+evaluation of leading LLMs, such as DeepSeek-R1-0528 and o4-mini, highlights a
+significant performance gap between these m...",2025-07-17,2025-07-17,cs.CL,"cs.CL,cs.AI",Yilun Zhao; Weiyuan Chen; Zhijian Xu; Manasi Patwardhan; Yixin Liu; Chengye Wang; Lovekesh Vig; Arman Cohan,,,http://arxiv.org/pdf/2507.13300v1
+2507.13299v1,The cohomological Kudla conjecture for unitary Shimura varieties,"We construct natural extensions of the Kudla--Millson generating series of
+cohomology classes of special cycles in compactified unitary Shimura varieties
+of signature $(n+1,1)$ and prove that they are holomorphic Hermitian modular
+forms. This proves the cohomological version of a conjecture of Kudla and
+Bruinier--Rosu--Zemel, in all codimensions up to the middle. We also develop
+the theory of Hermitian quasi-modular forms, with a particular focus on
+polynomial weighted theta functions, and prove...",2025-07-17,2025-07-17,math.NT,"math.NT,math.AG,14G35, 14M27, 11F27",François Greer; Salim Tayou,,,http://arxiv.org/pdf/2507.13299v1
+2507.13298v1,Beyond the MaxCut problem in $H$-free graphs,"In a recent breakthrough, Zhang proves that if $G$ is an $H$-free graph with
+$m$ edges, then $G$ has a cut of size at least $m/2+c_Hm^{0.5001}$, making a
+significant step towards a well known conjecture of Alon, Bollob\'as,
+Krivelevich and Sudakov. We show that the methods of Zhang can be further
+boosted, and prove the following strengthening. If $G$ is a graph with $m$
+edges and no clique of size $m^{1/2-\delta}$, then $G$ has a cut of size at
+least $m/2+m^{1/2+\varepsilon}$ for some $\varepsil...",2025-07-17,2025-07-17,math.CO,math.CO,Zhihan Jin; Aleksa Milojević; István Tomon,,,http://arxiv.org/pdf/2507.13298v1
+2507.13297v1,"The Making of a Community Dark Matter Dataset with the National Science
+  Data Fabric","Dark matter is believed to constitute approximately 85 percent of the
+universes matter, yet its fundamental nature remains elusive. Direct detection
+experiments, though globally deployed, generate data that is often locked
+within custom formats and non-reproducible software stacks, limiting
+interdisciplinary analysis and innovation. This paper presents a collaboration
+between the National Science Data Fabric (NSDF) and dark matter researchers to
+improve accessibility, usability, and scientific v...",2025-07-17,2025-07-17,hep-ex,"hep-ex,physics.data-an,D.4.3; H.3.3; H.3.7; H.5.2",Amy Roberts; Jack Marquez; Kin Hong NG; Kitty Mickelson; Aashish Panta; Giorgio Scorzelli; Amy Gooch; Prisca Cushman; Matthew Fritts; Himangshu Neog; Valerio Pascucci; Michela Taufer,,,http://arxiv.org/pdf/2507.13297v1
+2507.13296v1,Efficiently Constructing Sparse Navigable Graphs,"Graph-based nearest neighbor search methods have seen a surge of popularity
+in recent years, offering state-of-the-art performance across a wide variety of
+applications. Central to these methods is the task of constructing a sparse
+navigable search graph for a given dataset endowed with a distance function.
+Unfortunately, doing so is computationally expensive, so heuristics are
+universally used in practice.
+  In this work, we initiate the study of fast algorithms with provable
+guarantees for sea...",2025-07-17,2025-07-17,cs.DS,"cs.DS,cs.DB,cs.IR",Alex Conway; Laxman Dhulipala; Martin Farach-Colton; Rob Johnson; Ben Landrum; Christopher Musco; Yarin Shechter; Torsten Suel; Richard Wen,,,http://arxiv.org/pdf/2507.13296v1
+2507.13295v1,Local nanoscale probing of electron spins using NV centers in diamond,"Substitutional nitrogen atoms in a diamond crystal (P1 centers) are, on one
+hand, a resource for creation of nitrogen-vacancy (NV) centers, that have been
+widely employed as nanoscale quantum sensors. On the other hand, P1's electron
+spin is a source of paramagnetic noise that degrades the NV's performance by
+shortening its coherence time. Accurate quantification of nitrogen
+concentration is therefore essential for optimizing diamond-based quantum
+devices. However, bulk characterization methods ...",2025-07-17,2025-07-17,quant-ph,"quant-ph,cond-mat.other",Sergei Trofimov; Christos Thessalonikios; Victor Deinhart; Alexander Spyrantis; Lucas Tsunaki; Kseniia Volkova; Katja Höflich; Boris Naydenon,,,http://arxiv.org/pdf/2507.13295v1
+2507.13294v1,"A Framework of Distributed Source Encryption using Mutual Information
+  Security Criterion and the Strong Converse Theorem","We reinvestigate the general distributed secure source coding based on the
+common key cryptosystem proposed by Oohama and Santoso (ITW 2021). They
+proposed a framework of distributed source encryption and derived the necessary
+and sufficient conditions to have reliable and secure transmission. However,
+the bounds of the rate region, which specifies both necessary and sufficient
+conditions to have reliable and secure transmission under the proposed
+cryptosystem, were derived based on a self-tailo...",2025-07-17,2025-07-17,cs.IT,"cs.IT,math.IT",Yasutada Oohama; Bagus Santoso,,,http://arxiv.org/pdf/2507.13294v1
+2507.13293v1,$GW$+2SOSEX self-energy made positive semi-definite,"The formulation of vertex corrections beyond the $GW$ approximation within
+the framework of perturbation theory is a subtle and challenging task, which
+accounts for the wide variety of schemes proposed over the years. Exact
+self-energies are required to satisfy the mathematical condition of positive
+semi-definiteness. The $GW$ self-energy fulfills this property, but the vast
+majority of the vertex-corrected self-energy approximations do not. In this
+study, we devise a positive semi-definite exte...",2025-07-17,2025-07-17,physics.chem-ph,"physics.chem-ph,physics.comp-ph",Fabien Bruneval; Arno Förster; Yaroslav Pavlyukh,,,http://arxiv.org/pdf/2507.13293v1
+2507.13292v1,DiffClean: Diffusion-based Makeup Removal for Accurate Age Estimation,"Accurate age verification can protect underage users from unauthorized access
+to online platforms and e-commerce sites that provide age-restricted services.
+However, accurate age estimation can be confounded by several factors,
+including facial makeup that can induce changes to alter perceived identity and
+age to fool both humans and machines. In this work, we propose DiffClean which
+erases makeup traces using a text-guided diffusion model to defend against
+makeup attacks. DiffClean improves age...",2025-07-17,2025-07-17,cs.CV,cs.CV,Ekta Balkrishna Gavas; Chinmay Hegde; Nasir Memon; Sudipta Banerjee,,,http://arxiv.org/pdf/2507.13292v1
+2507.13291v1,"Systematic study of the validity of the eikonal model including
+  uncertainties","Nuclear reactions at intermediate beam energies are often interpreted using
+the eikonal model. In the analysis of complex reaction probes, where few-body
+reaction methods are needed, the eikonal method may be used as an efficient way
+for describing the fragment-target reaction process. In this work, we perform a
+systematic study to test the validity of the eikonal approximation for
+nucleon-nucleus reactions. We also quantify uncertainties due to the nucleon
+optical potential on reaction observab...",2025-07-17,2025-07-17,nucl-th,nucl-th,Daniel Shiu; Chloë Hebborn; Filomena M. Nunes,,,http://arxiv.org/pdf/2507.13291v1
+2507.13290v1,"Towards Formal Verification of LLM-Generated Code from Natural Language
+  Prompts","In the past few years LLMs have emerged as a tool that can aid programmers by
+taking natural language descriptions and generating code based on it. However,
+LLMs often generate incorrect code that users need to fix and the literature
+suggests users often struggle to detect these errors. In this work we seek to
+offer formal guarantees of correctness to LLM generated code; such guarantees
+could improve the experience of using AI Code Assistants and potentially enable
+natural language programming f...",2025-07-17,2025-07-17,cs.PL,"cs.PL,cs.AI",Aaron Councilman; David Fu; Aryan Gupta; Chengxiao Wang; David Grove; Yu-Xiong Wang; Vikram Adve,,,http://arxiv.org/pdf/2507.13290v1
+2507.13289v1,The Directed Spanning Forest: coalescence versus dimension,"For $p\in[1,\infty]$, the $\ell^p$ directed spanning forest (DSF) of
+dimension $d\geq 2$ is an oriented random geometric graph whose vertex set is
+given by a homogeneous Poisson point process $\mathcal N$ on $\mathbb R^d$ and
+whose edges consist of all pairs $(x, y)\in\mathcal N^2$ such that $y$ is the
+closest point to $x$ in $\mathcal N$ for the $\ell^p$ distance among points
+with a strictly larger $e_d$ coordinate. First introduced by Baccelli and
+Bordenave in 2007 in the case $p=d=2$, this gr...",2025-07-17,2025-07-17,math.PR,"math.PR,60D05",Tom Garcia-Sanchez,,,http://arxiv.org/pdf/2507.13289v1
+2507.13288v1,"Suppression of the charge fluctuations by nonlocal correlations close to
+  the Mott transition","In this paper, we investigate the impact of nonlocal correlations on charge
+fluctuations in the two-dimensional single-band Hubbard model close to the Mott
+metal-to-insulator transition. At half-filling and for interaction strengths
+and temperatures where the system is in the Mott insulating phase, charge
+fluctuations are strongly suppressed. Under these conditions, dynamical
+mean-field theory (DMFT) calculations predict a strong enhancement of the
+charge susceptibility at small (electron or hol...",2025-07-17,2025-07-17,cond-mat.str-el,cond-mat.str-el,Irakli Titvinidze; Julian Stobbe; Marvin Leusch; Georg Rohringer,,,http://arxiv.org/pdf/2507.13288v1
+2507.13287v1,Optimal Empirical Risk Minimization under Temporal Distribution Shifts,"Temporal distribution shifts pose a key challenge for machine learning models
+trained and deployed in dynamically evolving environments. This paper
+introduces RIDER (RIsk minimization under Dynamically Evolving Regimes) which
+derives optimally-weighted empirical risk minimization procedures under
+temporal distribution shifts. Our approach is theoretically grounded in the
+random distribution shift model, where random shifts arise as a superposition
+of numerous unpredictable changes in the data-ge...",2025-07-17,2025-07-17,stat.ME,"stat.ME,cs.LG",Yujin Jeong; Ramesh Johari; Dominik Rothenhäusler; Emily Fox,,,http://arxiv.org/pdf/2507.13287v1
+2507.13286v1,"Privacy-Preserving Fusion for Multi-Sensor Systems Under Multiple Packet
+  Dropouts","Wireless sensor networks (WSNs) are critical components in modern
+cyber-physical systems, enabling efficient data collection and fusion through
+spatially distributed sensors. However, the inherent risks of eavesdropping and
+packet dropouts in such networks pose significant challenges to secure state
+estimation. In this paper, we address the privacy-preserving fusion estimation
+(PPFE) problem for multi-sensor systems under multiple packet dropouts and
+eavesdropping attacks. To mitigate these issu...",2025-07-17,2025-07-17,eess.SY,"eess.SY,cs.SY",Jie Huang; Jason J. R. Liu,,,http://arxiv.org/pdf/2507.13286v1
+2507.13285v1,Multi-Agent Synergy-Driven Iterative Visual Narrative Synthesis,"Automated generation of high-quality media presentations is challenging,
+requiring robust content extraction, narrative planning, visual design, and
+overall quality optimization. Existing methods often produce presentations with
+logical inconsistencies and suboptimal layouts, thereby struggling to meet
+professional standards. To address these challenges, we introduce RCPS
+(Reflective Coherent Presentation Synthesis), a novel framework integrating
+three key components: (1) Deep Structured Narrati...",2025-07-17,2025-07-17,cs.CL,"cs.CL,68T50, 68T07,I.2.7; I.2.11; H.5.2",Wang Xi; Quan Shi; Tian Yu; Yujie Peng; Jiayi Sun; Mengxing Ren; Zenghui Ding; Ningguang Yao,,,http://arxiv.org/pdf/2507.13285v1
+2507.13284v1,"Well-balanced path-conservative discontinuous Galerkin methods with
+  equilibrium preserving space for shallow water linearized moment equations","This paper presents high-order, well-balanced, path-conservative
+discontinuous Galerkin (DG) methods for the shallow water linearized moment
+equations (SWLME), designed to preserve both still and moving water equilibrium
+states. Unlike the multi-layer shallow water equations, which model vertical
+velocity variations using multiple distinct layers, the SWLME employs a
+polynomial expansion of velocity profiles with up to $N$ moments. This approach
+enables a more detailed representation of vertical...",2025-07-17,2025-07-17,math.NA,"math.NA,cs.NA",Ruilin Fan; Julian Koellermeier; Yinhua Xia; Yan Xu; Jiahui Zhang,,,http://arxiv.org/pdf/2507.13284v1
+2507.13283v1,Stochastic Weakly Convex Optimization Under Heavy-Tailed Noises,"An increasing number of studies have focused on stochastic first-order
+methods (SFOMs) under heavy-tailed gradient noises, which have been observed in
+the training of practical deep learning models. In this paper, we focus on two
+types of gradient noises: one is sub-Weibull noise, and the other is noise
+under the assumption that it has a bounded $p$-th central moment ($p$-BCM) with
+$p\in (1, 2]$. The latter is more challenging due to the occurrence of infinite
+variance when $p\in (1, 2)$. Under ...",2025-07-17,2025-07-17,math.OC,"math.OC,cs.LG,stat.ML",Tianxi Zhu; Yi Xu; Xiangyang Ji,,,http://arxiv.org/pdf/2507.13283v1
+2507.13282v1,Solving SAT By Computing A Stable Set Of Points In Clusters,"Earlier we introduced the notion of a stable set of points (SSP). We proved
+that a CNF formula is unsatisfiable iff there is a set of points (i.e. complete
+assignments) that is stable with respect to this formula. Experiments showed
+that SSPs for CNF formulas of practical interest are very large. So computing
+an SSP for a CNF formula point by point is, in general, infeasible. In this
+report, we show how an SSP can be computed in clusters, each cluster being a
+large set of points that are process...",2025-07-17,2025-07-17,cs.LO,cs.LO,Eugene Goldberg,,,http://arxiv.org/pdf/2507.13282v1
+2507.13281v1,WIP: Turning Fake Chips into Learning Opportunities,"This work-in-progress paper presents a case study in which counterfeit TL074
+operational amplifiers, discovered in a junior level electronics course, became
+the basis for a hands on learning experience. Counterfeit integrated circuits
+(IC) are increasingly common, posing a significant threat to the integrity of
+undergraduate electronics laboratories. Instead of simply replacing the
+counterfeit components, we turned the issue into a teaching moment. Students
+engaged in hands-on diagnostics measur...",2025-07-17,2025-07-17,cs.AR,cs.AR,Haniye Mehraban; Saad Azmeen-ur-Rahman; John Hu,,,http://arxiv.org/pdf/2507.13281v1
+2507.13280v1,"Algebraic Exceptional Set of a Three-Component Curve on Hirzebruch
+  Surfaces","We study the algebraic exceptional set of a three-component curve $B$ with
+normal crossings on a Hirzebruch surface $\mathbb{F}_e$. If
+$K_{\mathbb{F}_{e}}+B$ is big and no component of $B$ is a fiber or the
+rational curve with negative self-intersection, we prove that the algebraic
+exceptional set is finite, and in most cases give it an effective bound. We
+also prove that the algebraic exceptional set coincides with the set of curves
+that are hyper-bitangent to $B$.",2025-07-17,2025-07-17,math.AG,"math.AG,14H20, 14H45, 14J26",Wei Chen,,,http://arxiv.org/pdf/2507.13280v1
+2507.13278v1,The pulsar wind nebula around B1853+01 in X-rays,"We report on the results of a comprehensive analysis of X-ray observations
+carried out with \textit{Chandra}, \textit{XMM-Newton} and \textit{NuSTAR} of
+the pulsar wind nebula (PWN) associated with PSR B1853+01, located inside the
+W44 supernova remnant (SNR). Previous X-ray observations unveiled the presence
+of a fast-moving pulsar, PSR B1853+01, located at the southern edge of the W44
+thermal X-ray emission region, as well as an elongated tail structure trailing
+the pulsar. Our analysis reveals...",2025-07-17,2025-07-17,astro-ph.HE,astro-ph.HE,Xiying Zhang; Pol Bordas; Samar Safi-Harb; Kazushi Iwasawa,,,http://arxiv.org/pdf/2507.13278v1
+2507.13277v1,"Evaluating Reinforcement Learning Algorithms for Navigation in Simulated
+  Robotic Quadrupeds: A Comparative Study Inspired by Guide Dog Behaviour","Robots are increasingly integrated across industries, particularly in
+healthcare. However, many valuable applications for quadrupedal robots remain
+overlooked. This research explores the effectiveness of three reinforcement
+learning algorithms in training a simulated quadruped robot for autonomous
+navigation and obstacle avoidance. The goal is to develop a robotic guide dog
+simulation capable of path following and obstacle avoidance, with long-term
+potential for real-world assistance to guide do...",2025-07-17,2025-07-17,cs.RO,"cs.RO,cs.AI,cs.LG",Emma M. A. Harrison,,,http://arxiv.org/pdf/2507.13277v1
+2507.13276v1,"Decay and lifetime of oscillons coupled to an external scalar field:
+  Insights from instability band analysis","Oscillons are long-lived, spherically symmetric solitons that can arise in
+real scalar field theories with potentials shallower than quadratic ones. They
+are considered to form via parametric resonance during the preheating stage
+after inflation and have extended lifetimes. However, the estimation of their
+lifespan becomes complicated when taking into account the interactions between
+the inflaton field and other fields, as naturally expected in realistic
+reheating scenarios. In this study, we in...",2025-07-17,2025-07-17,hep-ph,"hep-ph,astro-ph.CO,gr-qc,hep-th",Siyao Li; Masahide Yamaguchi; Ying-li Zhang,,,http://arxiv.org/pdf/2507.13276v1
+2507.13275v1,"Overview of the TalentCLEF 2025: Skill and Job Title Intelligence for
+  Human Capital Management","Advances in natural language processing and large language models are driving
+a major transformation in Human Capital Management, with a growing interest in
+building smart systems based on language technologies for talent acquisition,
+upskilling strategies, and workforce planning. However, the adoption and
+progress of these technologies critically depend on the development of reliable
+and fair models, properly evaluated on public data and open benchmarks, which
+have so far been unavailable in th...",2025-07-17,2025-07-17,cs.CL,"cs.CL,cs.AI,cs.IR",Luis Gasco; Hermenegildo Fabregat; Laura García-Sardiña; Paula Estrella; Daniel Deniz; Alvaro Rodrigo; Rabih Zbib,,,http://arxiv.org/pdf/2507.13275v1
+2507.13274v1,"Analysis Theory of Data Economy: Dataization, Technological Progress and
+  Dynamic General Equilibrium","This paper constructs a clean and efficient representative agent model of the
+data economy from a macroeconomics perspective, in order to analyze the impact
+of datatization and technological progress on the dynamic general equilibrium
+of 'consumption-capital', and the catalysis effect of datatization on
+technological progress. We first set the data in production comes from
+datatization of the total output of the society and is exponentially
+functionally related to the technology. Secondly, the d...",2025-07-17,2025-07-17,econ.TH,econ.TH,Yongheng Hu,,,http://arxiv.org/pdf/2507.13274v1
+2507.13273v1,An Iterative Approach to the Complex Monge-Ampère Eigenvalue Problem,"We present an iterative approach to approximate the solution to the Dirichlet
+complex Monge-Amp\`ere eigenvalue problem on a bounded strictly pseudoconvex
+domain in $\C^n$. This approach is inspired by a similar approach initiated by
+F. Abedin, J. Kitagawa who considered the real Monge-Amp\`ere operator on a
+strictly convex domain in $\R^N$.",2025-07-17,2025-07-17,math.CV,"math.CV,math.AP,31C45, 32U15, 32U40, 32W20, 35J66, 35J96",Ahmed Zeriahi,,,http://arxiv.org/pdf/2507.13273v1
+2507.13272v1,Power in Sharing Networks with a priori Unions,"We introduce and analyze a novel family of power indices tailored for sharing
+networks in technological markets, where firms operate competitively within,
+but not across, distinct industrial sectors. In these settings, inter-firm
+collaboration structures emerge from formal technology licensing agreements.
+The proposed indices are defined over graphs with a priori unions and combine
+two key centrality measures - degree-based and rescaled eigenvector centrality
+- modulated by positive market coeff...",2025-07-17,2025-07-17,econ.TH,"econ.TH,math.CO,91A12, 91A43",Michele Aleandri; Francesco Ciardiello; Andrea Di Liddo,,,http://arxiv.org/pdf/2507.13272v1
+2507.13271v1,Natural Hyperbolicity of Hexagonal Boron Nitride in the Deep Ultraviolet,"Hyperbolic media enable unique optical phenomena including hyperlensing,
+negative refraction, enhanced photonic density of states (PDOS), and highly
+confined polaritons. While most hyperbolic media are artificially engineered
+metamaterials, certain natural materials with extreme anisotropy can exhibit
+hyperbolic dispersion. Here, we report the first observation of natural
+hyperbolic dispersion in hexagonal boron nitride (hBN) in the deep-ultraviolet
+(DUV) regime, induced by strong, anisotropic e...",2025-07-17,2025-07-17,physics.optics,"physics.optics,physics.app-ph",Bongjun Choi; Jason Lynch; Wangleong Chen; Seong-Joon Jeon; Hyungseob Cho; Kyungmin Yang; Jonghwan Kim; Nader Engheta; Deep Jariwala,,,http://arxiv.org/pdf/2507.13271v1
+2507.13270v1,"A variationally consistent and asymptotically convergent phase-field
+  model for solute precipitation and dissolution","We propose a novel phase-field model for solute precipitation and dissolution
+in liquid solutions. Unlike in previous studies with similar scope, in our
+model the two non-linear coupled governing equations of the problem, which
+deliver the solute ion concentration and the phase-field variable, are derived
+in a variationally consistent way starting from a free energy functional of
+Modica-Mortola type. The phase-field variable is assumed to follow the
+non-conservative Allen-Cahn evolution law, whe...",2025-07-17,2025-07-17,physics.comp-ph,physics.comp-ph,Andrea Lamperti; Laura De Lorenzis,,,http://arxiv.org/pdf/2507.13270v1
+2507.13269v1,Two-sided heat kernel bounds for $\sqrt{8/3}$-Liouville Brownian motion,"Liouville Brownian motion (LBM) is the canonical diffusion process on a
+Liouville quantum gravity (LQG) surface. In this work, we establish upper and
+lower bounds for the heat kernel for LBM when $\gamma=\sqrt{8/3}$ in terms of
+the $\sqrt{8/3}$-LQG metric which are sharp up to a polylogarithmic factor in
+the exponential.",2025-07-17,2025-07-17,math.PR,"math.PR,math-ph,math.CV,math.MP",Sebastian Andres; Naotaka Kajino; Konstantinos Kavvadias; Jason Miller,,,http://arxiv.org/pdf/2507.13269v1
+2507.13268v1,"Partial decidability protocol for the Wang tiling problem from
+  statistical mechanics and chaotic mapping","We introduce a partial decidability protocol for the Wang tiling problem
+(which is the prototype of undecidable problems in combinatorics and
+statistical physics) by constructing a suitable mapping from tilings of finite
+squares of different sizes. Such mapping depends on the initial family of Wang
+tiles (the alphabet) with which one would like to tile the plane. This allows
+to define effective entropy and temperature associated to the alphabet
+(together with the corresponding partition function...",2025-07-17,2025-07-17,cond-mat.stat-mech,"cond-mat.stat-mech,cs.IT,hep-th,math.IT,math.LO",Fabrizio Canfora; Marco Cedeno,,,http://arxiv.org/pdf/2507.13268v1
+2507.13267v1,On the Turánability and tileability of oriented graphs,"An oriented graph $H$ is Tur\'anable (resp. tileable) if there exist $n_0 \in
+\mathbb{N}$ such that every regular tournament on $n \ge n_0$ vertices contains
+a copy of $H$ (resp. a perfect $H$-tiling). We disprove a conjectured
+characterization of Tur\'anable oriented graphs by DeBiasio, Han, Lo, Molla,
+Piga, and Treglown, show that there are Tur\'anable oriented graphs which are
+not tileable, and provide a new example of tileable oriented graph.",2025-07-17,2025-07-17,math.CO,math.CO,Igor Araujo; Zimu Xiang,,,http://arxiv.org/pdf/2507.13267v1
+2507.13266v1,QuestA: Expanding Reasoning Capacity in LLMs via Question Augmentation,"Reinforcement learning (RL) has become a key component in training large
+language reasoning models (LLMs). However, recent studies questions its
+effectiveness in improving multi-step reasoning-particularly on hard problems.
+To address this challenge, we propose a simple yet effective strategy via
+Question Augmentation: introduce partial solutions during training to reduce
+problem difficulty and provide more informative learning signals. Our method,
+QuestA, when applied during RL training on math...",2025-07-17,2025-07-17,cs.CL,"cs.CL,cs.AI,68T50",Jiazheng Li; Hong Lu; Kaiyue Wen; Zaiwen Yang; Jiaxuan Gao; Hongzhou Lin; Yi Wu; Jingzhao Zhang,,,http://arxiv.org/pdf/2507.13266v1
+2507.13265v1,"Transient-Stability-Aware Frequency Provision in IBR-Rich Grids via
+  Information Gap Decision Theory and Deep Learning","This paper introduces a framework to address the critical loss of transient
+stability caused by reduced inertia in grids with high inverter-based resource
+(IBR) penetration. The proposed method integrates a predictive deep learning
+(DL) model with information gap decision theory (IGDT) to create a risk-averse
+dispatch strategy. By reformulating the conventional virtual inertia scheduling
+(VIS) problem, the framework uses early predictions of post-fault dynamics to
+proactively redispatch resource...",2025-07-17,2025-07-17,eess.SY,"eess.SY,cs.SY",Amin Masoumi; Mert Korkali,,,http://arxiv.org/pdf/2507.13265v1
+2507.13264v1,Voxtral,"We present Voxtral Mini and Voxtral Small, two multimodal audio chat models.
+Voxtral is trained to comprehend both spoken audio and text documents,
+achieving state-of-the-art performance across a diverse range of audio
+benchmarks, while preserving strong text capabilities. Voxtral Small
+outperforms a number of closed-source models, while being small enough to run
+locally. A 32K context window enables the model to handle audio files up to 40
+minutes in duration and long multi-turn conversations. ...",2025-07-17,2025-07-17,cs.SD,"cs.SD,cs.AI,eess.AS",Alexander H. Liu; Andy Ehrenberg; Andy Lo; Clément Denoix; Corentin Barreau; Guillaume Lample; Jean-Malo Delignon; Khyathi Raghavi Chandu; Patrick von Platen; Pavankumar Reddy Muddireddy; Sanchit Gandhi; Soham Ghosh; Srijan Mishra; Thomas Foubert; Abhinav Rastogi; Adam Yang; Albert Q. Jiang; Alexandre Sablayrolles; Amélie Héliou; Amélie Martin; Anmol Agarwal; Antoine Roux; Arthur Darcet; Arthur Mensch; Baptiste Bout; Baptiste Rozière; Baudouin De Monicault; Chris Bamford; Christian Wallenwein; Christophe Renaudin; Clémence Lanfranchi; Darius Dabert; Devendra Singh Chaplot; Devon Mizelle; Diego de las Casas; Elliot Chane-Sane; Emilien Fugier; Emma Bou Hanna; Gabrielle Berrada; Gauthier Delerce; Gauthier Guinet; Georgii Novikov; Guillaume Martin; Himanshu Jaju; Jan Ludziejewski; Jason Rute; Jean-Hadrien Chabran; Jessica Chudnovsky; Joachim Studnia; Joep Barmentlo; Jonas Amar; Josselin Somerville Roberts; Julien Denize; Karan Saxena; Karmesh Yadav; Kartik Khandelwal; Kush Jain; Lélio Renard Lavaud; Léonard Blier; Lingxiao Zhao; Louis Martin; Lucile Saulnier; Luyu Gao; Marie Pellat; Mathilde Guillaumin; Mathis Felardos; Matthieu Dinot; Maxime Darrin; Maximilian Augustin; Mickaël Seznec; Neha Gupta; Nikhil Raghuraman; Olivier Duchenne; Patricia Wang; Patryk Saffer; Paul Jacob; Paul Wambergue; Paula Kurylowicz; Philomène Chagniot; Pierre Stock; Pravesh Agrawal; Rémi Delacourt; Romain Sauvestre; Roman Soletskyi; Sagar Vaze; Sandeep Subramanian; Saurabh Garg; Shashwat Dalal; Siddharth Gandhi; Sumukh Aithal; Szymon Antoniak; Teven Le Scao; Thibault Schueller; Thibaut Lavril; Thomas Robert; Thomas Wang; Timothée Lacroix; Tom Bewley; Valeriia Nemychnikova; Victor Paltz; Virgile Richard; Wen-Ding Li; William Marshall; Xuanyu Zhang; Yihan Wan; Yunhao Tang,,,http://arxiv.org/pdf/2507.13264v1
+2507.13263v1,Merge Kernel for Bayesian Optimization on Permutation Space,"Bayesian Optimization (BO) algorithm is a standard tool for black-box
+optimization problems. The current state-of-the-art BO approach for permutation
+spaces relies on the Mallows kernel-an $\Omega(n^2)$ representation that
+explicitly enumerates every pairwise comparison. Inspired by the close
+relationship between the Mallows kernel and pairwise comparison, we propose a
+novel framework for generating kernel functions on permutation space based on
+sorting algorithms. Within this framework, the Mal...",2025-07-17,2025-07-17,cs.LG,"cs.LG,cs.AI",Zikai Xie; Linjiang Chen,,,http://arxiv.org/pdf/2507.13263v1
+2507.13262v1,Homogenization of nonlocal exchange energies in micromagnetics,"We study the homogenization of nonlocal micromagnetic functionals
+incorporating both symmetric and antisymmetric exchange contributions under the
+physical constraint that the magnetization field takes values in the unit
+sphere. Assuming that the nonlocal interaction range and the scale of
+heterogeneities vanish simultaneously, we capture the asymptotic behavior of
+the nonlocal energies by identifying their $\Gamma$-limit, leading to an
+effective local functional expressed through a tangentially ...",2025-07-17,2025-07-17,math.AP,"math.AP,49J45, 35B27, 47G20",Rossella Giorgio; Leon Happ; Hidde Schönberger,,,http://arxiv.org/pdf/2507.13262v1
+2507.13261v1,"State transfer analysis for linear spin chains with non-uniform on-site
+  energies","High fidelity state transfer is an important ingredient of distributed
+quantum information processing. We present and analyse results on perfect and
+quasi-perfect state transfer with linear spin chains incorporating non-uniform
+on-site energies. The motivation is maintenance of coupling uniformity, which
+could be beneficial for some physical implementations. We relate this coupling
+uniformity to a particle in a discrete potential analogue. Our analysis further
+considers the statistical variation...",2025-07-17,2025-07-17,quant-ph,"quant-ph,cond-mat.other,physics.comp-ph",Chad C. Nelmes; Irene D'Amico; Timothy P. Spiller,,,http://arxiv.org/pdf/2507.13261v1
+2507.13260v1,"Efficient Adaptation of Pre-trained Vision Transformer underpinned by
+  Approximately Orthogonal Fine-Tuning Strategy","A prevalent approach in Parameter-Efficient Fine-Tuning (PEFT) of pre-trained
+Vision Transformers (ViT) involves freezing the majority of the backbone
+parameters and solely learning low-rank adaptation weight matrices to
+accommodate downstream tasks. These low-rank matrices are commonly derived
+through the multiplication structure of down-projection and up-projection
+matrices, exemplified by methods such as LoRA and Adapter. In this work, we
+observe an approximate orthogonality among any two row...",2025-07-17,2025-07-17,cs.CV,"cs.CV,cs.AI",Yiting Yang; Hao Luo; Yuan Sun; Qingsen Yan; Haokui Zhang; Wei Dong; Guoqing Wang; Peng Wang; Yang Yang; Hengtao Shen,,,http://arxiv.org/pdf/2507.13260v1
+2507.13259v1,On Accelerated Mixing of the No-U-turn Sampler,"Recent progress on the theory of variational hypocoercivity established that
+Randomized Hamiltonian Monte Carlo -- at criticality -- can achieve pronounced
+acceleration in its convergence and hence sampling performance over diffusive
+dynamics. Manual critical tuning being unfeasible in practice has motivated
+automated algorithmic solutions, notably the No-U-turn Sampler. Beyond its
+empirical success, a rigorous study of this method's ability to achieve
+accelerated convergence has been missing. W...",2025-07-17,2025-07-17,math.ST,"math.ST,math.PR,stat.CO,stat.ML,stat.TH",Stefan Oberdörster,,,http://arxiv.org/pdf/2507.13259v1
+2507.13258v1,"Impact of particle-size polydispersity on the quality of thin-film
+  colloidal crystals","Size polydispersity in colloidal particles can disrupt order in their
+self-assembly, ultimately leading to a complete suppression of crystallization.
+In contrast to various computational studies, few experimental studies
+systematically address the effects of size polydispersity on the quality of
+colloidal crystals. We present an experimental study of structural order in
+thin films of crystals vertically dried from colloidal dispersions with a
+systematically varying polydispersity. As expected, a...",2025-07-17,2025-07-17,cond-mat.soft,cond-mat.soft,Mariam Arif; Andrew B. Schofield; Fraser H. J. Laidlaw; Wilson C. K. Poon; Job H. J. Thijssen,,,http://arxiv.org/pdf/2507.13258v1
+2507.13257v1,The Snapshot Problem for the Euler-Poisson-Darboux Equation,"The generalized Euler-Poisson-Darboux (EPD) equation with complex parameter
+$\alpha$ is given by $$ \Delta_x u=\frac{\partial^2 u}{\partial
+t^2}+\frac{n-1+2\alpha}{t}\,\frac{\partial u}{\partial t}, $$ where $u(x,t)\in
+\mathscr E(\mathbb R^n\times \mathbb R)$, with $u$ even in $t$. For $\alpha=0$
+and $\alpha=1$ the solution $u(x,t)$ represents a mean value over spheres and
+balls, respectively, of radius $|t|$ in $\mathbb R^n$. In this paper we
+consider existence and uniqueness results for the fo...",2025-07-17,2025-07-17,math.AP,"math.AP,35L05 (Primary), 58J45 (Secondary), 43A85 (Secondary)",Fulton Gonzalez; Jue Wang; Jens Christensen; Tomoyuki Kakehi,,,http://arxiv.org/pdf/2507.13257v1
+2507.13256v1,BSDE Approach for $α$-Potential Stochastic Differential Games,"In this paper, we examine a class of $\alpha$-potential stochastic
+differential games with random coefficients via the backward stochastic
+differential equations (BSDEs) approach. Specifically, we show that the first
+and second order linear derivatives of the objective function for each player
+can be expressed through the corresponding first and second-order adjoint
+equations, which leads to rigorous estimates for $\alpha$. We illustrate the
+dependence of $\alpha$ on game characteristics through...",2025-07-17,2025-07-17,math.OC,"math.OC,math.PR",Xin Guo; Xun Li; Liangquan Zhang,,,http://arxiv.org/pdf/2507.13256v1
+2507.13255v1,Automating Steering for Safe Multimodal Large Language Models,"Recent progress in Multimodal Large Language Models (MLLMs) has unlocked
+powerful cross-modal reasoning abilities, but also raised new safety concerns,
+particularly when faced with adversarial multimodal inputs. To improve the
+safety of MLLMs during inference, we introduce a modular and adaptive
+inference-time intervention technology, AutoSteer, without requiring any
+fine-tuning of the underlying model. AutoSteer incorporates three core
+components: (1) a novel Safety Awareness Score (SAS) that a...",2025-07-17,2025-07-17,cs.CL,"cs.CL,cs.AI,cs.IR,cs.LG,cs.MM",Lyucheng Wu; Mengru Wang; Ziwen Xu; Tri Cao; Nay Oo; Bryan Hooi; Shumin Deng,,,http://arxiv.org/pdf/2507.13255v1
+2507.13254v1,"High-precision baryon number cumulants from lattice QCD in a finite box:
+  cumulant ratios, Lee-Yang zeros and critical endpoint predictions","We have performed high-statistics lattice simulations using 4HEX improved
+staggered fermions on $16^3 \times 8$ lattices. We calculated the Taylor
+expansion coefficients of the pressure with respect to the baryochemical
+potential to the tenth order at zero, and fourth order at purely imaginary
+chemical potentials. We used this data to construct rational function
+approximations of the free energy. We use a rational ansatz that explicitly
+satisfies the charge conjugation symmetry and the Roberge-W...",2025-07-17,2025-07-17,hep-lat,"hep-lat,cond-mat.stat-mech,hep-ph,nucl-th",Alexander Adam; Szabolcs Borsányi; Zoltan Fodor; Jana N. Guenther; Piyush Kumar; Paolo Parotto; Attila Pásztor; Chik Him Wong,,,http://arxiv.org/pdf/2507.13254v1
+2507.13253v1,"Life Finds A Way: Emergence of Cooperative Structures in Adaptive
+  Threshold Networks","There has been a long debate on how new levels of organization have evolved.
+It might seem unlikely, as cooperation must prevail over competition. One
+well-studied example is the emergence of autocatalytic sets, which seem to be a
+prerequisite for the evolution of life. Using a simple model, we investigate
+how varying bias toward cooperation versus antagonism shapes network dynamics,
+revealing that higher-order organization emerges even amid pervasive
+antagonistic interactions. In general, we ob...",2025-07-17,2025-07-17,q-bio.PE,"q-bio.PE,cs.SI",Sean P. Maley; Carlos Gershenson; Stuart A. Kauffman,,,http://arxiv.org/pdf/2507.13253v1

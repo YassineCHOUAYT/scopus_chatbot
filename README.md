@@ -73,7 +73,7 @@ Les vecteurs sont indexés avec **FAISS** pour des recherches ultra-rapides par 
 ### Exemple
 
 ```bash
-python main_create_index.py --json-path data/extraction_results_20250714_102000.json
+python main_create_index.py --json-path data/extraction_results_20250714_102000.json 'remplace par le fichier générer'
 ```
 
 ---
@@ -99,9 +99,9 @@ python -m streamlit run app.py
 
 ## 💡 Exemples d'utilisation
 
-- **"Quels sont les travaux de Yann LeCun ?"**
-- **"Articles récents sur l’intelligence artificielle"**
-- **"Donne les stats des auteurs et articles extraits"**
+- **" Yann LeCun ?"**
+- **"l’intelligence artificielle"**
+
 
 ---
 
@@ -117,11 +117,5 @@ python -m streamlit run app.py
 
 - Yassine Chouayt
 - [Autres contributeurs]
-
----
-
-## 📄 Licence
-
-Ce projet est sous licence **MIT**. Voir le fichier `LICENSE`.
 
 ---

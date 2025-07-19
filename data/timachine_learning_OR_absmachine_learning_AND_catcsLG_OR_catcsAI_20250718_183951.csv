@@ -1,0 +1,772 @@
+arxiv_id,title,abstract,published_date,updated_date,primary_category,categories,authors,doi,journal_reference,pdf_link
+2507.13287v1,Optimal Empirical Risk Minimization under Temporal Distribution Shifts,"Temporal distribution shifts pose a key challenge for machine learning models
+trained and deployed in dynamically evolving environments. This paper
+introduces RIDER (RIsk minimization under Dynamically Evolving Regimes) which
+derives optimally-weighted empirical risk minimization procedures under
+temporal distribution shifts. Our approach is theoretically grounded in the
+random distribution shift model, where random shifts arise as a superposition
+of numerous unpredictable changes in the data-ge...",2025-07-17,2025-07-17,stat.ME,"stat.ME,cs.LG",Yujin Jeong; Ramesh Johari; Dominik Rothenhäusler; Emily Fox,,,http://arxiv.org/pdf/2507.13287v1
+2507.13246v1,"The carbon cost of materials discovery: Can machine learning really
+  accelerate the discovery of new photovoltaics?","Computational screening has become a powerful complement to experimental
+efforts in the discovery of high-performance photovoltaic (PV) materials. Most
+workflows rely on density functional theory (DFT) to estimate electronic and
+optical properties relevant to solar energy conversion. Although more efficient
+than laboratory-based methods, DFT calculations still entail substantial
+computational and environmental costs. Machine learning (ML) models have
+recently gained attention as surrogates for D...",2025-07-17,2025-07-17,cond-mat.mtrl-sci,"cond-mat.mtrl-sci,cs.LG",Matthew Walker; Keith T. Butler,,,http://arxiv.org/pdf/2507.13246v1
+2507.13122v1,Search for Z/2 eigenfunctions on the sphere using machine learning,"We use machine learning to search for examples of Z/2 eigenfunctions on the
+2-sphere. For this we created a multivalued version of a feedforward deep
+neural network, and we implemented it using the JAX library. We found Z/2
+eigenfunctions for three cases: In the first two cases we fixed the branch
+points at the vertices of a tetrahedron and at a cube respectively. In a third
+case, we allowed the AI to move the branch points around and, in the end, it
+positioned the branch points at the vertices ...",2025-07-17,2025-07-17,math.DG,"math.DG,cs.LG,cs.NA,math.NA,53-08, 53C99",Andriy Haydys; Willem Adriaan Salm,,,http://arxiv.org/pdf/2507.13122v1
+2507.13112v1,"Prediction of Highway Traffic Flow Based on Artificial Intelligence
+  Algorithms Using California Traffic Data","The study ""Prediction of Highway Traffic Flow Based on Artificial
+Intelligence Algorithms Using California Traffic Data"" presents a machine
+learning-based traffic flow prediction model to address global traffic
+congestion issues. The research utilized 30-second interval traffic data from
+California Highway 78 over a five-month period from July to November 2022,
+analyzing a 7.24 km westbound section connecting ""Melrose Dr"" and ""El-Camino
+Real"" in the San Diego area. The study employed Multiple Li...",2025-07-17,2025-07-17,cs.AI,cs.AI,Junseong Lee; Jaegwan Cho; Yoonju Cho; Seoyoon Choi; Yejin Shin,,,http://arxiv.org/pdf/2507.13112v1
+2507.13034v1,"Confidence-Filtered Relevance (CFR): An Interpretable and
+  Uncertainty-Aware Machine Learning Framework for Naturalness Assessment in
+  Satellite Imagery","Protected natural areas play a vital role in ecological balance and ecosystem
+services. Monitoring these regions at scale using satellite imagery and machine
+learning is promising, but current methods often lack interpretability and
+uncertainty-awareness, and do not address how uncertainty affects naturalness
+assessment. In contrast, we propose Confidence-Filtered Relevance (CFR), a
+data-centric framework that combines LRP Attention Rollout with Deep
+Deterministic Uncertainty (DDU) estimation to...",2025-07-17,2025-07-17,cs.LG,cs.LG,Ahmed Emam; Ribana Roscher,,,http://arxiv.org/pdf/2507.13034v1
+2507.13033v1,"(Exhaustive) Symbolic Regression and model selection by minimum
+  description length","Symbolic regression is the machine learning method for learning functions
+from data. After a brief overview of the symbolic regression landscape, I will
+describe the two main challenges that traditional algorithms face: they have an
+unknown (and likely significant) probability of failing to find any given good
+function, and they suffer from ambiguity and poorly-justified assumptions in
+their function-selection procedure. To address these I propose an exhaustive
+search and model selection by the ...",2025-07-17,2025-07-17,astro-ph.IM,"astro-ph.IM,astro-ph.CO,astro-ph.GA,cs.LG",Harry Desmond,,,http://arxiv.org/pdf/2507.13033v1
+2507.12979v1,"A Distributed Generative AI Approach for Heterogeneous Multi-Domain
+  Environments under Data Sharing constraints","Federated Learning has gained increasing attention for its ability to enable
+multiple nodes to collaboratively train machine learning models without sharing
+their raw data. At the same time, Generative AI -- particularly Generative
+Adversarial Networks (GANs) -- have achieved remarkable success across a wide
+range of domains, such as healthcare, security, and Image Generation. However,
+training generative models typically requires large datasets and significant
+computational resources, which are...",2025-07-17,2025-07-17,cs.LG,"cs.LG,cs.AI",Youssef Tawfilis; Hossam Amer; Minar El-Aasser; Tallal Elshabrawy,,,http://arxiv.org/pdf/2507.12979v1
+2507.12935v1,"MC$^2$A: Enabling Algorithm-Hardware Co-Design for Efficient Markov
+  Chain Monte Carlo Acceleration","An increasing number of applications are exploiting sampling-based algorithms
+for planning, optimization, and inference. The Markov Chain Monte Carlo (MCMC)
+algorithms form the computational backbone of this emerging branch of machine
+learning. Unfortunately, the high computational cost limits their feasibility
+for large-scale problems and real-world applications, and the existing MCMC
+acceleration solutions are either limited in hardware flexibility or fail to
+maintain efficiency at the system ...",2025-07-17,2025-07-17,cs.LG,"cs.LG,cs.AI,cs.AR",Shirui Zhao; Jun Yin; Lingyun Yao; Martin Andraud; Wannes Meert; Marian Verhelst,,,http://arxiv.org/pdf/2507.12935v1
+2507.12913v1,"Robust Explanations Through Uncertainty Decomposition: A Path to
+  Trustworthier AI","Recent advancements in machine learning have emphasized the need for
+transparency in model predictions, particularly as interpretability diminishes
+when using increasingly complex architectures. In this paper, we propose
+leveraging prediction uncertainty as a complementary approach to classical
+explainability methods. Specifically, we distinguish between aleatoric
+(data-related) and epistemic (model-related) uncertainty to guide the selection
+of appropriate explanations. Epistemic uncertainty se...",2025-07-17,2025-07-17,cs.LG,cs.LG,Chenrui Zhu; Louenas Bounia; Vu Linh Nguyen; Sébastien Destercke; Arthur Hoarau,,,http://arxiv.org/pdf/2507.12913v1
+2507.12904v1,An ultra-low-power CGRA for accelerating Transformers at the edge,"Transformers have revolutionized deep learning with applications in natural
+language processing, computer vision, and beyond. However, their computational
+demands make it challenging to deploy them on low-power edge devices. This
+paper introduces an ultra-low-power, Coarse-Grained Reconfigurable Array (CGRA)
+architecture specifically designed to accelerate General Matrix Multiplication
+(GEMM) operations in transformer models tailored for the energy and resource
+constraints of edge applications. ...",2025-07-17,2025-07-17,cs.AR,"cs.AR,cs.AI",Rohit Prasad,,,http://arxiv.org/pdf/2507.12904v1
+2507.12900v1,Learning to Reject Low-Quality Explanations via User Feedback,"Machine Learning predictors are increasingly being employed in high-stakes
+applications such as credit scoring. Explanations help users unpack the reasons
+behind their predictions, but are not always ""high quality''. That is,
+end-users may have difficulty interpreting or believing them, which can
+complicate trust assessment and downstream decision-making. We argue that
+classifiers should have the option to refuse handling inputs whose predictions
+cannot be explained properly and introduce a fram...",2025-07-17,2025-07-17,cs.LG,cs.LG,Luca Stradiotti; Dario Pesenti; Stefano Teso; Jesse Davis,,,http://arxiv.org/pdf/2507.12900v1
+2507.12878v1,"Bayesian Modeling and Estimation of Linear Time-Variant Systems using
+  Neural Networks and Gaussian Processes","The identification of Linear Time-Variant (LTV) systems from input-output
+data is a fundamental yet challenging ill-posed inverse problem. This work
+introduces a unified Bayesian framework that models the system's impulse
+response, $h(t, \tau)$, as a stochastic process. We decompose the response into
+a posterior mean and a random fluctuation term, a formulation that provides a
+principled approach for quantifying uncertainty and naturally defines a new,
+useful system class we term Linear Time-Inv...",2025-07-17,2025-07-17,stat.ML,"stat.ML,cs.LG",Yaniv Shulman,,,http://arxiv.org/pdf/2507.12878v1
+2507.12787v1,"Multi-Channel Graph Neural Network for Financial Risk Prediction of NEEQ
+  Enterprises","With the continuous evolution of China's multi-level capital market, the
+National Equities Exchange and Quotations (NEEQ), also known as the ""New Third
+Board,"" has become a critical financing platform for small and medium-sized
+enterprises (SMEs). However, due to their limited scale and financial
+resilience, many NEEQ-listed companies face elevated risks of financial
+distress. To address this issue, we propose a multi-channel deep learning
+framework that integrates structured financial indicator...",2025-07-17,2025-07-17,cs.LG,cs.LG,Jianyu Zhu,,,http://arxiv.org/pdf/2507.12787v1
+2507.12784v1,"A Semi-Supervised Learning Method for the Identification of Bad
+  Exposures in Large Imaging Surveys","As the data volume of astronomical imaging surveys rapidly increases,
+traditional methods for image anomaly detection, such as visual inspection by
+human experts, are becoming impractical. We introduce a machine-learning-based
+approach to detect poor-quality exposures in large imaging surveys, with a
+focus on the DECam Legacy Survey (DECaLS) in regions of low extinction (i.e.,
+$E(B-V)<0.04$). Our semi-supervised pipeline integrates a vision transformer
+(ViT), trained via self-supervised learning...",2025-07-17,2025-07-17,astro-ph.IM,"astro-ph.IM,cs.AI",Yufeng Luo; Adam D. Myers; Alex Drlica-Wagner; Dario Dematties; Salma Borchani; Frank Valdes; Arjun Dey; David Schlegel; Rongpu Zhou; DESI Legacy Imaging Surveys Team,,,http://arxiv.org/pdf/2507.12784v1
+2507.12709v1,From SGD to Spectra: A Theory of Neural Network Weight Dynamics,"Deep neural networks have revolutionized machine learning, yet their training
+dynamics remain theoretically unclear-we develop a continuous-time,
+matrix-valued stochastic differential equation (SDE) framework that rigorously
+connects the microscopic dynamics of SGD to the macroscopic evolution of
+singular-value spectra in weight matrices. We derive exact SDEs showing that
+squared singular values follow Dyson Brownian motion with eigenvalue repulsion,
+and characterize stationary distributions as ...",2025-07-17,2025-07-17,cs.LG,cs.LG,Brian Richard Olsen; Sam Fatehmanesh; Frank Xiao; Adarsh Kumarappan; Anirudh Gajula,,,http://arxiv.org/pdf/2507.12709v1
+2507.12701v1,"Task-Specific Audio Coding for Machines: Machine-Learned Latent Features
+  Are Codes for That Machine","Neural audio codecs, leveraging quantization algorithms, have significantly
+impacted various speech/audio tasks. While high-fidelity reconstruction is
+paramount for human perception, audio coding for machines (ACoM) prioritizes
+efficient compression and downstream task performance, disregarding perceptual
+nuances. This work introduces an efficient ACoM method that can compress and
+quantize any chosen intermediate feature representation of an already trained
+speech/audio downstream model. Our app...",2025-07-17,2025-07-17,cs.SD,"cs.SD,cs.AI,eess.AS",Anastasia Kuznetsova; Inseon Jang; Wootaek Lim; Minje Kim,,,http://arxiv.org/pdf/2507.12701v1
+2507.12574v1,Assay2Mol: large language model-based drug design using BioAssay context,"Scientific databases aggregate vast amounts of quantitative data alongside
+descriptive text. In biochemistry, molecule screening assays evaluate the
+functional responses of candidate molecules against disease targets.
+Unstructured text that describes the biological mechanisms through which these
+targets operate, experimental screening protocols, and other attributes of
+assays offer rich information for new drug discovery campaigns but has been
+untapped because of that unstructured format. We pre...",2025-07-16,2025-07-16,cs.LG,"cs.LG,cs.AI,q-bio.QM",Yifan Deng; Spencer S. Ericksen; Anthony Gitter,,,http://arxiv.org/pdf/2507.12574v1
+2507.12549v1,The Serial Scaling Hypothesis,"While machine learning has advanced through massive parallelization, we
+identify a critical blind spot: some problems are fundamentally sequential.
+These ""inherently serial"" problems-from mathematical reasoning to physical
+simulations to sequential decision-making-require dependent computational steps
+that cannot be parallelized. Drawing from complexity theory, we formalize this
+distinction and demonstrate that current parallel-centric architectures face
+fundamental limitations on such tasks. We...",2025-07-16,2025-07-16,cs.LG,"cs.LG,cs.CC,stat.ML,68Q15, 68Q10, 68T07,F.1.1; F.1.3; I.2.6",Yuxi Liu; Konpat Preechakul; Kananart Kuwaranancharoen; Yutong Bai,,,http://arxiv.org/pdf/2507.12549v1
+2507.12453v1,Cost-aware Stopping for Bayesian Optimization,"In automated machine learning, scientific discovery, and other applications
+of Bayesian optimization, deciding when to stop evaluating expensive black-box
+functions is an important practical consideration. While several adaptive
+stopping rules have been proposed, in the cost-aware setting they lack
+guarantees ensuring they stop before incurring excessive function evaluation
+costs. We propose a cost-aware stopping rule for Bayesian optimization that
+adapts to varying evaluation costs and is free ...",2025-07-16,2025-07-16,cs.LG,cs.LG,Qian Xie; Linda Cai; Alexander Terenin; Peter I. Frazier; Ziv Scully,,,http://arxiv.org/pdf/2507.12453v1
+2507.12435v1,"Targeted Deep Architectures: A TMLE-Based Framework for Robust Causal
+  Inference in Neural Networks","Modern deep neural networks are powerful predictive tools yet often lack
+valid inference for causal parameters, such as treatment effects or entire
+survival curves. While frameworks like Double Machine Learning (DML) and
+Targeted Maximum Likelihood Estimation (TMLE) can debias machine-learning fits,
+existing neural implementations either rely on ""targeted losses"" that do not
+guarantee solving the efficient influence function equation or computationally
+expensive post-hoc ""fluctuations"" for multi...",2025-07-16,2025-07-16,cs.LG,cs.LG,Yi Li; David Mccoy; Nolan Gunter; Kaitlyn Lee; Alejandro Schuler; Mark van der Laan,,,http://arxiv.org/pdf/2507.12435v1
+2507.12384v1,"Trustworthy Tree-based Machine Learning by $MoS_2$ Flash-based Analog
+  CAM with Inherent Soft Boundaries","The rapid advancement of artificial intelligence has raised concerns
+regarding its trustworthiness, especially in terms of interpretability and
+robustness. Tree-based models like Random Forest and XGBoost excel in
+interpretability and accuracy for tabular data, but scaling them remains
+computationally expensive due to poor data locality and high data dependence.
+Previous efforts to accelerate these models with analog content addressable
+memory (CAM) have struggled, due to the fact that the diffi...",2025-07-16,2025-07-16,cs.LG,"cs.LG,cs.ET",Bo Wen; Guoyun Gao; Zhicheng Xu; Ruibin Mao; Xiaojuan Qi; X. Sharon Hu; Xunzhao Yin; Can Li,,,http://arxiv.org/pdf/2507.12384v1
+2507.12262v1,"A Framework for Nonstationary Gaussian Processes with Neural Network
+  Parameters","Gaussian processes have become a popular tool for nonparametric regression
+because of their flexibility and uncertainty quantification. However, they
+often use stationary kernels, which limit the expressiveness of the model and
+may be unsuitable for many datasets. We propose a framework that uses
+nonstationary kernels whose parameters vary across the feature space, modeling
+these parameters as the output of a neural network that takes the features as
+input. The neural network and Gaussian proces...",2025-07-16,2025-07-16,cs.LG,"cs.LG,cs.AI,stat.ME,stat.ML",Zachary James; Joseph Guinness,,,http://arxiv.org/pdf/2507.12262v1
+2507.12233v1,Universal Fourier Neural Operators for Micromechanics,"\noindent Solving cell problems in homogenization is hard, and available
+deep-learning frameworks fail to match the speed and generality of traditional
+computational frameworks. More to the point, it is generally unclear what to
+expect of machine-learning approaches, let alone single out which approaches
+are promising. In the work at hand, we advocate Fourier Neural Operators (FNOs)
+for micromechanics, empowering them by insights from computational
+micromechanics methods based on the fast Fourie...",2025-07-16,2025-07-16,cs.CE,"cs.CE,cs.LG",Binh Huy Nguyen; Matti Schneider,,,http://arxiv.org/pdf/2507.12233v1
+2507.12218v2,"Physics-Informed Linear Model (PILM): Analytical Representations and
+  Application to Crustal Strain Rate Estimation","Many physical systems are described by partial differential equations (PDEs),
+and solving these equations and estimating their coefficients or boundary
+conditions (BCs) from observational data play a crucial role in understanding
+the associated phenomena. Recently, a machine learning approach known as
+physics-informed neural network, which solves PDEs using neural networks by
+minimizing the sum of residuals from the PDEs, BCs, and data, has gained
+significant attention in the scientific communit...",2025-07-16,2025-07-17,cs.LG,"cs.LG,physics.geo-ph",Tomohisa Okazaki,,,http://arxiv.org/pdf/2507.12218v2
+2507.12195v1,"Revealing the Ancient Beauty: Digital Reconstruction of Temple Tiles
+  using Computer Vision","Modern digitised approaches have dramatically changed the preservation and
+restoration of cultural treasures, integrating computer scientists into
+multidisciplinary projects with ease. Machine learning, deep learning, and
+computer vision techniques have revolutionised developing sectors like 3D
+reconstruction, picture inpainting,IoT-based methods, genetic algorithms, and
+image processing with the integration of computer scientists into
+multidisciplinary initiatives. We suggest three cutting-edge...",2025-07-16,2025-07-16,cs.CV,"cs.CV,cs.AI",Arkaprabha Basu,,,http://arxiv.org/pdf/2507.12195v1
+2507.12192v1,Explainable Evidential Clustering,"Unsupervised classification is a fundamental machine learning problem.
+Real-world data often contain imperfections, characterized by uncertainty and
+imprecision, which are not well handled by traditional methods. Evidential
+clustering, based on Dempster-Shafer theory, addresses these challenges. This
+paper explores the underexplored problem of explaining evidential clustering
+results, which is crucial for high-stakes domains such as healthcare. Our
+analysis shows that, in the general case, repre...",2025-07-16,2025-07-16,cs.LG,cs.LG,Victor F. Lopes de Souza; Karima Bakhti; Sofiane Ramdani; Denis Mottet; Abdelhak Imoussaten,,,http://arxiv.org/pdf/2507.12192v1
+2507.12144v1,"FourCastNet 3: A geometric approach to probabilistic machine-learning
+  weather forecasting at scale","FourCastNet 3 advances global weather modeling by implementing a scalable,
+geometric machine learning (ML) approach to probabilistic ensemble forecasting.
+The approach is designed to respect spherical geometry and to accurately model
+the spatially correlated probabilistic nature of the problem, resulting in
+stable spectra and realistic dynamics across multiple scales. FourCastNet 3
+delivers forecasting accuracy that surpasses leading conventional ensemble
+models and rivals the best diffusion-bas...",2025-07-16,2025-07-16,cs.LG,"cs.LG,physics.ao-ph,86-10, 68T07,I.2.1; I.6.5; G.3",Boris Bonev; Thorsten Kurth; Ankur Mahesh; Mauro Bisson; Jean Kossaifi; Karthik Kashinath; Anima Anandkumar; William D. Collins; Michael S. Pritchard; Alexander Keller,,,http://arxiv.org/pdf/2507.12144v1
+2507.12127v1,"Self-Adaptive and Robust Federated Spectrum Sensing without Benign
+  Majority for Cellular Networks","Advancements in wireless and mobile technologies, including 5G advanced and
+the envisioned 6G, are driving exponential growth in wireless devices. However,
+this rapid expansion exacerbates spectrum scarcity, posing a critical
+challenge. Dynamic spectrum allocation (DSA)--which relies on sensing and
+dynamically sharing spectrum--has emerged as an essential solution to address
+this issue. While machine learning (ML) models hold significant potential for
+improving spectrum sensing, their adoption i...",2025-07-16,2025-07-16,cs.LG,cs.LG,Ngoc Duy Pham; Thusitha Dayaratne; Viet Vo; Shangqi Lai; Sharif Abuadbba; Hajime Suzuki; Xingliang Yuan; Carsten Rudolph,,,http://arxiv.org/pdf/2507.12127v1
+2507.12117v1,Quantum Machine Learning in Multi-Qubit Phase-Space Part I: Foundations,"Quantum machine learning (QML) seeks to exploit the intrinsic properties of
+quantum mechanical systems, including superposition, coherence, and quantum
+entanglement for classical data processing. However, due to the exponential
+growth of the Hilbert space, QML faces practical limits in classical
+simulations with the state-vector representation of quantum system. On the
+other hand, phase-space methods offer an alternative by encoding quantum states
+as quasi-probability functions. Building on prio...",2025-07-16,2025-07-16,quant-ph,"quant-ph,cs.AI,math-ph,math.MP",Timothy Heightman; Edward Jiang; Ruth Mora-Soto; Maciej Lewenstein; Marcin Płodzień,,,http://arxiv.org/pdf/2507.12117v1
+2507.12053v1,"FloGAN: Scenario-Based Urban Mobility Flow Generation via Conditional
+  GANs and Dynamic Region Decoupling","The mobility patterns of people in cities evolve alongside changes in land
+use and population. This makes it crucial for urban planners to simulate and
+analyze human mobility patterns for purposes such as transportation
+optimization and sustainable urban development. Existing generative models
+borrowed from machine learning rely heavily on historical trajectories and
+often overlook evolving factors like changes in population density and land
+use. Mechanistic approaches incorporate population den...",2025-07-16,2025-07-16,cs.LG,cs.LG,Seanglidet Yean; Jiazu Zhou; Bu-Sung Lee; Markus Schläpfer,,,http://arxiv.org/pdf/2507.12053v1
+2507.12012v1,"Identifying Signatures of Image Phenotypes to Track Treatment Response
+  in Liver Disease","Quantifiable image patterns associated with disease progression and treatment
+response are critical tools for guiding individual treatment, and for
+developing novel therapies. Here, we show that unsupervised machine learning
+can identify a pattern vocabulary of liver tissue in magnetic resonance images
+that quantifies treatment response in diffuse liver disease. Deep clustering
+networks simultaneously encode and cluster patches of medical images into a
+low-dimensional latent space to establish a...",2025-07-16,2025-07-16,eess.IV,"eess.IV,cs.AI,cs.CV",Matthias Perkonigg; Nina Bastati; Ahmed Ba-Ssalamah; Peter Mesenbrink; Alexander Goehler; Miljen Martic; Xiaofei Zhou; Michael Trauner; Georg Langs,,,http://arxiv.org/pdf/2507.12012v1
+2507.12002v1,"Detecting In-Person Conversations in Noisy Real-World Environments with
+  Smartwatch Audio and Motion Sensing","Social interactions play a crucial role in shaping human behavior,
+relationships, and societies. It encompasses various forms of communication,
+such as verbal conversation, non-verbal gestures, facial expressions, and body
+language. In this work, we develop a novel computational approach to detect a
+foundational aspect of human social interactions, in-person verbal
+conversations, by leveraging audio and inertial data captured with a commodity
+smartwatch in acoustically-challenging scenarios. To ...",2025-07-16,2025-07-16,cs.LG,"cs.LG,I.2.0; J.4",Alice Zhang; Callihan Bertley; Dawei Liang; Edison Thomaz,,,http://arxiv.org/pdf/2507.12002v1
+2507.11960v1,"d-DQIVAR: Data-centric Visual Analytics and Reasoning for Data Quality
+  Improvement","Approaches to enhancing data quality (DQ) are classified into two main
+categories: data- and process-driven. However, prior research has predominantly
+utilized batch data preprocessing within the data-driven framework, which often
+proves insufficient for optimizing machine learning (ML) model performance and
+frequently leads to distortions in data characteristics. Existing studies have
+primarily focused on data preprocessing rather than genuine data quality
+improvement (DQI). In this paper, we i...",2025-07-16,2025-07-16,cs.HC,"cs.HC,cs.LG",Hyein Hong; Sangbong Yoo; SeokHwan Choi; Jisue Kim; Seongbum Seo; Haneol Cho; Chansoo Kim; Yun Jang,,,http://arxiv.org/pdf/2507.11960v1
+2507.11950v1,RNAMunin: A Deep Machine Learning Model for Non-coding RNA Discovery,"Functional annotation of microbial genomes is often biased toward
+protein-coding genes, leaving a vast, unexplored landscape of non-coding RNAs
+(ncRNAs) that are critical for regulating bacterial and archaeal physiology,
+stress response and metabolism. Identifying ncRNAs directly from genomic
+sequence is a paramount challenge in bioinformatics and biology, essential for
+understanding the complete regulatory potential of an organism. This paper
+presents RNAMunin, a machine learning (ML) model tha...",2025-07-16,2025-07-16,q-bio.GN,"q-bio.GN,cs.LG",Lauren Lui; Torben Nielsen,,,http://arxiv.org/pdf/2507.11950v1
+2507.11928v1,"Accelerating RF Power Amplifier Design via Intelligent Sampling and
+  ML-Based Parameter Tuning","This paper presents a machine learning-accelerated optimization framework for
+RF power amplifier design that reduces simulation requirements by 65% while
+maintaining $\pm0.3$ to $\pm0.4$ dBm accuracy. The proposed method combines
+MaxMin Latin Hypercube Sampling with CatBoost gradient boosting to
+intelligently explore multidimensional parameter spaces. Instead of
+exhaustively simulating all parameter combinations to achieve target P2dB
+compression specifications, our approach strategically select...",2025-07-16,2025-07-16,cs.LG,cs.LG,Abhishek Sriram; Neal Tuffy,,,http://arxiv.org/pdf/2507.11928v1
+2507.11926v1,"From Generative to Episodic: Sample-Efficient Replicable Reinforcement
+  Learning","The epidemic failure of replicability across empirical science and machine
+learning has recently motivated the formal study of replicable learning
+algorithms [Impagliazzo et al. (2022)]. In batch settings where data comes from
+a fixed i.i.d. source (e.g., hypothesis testing, supervised learning), the
+design of data-efficient replicable algorithms is now more or less understood.
+In contrast, there remain significant gaps in our knowledge for control
+settings like reinforcement learning where an a...",2025-07-16,2025-07-16,cs.LG,cs.LG,Max Hopkins; Sihan Liu; Christopher Ye; Yuichi Yoshida,,,http://arxiv.org/pdf/2507.11926v1
+2507.11895v1,"Newfluence: Boosting Model interpretability and Understanding in High
+  Dimensions","The increasing complexity of machine learning (ML) and artificial
+intelligence (AI) models has created a pressing need for tools that help
+scientists, engineers, and policymakers interpret and refine model decisions
+and predictions. Influence functions, originating from robust statistics, have
+emerged as a popular approach for this purpose.
+  However, the heuristic foundations of influence functions rely on
+low-dimensional assumptions where the number of parameters $p$ is much smaller
+than the n...",2025-07-16,2025-07-16,stat.ML,"stat.ML,cs.LG,stat.ME",Haolin Zou; Arnab Auddy; Yongchan Kwon; Kamiar Rahnama Rad; Arian Maleki,,,http://arxiv.org/pdf/2507.11895v1
+2507.11842v1,"CosmoFlow: Scale-Aware Representation Learning for Cosmology with Flow
+  Matching","Generative machine learning models have been demonstrated to be able to learn
+low dimensional representations of data that preserve information required for
+downstream tasks. In this work, we demonstrate that flow matching based
+generative models can learn compact, semantically rich latent representations
+of field level cold dark matter (CDM) simulation data without supervision. Our
+model, CosmoFlow, learns representations 32x smaller than the raw field data,
+usable for field level reconstructio...",2025-07-16,2025-07-16,astro-ph.CO,"astro-ph.CO,cs.LG",Sidharth Kannan; Tian Qiu; Carolina Cuesta-Lazaro; Haewon Jeong,,,http://arxiv.org/pdf/2507.11842v1
+2507.11806v1,"MOFSimBench: Evaluating Universal Machine Learning Interatomic
+  Potentials In Metal--Organic Framework Molecular Modeling","Universal machine learning interatomic potentials (uMLIPs) have emerged as
+powerful tools for accelerating atomistic simulations, offering scalable and
+efficient modeling with accuracy close to quantum calculations. However, their
+reliability and effectiveness in practical, real-world applications remain an
+open question. Metal-organic frameworks (MOFs) and related nanoporous materials
+are highly porous crystals with critical relevance in carbon capture, energy
+storage, and catalysis application...",2025-07-16,2025-07-16,cond-mat.mtrl-sci,"cond-mat.mtrl-sci,cs.LG,physics.comp-ph",Hendrik Kraß; Ju Huang; Seyed Mohamad Moosavi,,,http://arxiv.org/pdf/2507.11806v1
+2507.11759v1,Torsional-GFN: a conditional conformation generator for small molecules,"Generating stable molecular conformations is crucial in several drug
+discovery applications, such as estimating the binding affinity of a molecule
+to a target. Recently, generative machine learning methods have emerged as a
+promising, more efficient method than molecular dynamics for sampling of
+conformations from the Boltzmann distribution. In this paper, we introduce
+Torsional-GFN, a conditional GFlowNet specifically designed to sample
+conformations of molecules proportionally to their Boltzma...",2025-07-15,2025-07-15,cs.LG,cs.LG,Alexandra Volokhova; Léna Néhale Ezzine; Piotr Gaiński; Luca Scimeca; Emmanuel Bengio; Prudencio Tossou; Yoshua Bengio; Alex Hernandez-Garcia,,,http://arxiv.org/pdf/2507.11759v1
+2507.11757v1,"A Graph-in-Graph Learning Framework for Drug-Target Interaction
+  Prediction","Accurately predicting drug-target interactions (DTIs) is pivotal for
+advancing drug discovery and target validation techniques. While machine
+learning approaches including those that are based on Graph Neural Networks
+(GNN) have achieved notable success in DTI prediction, many of them have
+difficulties in effectively integrating the diverse features of drugs, targets
+and their interactions. To address this limitation, we introduce a novel
+framework to take advantage of the power of both transduc...",2025-07-15,2025-07-15,cs.LG,"cs.LG,q-bio.QM",Yuehua Song; Yong Gao,,,http://arxiv.org/pdf/2507.11757v1
+2507.11742v1,"CRABS: A syntactic-semantic pincer strategy for bounding LLM
+  interpretation of Python notebooks","Recognizing the information flows and operations comprising data science and
+machine learning Python notebooks is critical for evaluating, reusing, and
+adapting notebooks for new tasks. Investigating a notebook via re-execution
+often is impractical due to the challenges of resolving data and software
+dependencies. While Large Language Models (LLMs) pre-trained on large codebases
+have demonstrated effectiveness in understanding code without running it, we
+observe that they fail to understand some...",2025-07-15,2025-07-15,cs.CL,"cs.CL,cs.AI",Meng Li; Timothy M. McPhillips; Dingmin Wang; Shin-Rong Tsai; Bertram Ludäscher,,,http://arxiv.org/pdf/2507.11742v1
+2507.11692v1,Galaxy image simplification using Generative AI,"Modern digital sky surveys have been acquiring images of billions of
+galaxies. While these images often provide sufficient details to analyze the
+shape of the galaxies, accurate analysis of such high volumes of images
+requires effective automation. Current solutions often rely on machine learning
+annotation of the galaxy images based on a set of pre-defined classes. Here we
+introduce a new approach to galaxy image analysis that is based on generative
+AI. The method simplifies the galaxy images a...",2025-07-15,2025-07-15,astro-ph.GA,"astro-ph.GA,astro-ph.IM,cs.AI,cs.LG",Sai Teja Erukude; Lior Shamir,,,http://arxiv.org/pdf/2507.11692v1
+2507.11690v1,"The Impact of Coreset Selection on Spurious Correlations and Group
+  Robustness","Coreset selection methods have shown promise in reducing the training data
+size while maintaining model performance for data-efficient machine learning.
+However, as many datasets suffer from biases that cause models to learn
+spurious correlations instead of causal features, it is important to understand
+whether and how dataset reduction methods may perpetuate, amplify, or mitigate
+these biases. In this work, we conduct the first comprehensive analysis of the
+implications of data selection on the...",2025-07-15,2025-07-15,cs.LG,"cs.LG,cs.CV",Amaya Dharmasiri; William Yang; Polina Kirichenko; Lydia Liu; Olga Russakovsky,,,http://arxiv.org/pdf/2507.11690v1
+2507.11597v1,"AI, Humans, and Data Science: Optimizing Roles Across Workflows and the
+  Workforce","AI is transforming research. It is being leveraged to construct surveys,
+synthesize data, conduct analysis, and write summaries of the results. While
+the promise is to create efficiencies and increase quality, the reality is not
+always as clear cut. Leveraging our framework of Truth, Beauty, and Justice
+(TBJ) which we use to evaluate AI, machine learning and computational models
+for effective and ethical use (Taber and Timpone 1997; Timpone and Yang 2024),
+we consider the potential and limitatio...",2025-07-15,2025-07-15,cs.CY,"cs.CY,cs.AI,cs.HC",Richard Timpone; Yongwei Yang,,,http://arxiv.org/pdf/2507.11597v1
+2507.11486v1,Exploring the robustness of TractOracle methods in RL-based tractography,"Tractography algorithms leverage diffusion MRI to reconstruct the fibrous
+architecture of the brain's white matter. Among machine learning approaches,
+reinforcement learning (RL) has emerged as a promising framework for
+tractography, outperforming traditional methods in several key aspects.
+TractOracle-RL, a recent RL-based approach, reduces false positives by
+incorporating anatomical priors into the training process via a reward-based
+mechanism. In this paper, we investigate four extensions of ...",2025-07-15,2025-07-15,cs.LG,"cs.LG,I.2.1",Jeremi Levesque; Antoine Théberge; Maxime Descoteaux; Pierre-Marc Jodoin,,,http://arxiv.org/pdf/2507.11486v1
+2507.11401v1,"Stochastic Entanglement Configuration for Constructive Entanglement
+  Topologies in Quantum Machine Learning with Application to Cardiac MRI","Efficient entanglement strategies are essential for advancing variational
+quantum circuits (VQCs) for quantum machine learning (QML). However, most
+current approaches use fixed entanglement topologies that are not adaptive to
+task requirements, limiting potential gains over classical models. We introduce
+a novel stochastic entanglement configuration method that systematically
+generates diverse entanglement topologies to identify a subspace of
+constructive entanglement configurations, defined as ...",2025-07-15,2025-07-15,quant-ph,"quant-ph,cs.CV,cs.ET,cs.LG",Mehri Mehrnia; Mohammed S. M. Elbaz,,,http://arxiv.org/pdf/2507.11401v1
+2507.11400v1,"The model is the message: Lightweight convolutional autoencoders applied
+  to noisy imaging data for planetary science and astrobiology","The application of convolutional autoencoder deep learning to imaging data
+for planetary science and astrobiological use is briefly reviewed and explored
+with a focus on the need to understand algorithmic rationale, process, and
+results when machine learning is utilized. Successful autoencoders train to
+build a model that captures the features of data in a dimensionally reduced
+form (the latent representation) that can then be used to recreate the original
+input. One application is the reconstru...",2025-07-15,2025-07-15,astro-ph.EP,"astro-ph.EP,astro-ph.IM,cs.LG",Caleb Scharf,,,http://arxiv.org/pdf/2507.11400v1
+2507.11387v1,"From Kinetic Theory to AI: a Rediscovery of High-Dimensional Divergences
+  and Their Properties","Selecting an appropriate divergence measure is a critical aspect of machine
+learning, as it directly impacts model performance. Among the most widely used,
+we find the Kullback-Leibler (KL) divergence, originally introduced in kinetic
+theory as a measure of relative entropy between probability distributions. Just
+as in machine learning, the ability to quantify the proximity of probability
+distributions plays a central role in kinetic theory. In this paper, we present
+a comparative review of dive...",2025-07-15,2025-07-15,math-ph,"math-ph,cs.AI,cs.LG,cs.MA,math.MP,35B40, 35L60, 35K55, 35Q70, 35Q91, 35Q92",Gennaro Auricchio; Giovanni Brigati; Paolo Giudici; Giuseppe Toscani,,,http://arxiv.org/pdf/2507.11387v1
+2507.11366v1,"A Parallelizable Approach for Characterizing NE in Zero-Sum Games After
+  a Linear Number of Iterations of Gradient Descent","We study online optimization methods for zero-sum games, a fundamental
+problem in adversarial learning in machine learning, economics, and many other
+domains. Traditional methods approximate Nash equilibria (NE) using either
+regret-based methods (time-average convergence) or contraction-map-based
+methods (last-iterate convergence). We propose a new method based on
+Hamiltonian dynamics in physics and prove that it can characterize the set of
+NE in a finite (linear) number of iterations of alterna...",2025-07-15,2025-07-15,cs.GT,"cs.GT,cs.LG,90C47, 91A05, 91A26, 68Q32",Taemin Kim; James P. Bailey,,,http://arxiv.org/pdf/2507.11366v1
+2507.11192v2,"Recent Advances in Simulation-based Inference for Gravitational Wave
+  Data Analysis","The detection of gravitational waves by the LIGO-Virgo-KAGRA collaboration
+has ushered in a new era of observational astronomy, emphasizing the need for
+rapid and detailed parameter estimation and population-level analyses.
+Traditional Bayesian inference methods, particularly Markov chain Monte Carlo,
+face significant computational challenges when dealing with the
+high-dimensional parameter spaces and complex noise characteristics inherent in
+gravitational wave data. This review examines the eme...",2025-07-15,2025-07-17,gr-qc,"gr-qc,astro-ph.HE,astro-ph.IM,cs.LG,stat.ML",Bo Liang; He Wang,10.61977/ati2025020,"Astronomical Techniques and Instruments, Vol. 2, No. 6, November
+  2025",http://arxiv.org/pdf/2507.11192v2
+2507.11191v1,"Data-Driven Differential Evolution in Tire Industry Extrusion:
+  Leveraging Surrogate Models","The optimization of industrial processes remains a critical challenge,
+particularly when no mathematical formulation of objective functions or
+constraints is available. This study addresses this issue by proposing a
+surrogate-based, data-driven methodology for optimizing complex real-world
+manufacturing systems using only historical process data. Machine learning
+models are employed to approximate system behavior and construct surrogate
+models, which are integrated into a tailored metaheuristic ...",2025-07-15,2025-07-15,cs.CE,"cs.CE,cs.LG,J.6; I.2; H.4",Eider Garate-Perez; Kerman López de Calle-Etxabe; Susana Ferreiro,,,http://arxiv.org/pdf/2507.11191v1
+2507.11185v1,"An Explainable AI-Enhanced Machine Learning Approach for Cardiovascular
+  Disease Detection and Risk Assessment","Heart disease remains a major global health concern, particularly in regions
+with limited access to medical resources and diagnostic facilities. Traditional
+diagnostic methods often fail to accurately identify and manage heart disease
+risks, leading to adverse outcomes. Machine learning has the potential to
+significantly enhance the accuracy, efficiency, and speed of heart disease
+diagnosis. In this study, we proposed a comprehensive framework that combines
+classification models for heart diseas...",2025-07-15,2025-07-15,cs.LG,"cs.LG,cs.AI",Md. Emon Akter Sourov; Md. Sabbir Hossen; Pabon Shaha; Mohammad Minoar Hossain; Md Sadiq Iqbal,,,http://arxiv.org/pdf/2507.11185v1
+2507.11183v1,"Quantized Rank Reduction: A Communications-Efficient Federated Learning
+  Scheme for Network-Critical Applications","Federated learning is a machine learning approach that enables multiple
+devices (i.e., agents) to train a shared model cooperatively without exchanging
+raw data. This technique keeps data localized on user devices, ensuring privacy
+and security, while each agent trains the model on their own data and only
+shares model updates. The communication overhead is a significant challenge due
+to the frequent exchange of model updates between the agents and the central
+server. In this paper, we propose a ...",2025-07-15,2025-07-15,cs.LG,cs.LG,Dimitrios Kritsiolis; Constantine Kotropoulos,,,http://arxiv.org/pdf/2507.11183v1
+2507.11168v1,Improving Wi-Fi Network Performance Prediction with Deep Learning Models,"The increasing need for robustness, reliability, and determinism in wireless
+networks for industrial and mission-critical applications is the driver for the
+growth of new innovative methods. The study presented in this work makes use of
+machine learning techniques to predict channel quality in a Wi-Fi network in
+terms of the frame delivery ratio. Predictions can be used proactively to
+adjust communication parameters at runtime and optimize network operations for
+industrial applications. Methods ...",2025-07-15,2025-07-15,cs.NI,"cs.NI,cs.AI,cs.LG,eess.SP",Gabriele Formis; Amanda Ericson; Stefan Forsstrom; Kyi Thar; Gianluca Cena; Stefano Scanzio,,"IEEE 30th International Conference on Emerging Technologies and
+  Factory Automation (ETFA 2025)",http://arxiv.org/pdf/2507.11168v1
+2507.11063v1,A Distance Metric for Mixed Integer Programming Instances,"Mixed-integer linear programming (MILP) is a powerful tool for addressing a
+wide range of real-world problems, but it lacks a clear structure for comparing
+instances. A reliable similarity metric could establish meaningful
+relationships between instances, enabling more effective evaluation of instance
+set heterogeneity and providing better guidance to solvers, particularly when
+machine learning is involved. Existing similarity metrics often lack precision
+in identifying instance classes or rely ...",2025-07-15,2025-07-15,cs.LG,"cs.LG,math.OC",Gwen Maudet; Grégoire Danoy,,,http://arxiv.org/pdf/2507.11063v1
+2507.11012v1,"Leveraging Advanced Machine Learning to Predict Turbulence Dynamics from
+  Temperature Observations at an Experimental Prescribed Fire","This study explores the potential for predicting turbulent kinetic energy
+(TKE) from more readily acquired temperature data using temperature profiles
+and turbulence data collected concurrently at 10 Hz during a small experimental
+prescribed burn in the New Jersey Pine Barrens. Machine learning models,
+including Deep Neural Networks, Random Forest Regressor, Gradient Boosting, and
+Gaussian Process Regressor, were employed to assess the potential to predict
+TKE from temperature perturbations and ...",2025-07-15,2025-07-15,cs.LG,cs.LG,Dipak Dulal; Joseph J. Charney; Michael R. Gallagher; Pitambar Acharya; Carmeliza Navasca; Nicholas S. Skowronski,,,http://arxiv.org/pdf/2507.11012v1
+2507.10983v1,"Physics-Informed Neural Networks For Semiconductor Film Deposition: A
+  Review","Semiconductor manufacturing relies heavily on film deposition processes, such
+as Chemical Vapor Deposition and Physical Vapor Deposition. These complex
+processes require precise control to achieve film uniformity, proper adhesion,
+and desired functionality. Recent advancements in Physics-Informed Neural
+Networks (PINNs), an innovative machine learning (ML) approach, have shown
+significant promise in addressing challenges related to process control,
+quality assurance, and predictive modeling with...",2025-07-15,2025-07-15,cs.LG,cs.LG,Tao Han; Zahra Taheri; Hyunwoong Ko,,,http://arxiv.org/pdf/2507.10983v1
+2507.11574v1,"Distribution-Free Uncertainty-Aware Virtual Sensing via Conformalized
+  Neural Operators","Robust uncertainty quantification (UQ) remains a critical barrier to the safe
+deployment of deep learning in real-time virtual sensing, particularly in
+high-stakes domains where sparse, noisy, or non-collocated sensor data are the
+norm. We introduce the Conformalized Monte Carlo Operator (CMCO), a framework
+that transforms neural operator-based virtual sensing with calibrated,
+distribution-free prediction intervals. By unifying Monte Carlo dropout with
+split conformal prediction in a single Deep...",2025-07-15,2025-07-15,cs.LG,"cs.LG,cs.AI,stat.ML",Kazuma Kobayashi; Shailesh Garg; Farid Ahmed; Souvik Chakraborty; Syed Bahauddin Alam,,,http://arxiv.org/pdf/2507.11574v1
+2507.10934v1,"Towards Practical Benchmarking of Data Cleaning Techniques: On
+  Generating Authentic Errors via Large Language Models","Data quality remains an important challenge in data-driven systems, as errors
+in tabular data can severely compromise downstream analytics and machine
+learning performance. Although numerous error detection algorithms have been
+proposed, the lack of diverse, real-world error datasets limits comprehensive
+evaluation. Manual error annotation is both time-consuming and inconsistent,
+motivating the exploration of synthetic error generation as an alternative. In
+this work, we introduce TableEG, a fra...",2025-07-15,2025-07-15,cs.DB,"cs.DB,cs.LG",Xinyuan Liu; Jiahui Chen; Bocheng Hu; Yu Sun; Xinyang Chen; Shaoxu Song,,,http://arxiv.org/pdf/2507.10934v1
+2507.10904v1,Class-Proportional Coreset Selection for Difficulty-Separable Data,"High-quality training data is essential for building reliable and efficient
+machine learning systems. One-shot coreset selection addresses this by pruning
+the dataset while maintaining or even improving model performance, often
+relying on training-dynamics-based data difficulty scores. However, most
+existing methods implicitly assume class-wise homogeneity in data difficulty,
+overlooking variation in data difficulty across different classes.
+  In this work, we challenge this assumption by showin...",2025-07-15,2025-07-15,cs.LG,"cs.LG,cs.AI",Elisa Tsai; Haizhong Zheng; Atul Prakash,,,http://arxiv.org/pdf/2507.10904v1
+2507.11570v1,"SurgeryLSTM: A Time-Aware Neural Model for Accurate and Explainable
+  Length of Stay Prediction After Spine Surgery","Objective: To develop and evaluate machine learning (ML) models for
+predicting length of stay (LOS) in elective spine surgery, with a focus on the
+benefits of temporal modeling and model interpretability. Materials and
+Methods: We compared traditional ML models (e.g., linear regression, random
+forest, support vector machine (SVM), and XGBoost) with our developed model,
+SurgeryLSTM, a masked bidirectional long short-term memory (BiLSTM) with an
+attention, using structured perioperative electronic...",2025-07-15,2025-07-15,cs.LG,"cs.LG,cs.AI,eess.IV",Ha Na Cho; Sairam Sutari; Alexander Lopez; Hansen Bow; Kai Zheng,10.1093/jamiaopen/ooaf079,,http://arxiv.org/pdf/2507.11570v1
+2507.10854v1,"PhreshPhish: A Real-World, High-Quality, Large-Scale Phishing Website
+  Dataset and Benchmark","Phishing remains a pervasive and growing threat, inflicting heavy economic
+and reputational damage. While machine learning has been effective in real-time
+detection of phishing attacks, progress is hindered by lack of large,
+high-quality datasets and benchmarks. In addition to poor-quality due to
+challenges in data collection, existing datasets suffer from leakage and
+unrealistic base rates, leading to overly optimistic performance results. In
+this paper, we introduce PhreshPhish, a large-scale,...",2025-07-14,2025-07-14,cs.CR,"cs.CR,cs.AI,cs.LG",Thomas Dalton; Hemanth Gowda; Girish Rao; Sachin Pargi; Alireza Hadj Khodabakhshi; Joseph Rombs; Stephan Jou; Manish Marwah,,,http://arxiv.org/pdf/2507.10854v1
+2507.10822v1,"Past, Present and Future: Exploring Adaptive AI in Software Development
+  Bots","Conversational agents, such as chatbots and virtual assistants, have become
+essential in software development, boosting productivity, collaboration, and
+automating various tasks. This paper examines the role of adaptive AI-powered
+conversational agents in software development, highlighting their ability to
+offer dynamic, context-aware assistance to developers. Unlike traditional
+rule-based systems, adaptive AI agents use machine learning and natural
+language processing to learn from interactions...",2025-07-14,2025-07-14,cs.SE,"cs.SE,cs.AI",Omar Elsisi; Glaucia Melo,,,http://arxiv.org/pdf/2507.10822v1
+2507.12485v1,Quantum Transfer Learning to Boost Dementia Detection,"Dementia is a devastating condition with profound implications for
+individuals, families, and healthcare systems. Early and accurate detection of
+dementia is critical for timely intervention and improved patient outcomes.
+While classical machine learning and deep learning approaches have been
+explored extensively for dementia prediction, these solutions often struggle
+with high-dimensional biomedical data and large-scale datasets, quickly
+reaching computational and performance limitations. To ad...",2025-07-14,2025-07-14,quant-ph,"quant-ph,cs.AI,cs.LG",Sounak Bhowmik; Talita Perciano; Himanshu Thapliyal,,,http://arxiv.org/pdf/2507.12485v1
+2507.10761v1,Detecting AI Assistance in Abstract Complex Tasks,"Detecting assistance from artificial intelligence is increasingly important
+as they become ubiquitous across complex tasks such as text generation, medical
+diagnosis, and autonomous driving. Aid detection is challenging for humans,
+especially when looking at abstract task data. Artificial neural networks excel
+at classification thanks to their ability to quickly learn from and process
+large amounts of data -- assuming appropriate preprocessing. We posit detecting
+help from AI as a classification...",2025-07-14,2025-07-14,cs.AI,"cs.AI,cs.HC",Tyler King; Nikolos Gurney; John H. Miller; Volkan Ustun,,,http://arxiv.org/pdf/2507.10761v1
+2507.10678v2,"A Group Theoretic Analysis of the Symmetries Underlying Base Addition
+  and Their Learnability by Neural Networks","A major challenge in the use of neural networks both for modeling human
+cognitive function and for artificial intelligence is the design of systems
+with the capacity to efficiently learn functions that support radical
+generalization. At the roots of this is the capacity to discover and implement
+symmetry functions. In this paper, we investigate a paradigmatic example of
+radical generalization through the use of symmetry: base addition. We present a
+group theoretic analysis of base addition, a fu...",2025-07-14,2025-07-16,cs.LG,"cs.LG,cs.AI,cs.NE,q-bio.NC",Cutter Dawes; Simon Segert; Kamesh Krishnamurthy; Jonathan D. Cohen,,,http://arxiv.org/pdf/2507.10678v2
+2507.10502v2,"Benchmarking and Evaluation of AI Models in Biology: Outcomes and
+  Recommendations from the CZI Virtual Cells Workshop","Artificial intelligence holds immense promise for transforming biology, yet a
+lack of standardized, cross domain, benchmarks undermines our ability to build
+robust, trustworthy models. Here, we present insights from a recent workshop
+that convened machine learning and computational biology experts across
+imaging, transcriptomics, proteomics, and genomics to tackle this gap. We
+identify major technical and systemic bottlenecks such as data heterogeneity
+and noise, reproducibility challenges, bias...",2025-07-14,2025-07-15,cs.LG,"cs.LG,cs.AI",Elizabeth Fahsbender; Alma Andersson; Jeremy Ash; Polina Binder; Daniel Burkhardt; Benjamin Chang; Georg K. Gerber; Anthony Gitter; Patrick Godau; Ankit Gupta; Genevieve Haliburton; Siyu He; Trey Ideker; Ivana Jelic; Aly Khan; Yang-Joon Kim; Aditi Krishnapriyan; Jon M. Laurent; Tianyu Liu; Emma Lundberg; Shalin B. Mehta; Rob Moccia; Angela Oliveira Pisco; Katherine S. Pollard; Suresh Ramani; Julio Saez-Rodriguez; Yasin Senbabaoglu; Elana Simon; Srinivasan Sivanandan; Gustavo Stolovitzky; Marc Valer; Bo Wang; Xikun Zhang; James Zou; Katrina Kalantar,,,http://arxiv.org/pdf/2507.10502v2
+2507.10494v1,"Split Happens: Combating Advanced Threats with Split Learning and
+  Function Secret Sharing","Split Learning (SL) -- splits a model into two distinct parts to help protect
+client data while enhancing Machine Learning (ML) processes. Though promising,
+SL has proven vulnerable to different attacks, thus raising concerns about how
+effective it may be in terms of data privacy. Recent works have shown promising
+results for securing SL through the use of a novel paradigm, named Function
+Secret Sharing (FSS), in which servers obtain shares of a function they compute
+and operate on a public inpu...",2025-07-14,2025-07-14,cs.LG,"cs.LG,cs.CR",Tanveer Khan; Mindaugas Budzys; Antonis Michalas,,,http://arxiv.org/pdf/2507.10494v1
+2507.10452v2,Some remarks on gradient dominance and LQR policy optimization,"Solutions of optimization problems, including policy optimization in
+reinforcement learning, typically rely upon some variant of gradient descent.
+There has been much recent work in the machine learning, control, and
+optimization communities applying the Polyak-{\L}ojasiewicz Inequality (PLI) to
+such problems in order to establish an exponential rate of convergence (a.k.a.
+``linear convergence'' in the local-iteration language of numerical analysis)
+of loss functions to their minima under the gr...",2025-07-14,2025-07-16,cs.LG,cs.LG,Eduardo D. Sontag,,,http://arxiv.org/pdf/2507.10452v2
+2507.10430v2,"Efficient Federated Learning with Heterogeneous Data and Adaptive
+  Dropout","Federated Learning (FL) is a promising distributed machine learning approach
+that enables collaborative training of a global model using multiple edge
+devices. The data distributed among the edge devices is highly heterogeneous.
+Thus, FL faces the challenge of data distribution and heterogeneity, where
+non-Independent and Identically Distributed (non-IID) data across edge devices
+may yield in significant accuracy drop. Furthermore, the limited computation
+and communication capabilities of edge d...",2025-07-14,2025-07-15,cs.DC,"cs.DC,cs.AI,cs.LG",Ji Liu; Beichen Ma; Qiaolin Yu; Ruoming Jin; Jingbo Zhou; Yang Zhou; Huaiyu Dai; Haixun Wang; Dejing Dou; Patrick Valduriez,,,http://arxiv.org/pdf/2507.10430v2
+2507.10425v1,"Non-exchangeable Conformal Prediction with Optimal Transport: Tackling
+  Distribution Shifts with Unlabeled Data","Conformal prediction is a distribution-free uncertainty quantification method
+that has gained popularity in the machine learning community due to its
+finite-sample guarantees and ease of use. Its most common variant, dubbed split
+conformal prediction, is also computationally efficient as it boils down to
+collecting statistics of the model predictions on some calibration data not yet
+seen by the model. Nonetheless, these guarantees only hold if the calibration
+and test data are exchangeable, a co...",2025-07-14,2025-07-14,cs.LG,"cs.LG,stat.ML",Alvaro H. C. Correia; Christos Louizos,,,http://arxiv.org/pdf/2507.10425v1
+2507.10421v1,"SentiDrop: A Multi Modal Machine Learning model for Predicting Dropout
+  in Distance Learning","School dropout is a serious problem in distance learning, where early
+detection is crucial for effective intervention and student perseverance.
+Predicting student dropout using available educational data is a widely
+researched topic in learning analytics. Our partner's distance learning
+platform highlights the importance of integrating diverse data sources,
+including socio-demographic data, behavioral data, and sentiment analysis, to
+accurately predict dropout risks. In this paper, we introduce ...",2025-07-14,2025-07-14,cs.AI,"cs.AI,cs.ET,cs.IR,cs.LG",Meriem Zerkouk; Miloud Mihoubi; Belkacem Chikhaoui,,,http://arxiv.org/pdf/2507.10421v1
+2507.10400v1,"Anticipating the Selectivity of Cyclization Reaction Pathways with
+  Neural Network Potentials","Reaction mechanism search tools have demonstrated the ability to provide
+insights into likely products and rate-limiting steps of reacting systems.
+However, reactions involving several concerted bond changes - as can be found
+in many key steps of natural product synthesis - can complicate the search
+process. To mitigate these complications, we present a mechanism search
+strategy particularly suited to help expedite exploration of an exemplary
+family of such complex reactions, cyclizations. We pr...",2025-07-14,2025-07-14,cs.LG,"cs.LG,q-bio.QM",Nicholas Casetti; Dylan Anstine; Olexandr Isayev; Connor W. Coley,,,http://arxiv.org/pdf/2507.10400v1
+2507.10397v1,Instance space analysis of the capacitated vehicle routing problem,"This paper seeks to advance CVRP research by addressing the challenge of
+understanding the nuanced relationships between instance characteristics and
+metaheuristic (MH) performance. We present Instance Space Analysis (ISA) as a
+valuable tool that allows for a new perspective on the field. By combining the
+ISA methodology with a dataset from the DIMACS 12th Implementation Challenge on
+Vehicle Routing, our research enabled the identification of 23 relevant
+instance characteristics. Our use of the ...",2025-07-14,2025-07-14,cs.AI,cs.AI,Alessandra M. M. M. Gouvêa; Nuno Paulos; Eduardo Uchoa e Mariá C. V. Nascimento,,,http://arxiv.org/pdf/2507.10397v1
+2507.10368v1,"Enhanced DeepONet for 1-D consolidation operator learning: an
+  architectural investigation","Deep Operator Networks (DeepONets) have emerged as a powerful surrogate
+modeling framework for learning solution operators in PDE-governed systems.
+While their use is expanding across engineering disciplines, applications in
+geotechnical engineering remain limited. This study systematically evaluates
+several DeepONet architectures for the one-dimensional consolidation problem.
+We initially consider three architectures: a standard DeepONet with the
+coefficient of consolidation embedded in the bra...",2025-07-14,2025-07-14,cs.LG,"cs.LG,physics.geo-ph",Yongjin Choi; Chenying Liu; Jorge Macedo,,,http://arxiv.org/pdf/2507.10368v1
+2507.10640v1,"SENSOR: An ML-Enhanced Online Annotation Tool to Uncover Privacy
+  Concerns from User Reviews in Social-Media Applications","The widespread use of social media applications has raised significant
+privacy concerns, often highlighted in user reviews. These reviews also provide
+developers with valuable insights into improving apps by addressing issues and
+introducing better features. However, the sheer volume and nuanced nature of
+reviews make manual identification and prioritization of privacy-related
+concerns challenging for developers. Previous studies have developed software
+utilities to automatically classify user r...",2025-07-14,2025-07-14,cs.SE,"cs.SE,cs.LG,cs.SI,D.2.2",Labiba Farah; Mohammad Ridwan Kabir; Shohel Ahmed; MD Mohaymen Ul Anam; Md. Sakibul Islam,,,http://arxiv.org/pdf/2507.10640v1
+2507.10334v1,"MoCap-Impute: A Comprehensive Benchmark and Comparative Analysis of
+  Imputation Methods for IMU-based Motion Capture Data","Motion capture (MoCap) data from wearable Inertial Measurement Units (IMUs)
+is vital for applications in sports science, but its utility is often
+compromised by missing data. Despite numerous imputation techniques, a
+systematic performance evaluation for IMU-derived MoCap time-series data is
+lacking. We address this gap by conducting a comprehensive comparative analysis
+of statistical, machine learning, and deep learning imputation methods. Our
+evaluation considers three distinct contexts: univa...",2025-07-14,2025-07-14,cs.LG,cs.LG,Mahmoud Bekhit; Ahmad Salah; Ahmed Salim Alrawahi; Tarek Attia; Ahmed Ali; Esraa Eldesokey; Ahmed Fathalla,,,http://arxiv.org/pdf/2507.10334v1
+2507.10267v1,DNS Tunneling: Threat Landscape and Improved Detection Solutions,"Detecting Domain Name System (DNS) tunneling is a significant challenge in
+security due to its capacity to hide harmful actions within DNS traffic that
+appears to be normal and legitimate. Traditional detection methods are based on
+rule-based approaches or signature matching methods that are often insufficient
+to accurately identify such covert communication channels. This research is
+about effectively detecting DNS tunneling. We propose a novel approach to
+detect DNS tunneling with machine lear...",2025-07-14,2025-07-14,cs.CR,"cs.CR,cs.LG,cs.NI",Novruz Amirov; Baran Isik; Bilal Ihsan Tuncer; Serif Bahtiyar,,,http://arxiv.org/pdf/2507.10267v1
+2507.10223v1,"ProGait: A Multi-Purpose Video Dataset and Benchmark for Transfemoral
+  Prosthesis Users","Prosthetic legs play a pivotal role in clinical rehabilitation, allowing
+individuals with lower-limb amputations the ability to regain mobility and
+improve their quality of life. Gait analysis is fundamental for optimizing
+prosthesis design and alignment, directly impacting the mobility and life
+quality of individuals with lower-limb amputations. Vision-based machine
+learning (ML) methods offer a scalable and non-invasive solution to gait
+analysis, but face challenges in correctly detecting and ...",2025-07-14,2025-07-14,cs.CV,"cs.CV,cs.AI",Xiangyu Yin; Boyuan Yang; Weichen Liu; Qiyao Xue; Abrar Alamri; Goeran Fiedler; Wei Gao,,,http://arxiv.org/pdf/2507.10223v1
+2507.10635v1,Formal Verification of Variational Quantum Circuits,"Variational quantum circuits (VQCs) are a central component of many quantum
+machine learning algorithms, offering a hybrid quantum-classical framework
+that, under certain aspects, can be considered similar to classical deep neural
+networks. A shared aspect is, for instance, their vulnerability to adversarial
+inputs, small perturbations that can lead to incorrect predictions. While
+formal verification techniques have been extensively developed for classical
+models, no comparable framework exists ...",2025-07-14,2025-07-14,quant-ph,"quant-ph,cs.LG,cs.PL",Nicola Assolini; Luca Marzari; Isabella Mastroeni; Alessandra di Pierro,,,http://arxiv.org/pdf/2507.10635v1
+2507.10158v2,MTF-Grasp: A Multi-tier Federated Learning Approach for Robotic Grasping,"Federated Learning (FL) is a promising machine learning paradigm that enables
+participating devices to train privacy-preserved and collaborative models. FL
+has proven its benefits for robotic manipulation tasks. However, grasping tasks
+lack exploration in such settings where robots train a global model without
+moving data and ensuring data privacy. The main challenge is that each robot
+learns from data that is nonindependent and identically distributed (non-IID)
+and of low quantity. This exhibit...",2025-07-14,2025-07-16,cs.LG,"cs.LG,cs.RO",Obaidullah Zaland; Erik Elmroth; Monowar Bhuyan,,,http://arxiv.org/pdf/2507.10158v2
+2507.10154v1,"Simulating Biases for Interpretable Fairness in Offline and Online
+  Classifiers","Predictive models often reinforce biases which were originally embedded in
+their training data, through skewed decisions. In such cases, mitigation
+methods are critical to ensure that, regardless of the prevailing disparities,
+model outcomes are adjusted to be fair. To assess this, datasets could be
+systematically generated with specific biases, to train machine learning
+classifiers. Then, predictive outcomes could aid in the understanding of this
+bias embedding process. Hence, an agent-based mo...",2025-07-14,2025-07-14,stat.ML,"stat.ML,cs.LG",Ricardo Inácio; Zafeiris Kokkinogenis; Vitor Cerqueira; Carlos Soares,,,http://arxiv.org/pdf/2507.10154v1
+2507.10056v1,"Lightweight Model for Poultry Disease Detection from Fecal Images Using
+  Multi-Color Space Feature Optimization and Machine Learning","Poultry farming is a vital component of the global food supply chain, yet it
+remains highly vulnerable to infectious diseases such as coccidiosis,
+salmonellosis, and Newcastle disease. This study proposes a lightweight machine
+learning-based approach to detect these diseases by analyzing poultry fecal
+images. We utilize multi-color space feature extraction (RGB, HSV, LAB) and
+explore a wide range of color, texture, and shape-based descriptors, including
+color histograms, local binary patterns (L...",2025-07-14,2025-07-14,cs.CV,"cs.CV,cs.AI,cs.LG",A. K. M. Shoriful Islam; Md. Rakib Hassan; Macbah Uddin; Md. Shahidur Rahman,,,http://arxiv.org/pdf/2507.10056v1
+2507.10048v1,On the Efficiency of Training Robust Decision Trees,"As machine learning gets adopted into the industry quickly, trustworthiness
+is increasingly in focus. Yet, efficiency and sustainability of robust training
+pipelines still have to be established. In this work, we consider a simple
+pipeline for training adversarially robust decision trees and investigate the
+efficiency of each step. Our pipeline consists of three stages. Firstly, we
+choose the perturbation size automatically for each dataset. For that, we
+introduce a simple algorithm, instead of ...",2025-07-14,2025-07-14,cs.LG,cs.LG,Benedict Gerlach; Marie Anastacio; Holger H. Hoos,,,http://arxiv.org/pdf/2507.10048v1
+2507.10005v1,"Effects of structural properties of neural networks on machine learning
+  performance","In recent years, graph-based machine learning techniques, such as
+reinforcement learning and graph neural networks, have garnered significant
+attention. While some recent studies have started to explore the relationship
+between the graph structure of neural networks and their predictive
+performance, they often limit themselves to a narrow range of model networks,
+particularly lacking mesoscale structures such as communities. Our work
+advances this area by conducting a more comprehensive investig...",2025-07-14,2025-07-14,cs.LG,"cs.LG,cond-mat.stat-mech,cs.NE,physics.comp-ph",Yash Arya; Sang Hoon Lee,,,http://arxiv.org/pdf/2507.10005v1
+2507.09968v1,Compliance Minimization via Physics-Informed Gaussian Processes,"Machine learning (ML) techniques have recently gained significant attention
+for solving compliance minimization (CM) problems. However, these methods
+typically provide poor feature boundaries, are very expensive, and lack a
+systematic mechanism to control the design complexity. Herein, we address these
+limitations by proposing a mesh-free and simultaneous framework based on
+physics-informed Gaussian processes (GPs). In our approach, we parameterize the
+design and state variables with GP priors w...",2025-07-14,2025-07-14,cs.LG,cs.LG,Xiangyu Sun; Amin Yousefpour; Shirin Hosseinmardi; Ramin Bostanabad,,,http://arxiv.org/pdf/2507.09968v1
+2507.09898v1,"Advanced U-Net Architectures with CNN Backbones for Automated Lung
+  Cancer Detection and Segmentation in Chest CT Images","This study investigates the effectiveness of U-Net architectures integrated
+with various convolutional neural network (CNN) backbones for automated lung
+cancer detection and segmentation in chest CT images, addressing the critical
+need for accurate diagnostic tools in clinical settings. A balanced dataset of
+832 chest CT images (416 cancerous and 416 non-cancerous) was preprocessed
+using Contrast Limited Adaptive Histogram Equalization (CLAHE) and resized to
+128x128 pixels. U-Net models were dev...",2025-07-14,2025-07-14,eess.IV,"eess.IV,cs.AI,cs.CV,cs.LG",Alireza Golkarieha; Kiana Kiashemshakib; Sajjad Rezvani Boroujenic; Nasibeh Asadi Isakand,,,http://arxiv.org/pdf/2507.09898v1
+2507.09860v1,"Secure and Efficient UAV-Based Face Detection via Homomorphic Encryption
+  and Edge Computing","This paper aims to propose a novel machine learning (ML) approach
+incorporating Homomorphic Encryption (HE) to address privacy limitations in
+Unmanned Aerial Vehicles (UAV)-based face detection. Due to challenges related
+to distance, altitude, and face orientation, high-resolution imagery and
+sophisticated neural networks enable accurate face recognition in dynamic
+environments. However, privacy concerns arise from the extensive surveillance
+capabilities of UAVs. To resolve this issue, we propos...",2025-07-14,2025-07-14,cs.CR,"cs.CR,cs.AI",Nguyen Van Duc; Bui Duc Manh; Quang-Trung Luu; Dinh Thai Hoang; Van-Linh Nguyen; Diep N. Nguyen,,,http://arxiv.org/pdf/2507.09860v1
+2507.09831v1,Generative Cognitive Diagnosis,"Cognitive diagnosis (CD) models latent cognitive states of human learners by
+analyzing their response patterns on diagnostic tests, serving as a crucial
+machine learning technique for educational assessment and evaluation.
+Traditional cognitive diagnosis models typically follow a transductive
+prediction paradigm that optimizes parameters to fit response scores and
+extract learner abilities. These approaches face significant limitations as
+they cannot perform instant diagnosis for new learners wi...",2025-07-13,2025-07-13,cs.LG,"cs.LG,cs.AI,cs.IR",Jiatong Li; Qi Liu; Mengxiao Zhu,,,http://arxiv.org/pdf/2507.09831v1
+2507.09790v1,Prompting for Performance: Exploring LLMs for Configuring Software,"Software systems usually provide numerous configuration options that can
+affect performance metrics such as execution time, memory usage, binary size,
+or bitrate. On the one hand, making informed decisions is challenging and
+requires domain expertise in options and their combinations. On the other hand,
+machine learning techniques can search vast configuration spaces, but with a
+high computational cost, since concrete executions of numerous configurations
+are required. In this exploratory study,...",2025-07-13,2025-07-13,cs.SE,"cs.SE,cs.AI,cs.PF",Helge Spieker; Théo Matricon; Nassim Belmecheri; Jørn Eirik Betten; Gauthier Le Bartz Lyan; Heraldo Borges; Quentin Mazouni; Dennis Gross; Arnaud Gotlieb; Mathieu Acher,,,http://arxiv.org/pdf/2507.09790v1
+2507.09759v1,"AI-Enhanced Pediatric Pneumonia Detection: A CNN-Based Approach Using
+  Data Augmentation and Generative Adversarial Networks (GANs)","Pneumonia is a leading cause of mortality in children under five, requiring
+accurate chest X-ray diagnosis. This study presents a machine learning-based
+Pediatric Chest Pneumonia Classification System to assist healthcare
+professionals in diagnosing pneumonia from chest X-ray images. The CNN-based
+model was trained on 5,863 labeled chest X-ray images from children aged 0-5
+years from the Guangzhou Women and Children's Medical Center. To address
+limited data, we applied augmentation techniques (r...",2025-07-13,2025-07-13,eess.IV,"eess.IV,cs.AI,cs.CV",Abdul Manaf; Nimra Mughal,,,http://arxiv.org/pdf/2507.09759v1
+2507.09742v1,"Causality-informed Anomaly Detection in Partially Observable Sensor
+  Networks: Moving beyond Correlations","Nowadays, as AI-driven manufacturing becomes increasingly popular, the volume
+of data streams requiring real-time monitoring continues to grow. However, due
+to limited resources, it is impractical to place sensors at every location to
+detect unexpected shifts. Therefore, it is necessary to develop an optimal
+sensor placement strategy that enables partial observability of the system
+while detecting anomalies as quickly as possible. Numerous approaches have been
+proposed to address this challenge;...",2025-07-13,2025-07-13,cs.AI,cs.AI,Xiaofeng Xiao; Bo Shen; Xubo Yue,,,http://arxiv.org/pdf/2507.09742v1
+2507.09732v1,"Continental scale habitat modelling with artificial intelligence and
+  multimodal earth observation","Habitats integrate the abiotic conditions and biophysical structures that
+support biodiversity and sustain nature's contributions to people. As these
+ecosystems face mounting pressure from human activities, accurate,
+high-resolution habitat maps are essential for effective conservation and
+restoration. Yet current maps often fall short in thematic or spatial
+resolution because they must (1) model several mutually exclusive habitat types
+that co-occur across landscapes and (2) cope with severe cl...",2025-07-13,2025-07-13,cs.LG,"cs.LG,q-bio.PE,stat.AP,68T05, 62H35,I.5.4; I.2.6",Sara Si-Moussi; Stephan Hennekens; Sander Mucher; Stan Los; Wilfried Thuiller,,,http://arxiv.org/pdf/2507.09732v1
+2507.09683v1,Networked Information Aggregation via Machine Learning,"We study a distributed learning problem in which learning agents are embedded
+in a directed acyclic graph (DAG). There is a fixed and arbitrary distribution
+over feature/label pairs, and each agent or vertex in the graph is able to
+directly observe only a subset of the features -- potentially a different
+subset for every agent. The agents learn sequentially in some order consistent
+with a topological sort of the DAG, committing to a model mapping observations
+to predictions of the real-valued la...",2025-07-13,2025-07-13,cs.LG,"cs.LG,cs.GT,econ.TH",Michael Kearns; Aaron Roth; Emily Ryu,,,http://arxiv.org/pdf/2507.09683v1
+2507.09678v1,Conformal Prediction for Privacy-Preserving Machine Learning,"We investigate the integration of Conformal Prediction (CP) with supervised
+learning on deterministically encrypted data, aiming to bridge the gap between
+rigorous uncertainty quantification and privacy-preserving machine learning.
+Using AES-encrypted variants of the MNIST dataset, we demonstrate that CP
+methods remain effective even when applied directly in the encrypted domain,
+owing to the preservation of data exchangeability under fixed-key encryption.
+We test traditional $p$-value-based aga...",2025-07-13,2025-07-13,cs.LG,"cs.LG,cs.AI,math.ST,stat.TH",Alexander David Balinsky; Dominik Krzeminski; Alexander Balinsky,,,http://arxiv.org/pdf/2507.09678v1
+2507.09602v1,"DRAGD: A Federated Unlearning Data Reconstruction Attack Based on
+  Gradient Differences","Federated learning enables collaborative machine learning while preserving
+data privacy. However, the rise of federated unlearning, designed to allow
+clients to erase their data from the global model, introduces new privacy
+concerns. Specifically, the gradient exchanges during the unlearning process
+can leak sensitive information about deleted data. In this paper, we introduce
+DRAGD, a novel attack that exploits gradient discrepancies before and after
+unlearning to reconstruct forgotten data. We...",2025-07-13,2025-07-13,cs.LG,"cs.LG,cs.AI",Bocheng Ju; Junchao Fan; Jiaqi Liu; Xiaolin Chang,,,http://arxiv.org/pdf/2507.09602v1
+2507.09565v2,"Holistix: A Dataset for Holistic Wellness Dimensions Analysis in Mental
+  Health Narratives","We introduce a dataset for classifying wellness dimensions in social media
+user posts, covering six key aspects: physical, emotional, social,
+intellectual, spiritual, and vocational. The dataset is designed to capture
+these dimensions in user-generated content, with a comprehensive annotation
+framework developed under the guidance of domain experts. This framework allows
+for the classification of text spans into the appropriate wellness categories.
+We evaluate both traditional machine learning m...",2025-07-13,2025-07-17,cs.LG,cs.LG,Heba Shakeel; Tanvir Ahmad; Chandni Saxena,,IEEE-ICDE 2025 CMHSM Workshop,http://arxiv.org/pdf/2507.09565v2
+2507.09546v1,Lightweight Federated Learning over Wireless Edge Networks,"With the exponential growth of smart devices connected to wireless networks,
+data production is increasing rapidly, requiring machine learning (ML)
+techniques to unlock its value. However, the centralized ML paradigm raises
+concerns over communication overhead and privacy. Federated learning (FL)
+offers an alternative at the network edge, but practical deployment in wireless
+networks remains challenging. This paper proposes a lightweight FL (LTFL)
+framework integrating wireless transmission powe...",2025-07-13,2025-07-13,cs.DC,"cs.DC,cs.LG",Xiangwang Hou; Jingjing Wang; Jun Du; Chunxiao Jiang; Yong Ren; Dusit Niyato,,,http://arxiv.org/pdf/2507.09546v1
+2507.10607v1,Neural Expectation Operators,"This paper introduces \textbf{Measure Learning}, a paradigm for modeling
+ambiguity via non-linear expectations. We define Neural Expectation Operators
+as solutions to Backward Stochastic Differential Equations (BSDEs) whose
+drivers are parameterized by neural networks. The main mathematical
+contribution is a rigorous well-posedness theorem for BSDEs whose drivers
+satisfy a local Lipschitz condition in the state variable $y$ and quadratic
+growth in its martingale component $z$. This result circum...",2025-07-13,2025-07-13,math.PR,"math.PR,cs.AI,cs.LG",Qian Qi,,,http://arxiv.org/pdf/2507.10607v1

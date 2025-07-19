@@ -229,3 +229,41 @@
 2025-07-13 14:06:14,371 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
 2025-07-13 14:06:14,371 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
 2025-07-13 14:06:30,939 - config - ERROR - Erreur lors de la récupération des articles récents : 'NoneType' object has no attribute 'execute'
+2025-07-18 18:39:44,147 - config - INFO - Extraction par mots-clés: ['machine learning']
+2025-07-18 18:39:44,147 - config - INFO - Début de l'extraction pour la requête: (ti:"machine learning" OR abs:"machine learning") AND (cat:cs.LG OR cat:cs.AI)
+2025-07-18 18:39:44,927 - config - INFO - Nombre total d'articles disponibles: 1000
+2025-07-18 18:39:45,977 - config - INFO - Connexion à MySQL établie avec succès
+2025-07-18 18:39:48,186 - config - INFO - Connexion fermée
+2025-07-18 18:39:51,698 - config - WARNING - Aucun résultat pour start=100
+2025-07-18 18:39:51,698 - config - INFO - Extraction terminée. 100 articles extraits.
+2025-07-18 18:39:51,777 - config - INFO - Données sauvegardées dans data/timachine_learning_OR_absmachine_learning_AND_catcsLG_OR_catcsAI_20250718_183951.json et data/timachine_learning_OR_absmachine_learning_AND_catcsLG_OR_catcsAI_20250718_183951.csv
+2025-07-18 18:39:51,777 - config - INFO - Nettoyage de 100 articles
+2025-07-18 18:39:51,932 - config - INFO - Suppression de 0 doublons
+2025-07-18 18:39:51,932 - config - INFO - Nettoyage terminé. 100 articles valides
+2025-07-18 18:39:51,957 - config - INFO - Résultats sauvegardés dans data/extraction_results_20250718_183951.json
+2025-07-18 19:56:39,699 - config - INFO - Extraction par mots-clés: ['a']
+2025-07-18 19:56:39,699 - config - INFO - Début de l'extraction pour la requête: (ti:"a" OR abs:"a")
+2025-07-18 19:56:40,585 - config - INFO - Nombre total d'articles disponibles: 10000
+2025-07-18 19:56:42,050 - config - INFO - Connexion à MySQL établie avec succès
+2025-07-18 19:56:44,840 - config - INFO - Connexion fermée
+2025-07-18 19:56:48,557 - config - WARNING - Aucun résultat pour start=100
+2025-07-18 19:56:48,557 - config - INFO - Extraction terminée. 100 articles extraits.
+2025-07-18 19:56:48,633 - config - INFO - Données sauvegardées dans data/tia_OR_absa_20250718_195648.json et data/tia_OR_absa_20250718_195648.csv
+2025-07-18 19:56:48,633 - config - INFO - Nettoyage de 100 articles
+2025-07-18 19:56:48,733 - config - WARNING - Titre trop court: Voxtral
+2025-07-18 19:56:48,733 - config - WARNING - Article invalide ignoré: 2507.13264v1
+2025-07-18 19:56:48,733 - config - INFO - Suppression de 0 doublons
+2025-07-18 19:56:48,733 - config - INFO - Nettoyage terminé. 99 articles valides
+2025-07-18 19:56:48,769 - config - INFO - Résultats sauvegardés dans data/extraction_results_20250718_195648.json
+2025-07-18 20:16:15,578 - config - INFO - Extraction par mots-clés: ['machine learning']
+2025-07-18 20:16:15,578 - config - INFO - Début de l'extraction pour la requête: (ti:"machine learning" OR abs:"machine learning") AND submittedDate:[2020-01-01 TO 2025-12-31]
+2025-07-18 20:16:16,698 - config - INFO - Nombre total d'articles disponibles: 1000
+2025-07-18 20:16:18,129 - config - INFO - Connexion à MySQL établie avec succès
+2025-07-18 20:16:20,169 - config - INFO - Connexion fermée
+2025-07-18 20:16:23,919 - config - WARNING - Aucun résultat pour start=100
+2025-07-18 20:16:23,919 - config - INFO - Extraction terminée. 100 articles extraits.
+2025-07-18 20:16:23,988 - config - INFO - Données sauvegardées dans data/timachine_learning_OR_absmachine_learning_AND_submittedDate2020-01-01_TO_2025-12-31_20250718_201623.json et data/timachine_learning_OR_absmachine_learning_AND_submittedDate2020-01-01_TO_2025-12-31_20250718_201623.csv
+2025-07-18 20:16:23,988 - config - INFO - Nettoyage de 100 articles
+2025-07-18 20:16:24,096 - config - INFO - Suppression de 0 doublons
+2025-07-18 20:16:24,096 - config - INFO - Nettoyage terminé. 100 articles valides
+2025-07-18 20:16:24,113 - config - INFO - Résultats sauvegardés dans data/extraction_results_20250718_201624.json
