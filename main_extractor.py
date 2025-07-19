@@ -153,6 +153,8 @@ def main():
     parser_keywords.add_argument("--keywords", nargs="+", required=True, help="Liste de mots-clés")
     parser_keywords.add_argument("--categories", nargs="*", help="Catégories ArXiv (ex: cs.LG cs.AI)")
     parser_keywords.add_argument("--max-results", type=int, default=100, help="Nombre max d'articles")
+    parser_keywords.add_argument("--start-date", type=str, help="Date de début (YYYY-MM-DD)")
+    parser_keywords.add_argument("--end-date", type=str, help="Date de fin (YYYY-MM-DD)")
 
     parser_category = subparsers.add_parser("extract_category", help="Extraction par catégorie")
     parser_category.add_argument("--category", required=True, help="Catégorie ArXiv (ex: cs.LG)")
@@ -178,12 +180,16 @@ def main():
         articles = pipeline.extract_by_keywords(
             keywords=args.keywords,
             categories=args.categories,
+            start_date=args.start_date,
+            end_date=args.end_date,
             max_results=args.max_results
         )
         results = {
             "type": "keywords",
             "keywords": args.keywords,
             "categories": args.categories,
+            "start_date": args.start_date,
+            "end_date": args.end_date,
             "total_articles": len(articles),
             "articles": articles
         }
